@@ -1,0 +1,7 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = gdrive://<shared-folder-id>
+
+# Les identifiants Google Drive doivent être configurés localement dans
+# .dvc/config.local ou via des variables d'environnement, jamais commités.

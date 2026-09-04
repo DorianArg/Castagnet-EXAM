@@ -1,0 +1,548 @@
+{
+  "purpose": "grouped_train_validation_test_split_before_training",
+  "source": "analysis/output/final_training_manifest.csv",
+  "source_sha256": "12ea612fe29dd6f2b706261ba9b17783a1b8ff66f02d55245642397fc7888f7c",
+  "target": "effective_label",
+  "dataset_images": 35254,
+  "dataset_split_group_ids": 19078,
+  "historical_pairs_with_different_effective_labels": 5455,
+  "search": {
+    "method": "random_group_permutation_with_nearest_image_count_cuts",
+    "candidates_tested": 500,
+    "global_seed": 20260902,
+    "selected_candidate_index": 191,
+    "selected_seed": 20948826,
+    "selected_score_before_refinement": 6.764761226343,
+    "selected_score": 0.469407069118,
+    "selected_score_components": {
+      "size": 0.00255290179837786,
+      "effective_label": 0.010663911529618986,
+      "year": 0.007891304187168657,
+      "cam_num": 0.017921423183246077,
+      "cam_position": 0.03217840668202854
+    },
+    "local_refinement": {
+      "attempts": 50000,
+      "accepted_swaps": 137,
+      "final_score": 0.469407069118,
+      "final_score_components": {
+        "size": 0.00255290179837786,
+        "effective_label": 0.010663911529618986,
+        "year": 0.007891304187168657,
+        "cam_num": 0.017921423183246077,
+        "cam_position": 0.03217840668202854
+      }
+    },
+    "score_weights": {
+      "size": 100.0,
+      "effective_label": 10.0,
+      "year": 5.0,
+      "cam_num": 2.0,
+      "cam_position": 1.0
+    },
+    "target_ratios": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "priority_order": [
+      "group_integrity",
+      "size",
+      "effective_label",
+      "year",
+      "cam_num",
+      "cam_position"
+    ]
+  },
+  "splits": {
+    "train": {
+      "images": 24677,
+      "percentage_of_dataset": 69.9977,
+      "split_group_ids": 13333,
+      "effective_label": {
+        "Conforme": {
+          "count": 7582,
+          "percentage": 30.725
+        },
+        "NON Conforme": {
+          "count": 3964,
+          "percentage": 16.0635
+        },
+        "PIETRA": {
+          "count": 4224,
+          "percentage": 17.1172
+        },
+        "Vide": {
+          "count": 8907,
+          "percentage": 36.0943
+        }
+      },
+      "year": {
+        "2025": {
+          "count": 14186,
+          "percentage": 57.4867
+        },
+        "2026": {
+          "count": 10491,
+          "percentage": 42.5133
+        }
+      },
+      "cam_position": {
+        "T": {
+          "count": 11948,
+          "percentage": 48.4176
+        },
+        "B": {
+          "count": 12729,
+          "percentage": 51.5824
+        }
+      },
+      "cam_num": {
+        "1": {
+          "count": 4068,
+          "percentage": 16.485
+        },
+        "2": {
+          "count": 4166,
+          "percentage": 16.8821
+        },
+        "3": {
+          "count": 4310,
+          "percentage": 17.4657
+        },
+        "4": {
+          "count": 4055,
+          "percentage": 16.4323
+        },
+        "5": {
+          "count": 4139,
+          "percentage": 16.7727
+        },
+        "6": {
+          "count": 3939,
+          "percentage": 15.9622
+        }
+      },
+      "difficulties": {
+        "multiple": {
+          "count": 851,
+          "percentage": 3.4486
+        },
+        "chunk": {
+          "count": 3513,
+          "percentage": 14.2359
+        },
+        "mixed_quality": {
+          "count": 0,
+          "percentage": 0.0
+        }
+      },
+      "historical_tb": {
+        "paired_images": 22688,
+        "unpaired_images": 1989,
+        "complete_pairs": 11344
+      }
+    },
+    "validation": {
+      "images": 5289,
+      "percentage_of_dataset": 15.0026,
+      "split_group_ids": 2877,
+      "effective_label": {
+        "Conforme": {
+          "count": 1625,
+          "percentage": 30.7241
+        },
+        "NON Conforme": {
+          "count": 850,
+          "percentage": 16.0711
+        },
+        "PIETRA": {
+          "count": 905,
+          "percentage": 17.111
+        },
+        "Vide": {
+          "count": 1909,
+          "percentage": 36.0938
+        }
+      },
+      "year": {
+        "2025": {
+          "count": 3040,
+          "percentage": 57.4778
+        },
+        "2026": {
+          "count": 2249,
+          "percentage": 42.5222
+        }
+      },
+      "cam_position": {
+        "T": {
+          "count": 2559,
+          "percentage": 48.3834
+        },
+        "B": {
+          "count": 2730,
+          "percentage": 51.6166
+        }
+      },
+      "cam_num": {
+        "1": {
+          "count": 871,
+          "percentage": 16.4681
+        },
+        "2": {
+          "count": 894,
+          "percentage": 16.903
+        },
+        "3": {
+          "count": 924,
+          "percentage": 17.4702
+        },
+        "4": {
+          "count": 868,
+          "percentage": 16.4114
+        },
+        "5": {
+          "count": 887,
+          "percentage": 16.7707
+        },
+        "6": {
+          "count": 845,
+          "percentage": 15.9766
+        }
+      },
+      "difficulties": {
+        "multiple": {
+          "count": 174,
+          "percentage": 3.2898
+        },
+        "chunk": {
+          "count": 738,
+          "percentage": 13.9535
+        },
+        "mixed_quality": {
+          "count": 0,
+          "percentage": 0.0
+        }
+      },
+      "historical_tb": {
+        "paired_images": 4824,
+        "unpaired_images": 465,
+        "complete_pairs": 2412
+      }
+    },
+    "test": {
+      "images": 5288,
+      "percentage_of_dataset": 14.9997,
+      "split_group_ids": 2868,
+      "effective_label": {
+        "Conforme": {
+          "count": 1625,
+          "percentage": 30.73
+        },
+        "NON Conforme": {
+          "count": 850,
+          "percentage": 16.0741
+        },
+        "PIETRA": {
+          "count": 905,
+          "percentage": 17.1142
+        },
+        "Vide": {
+          "count": 1908,
+          "percentage": 36.0817
+        }
+      },
+      "year": {
+        "2025": {
+          "count": 3040,
+          "percentage": 57.4887
+        },
+        "2026": {
+          "count": 2248,
+          "percentage": 42.5113
+        }
+      },
+      "cam_position": {
+        "T": {
+          "count": 2558,
+          "percentage": 48.3737
+        },
+        "B": {
+          "count": 2730,
+          "percentage": 51.6263
+        }
+      },
+      "cam_num": {
+        "1": {
+          "count": 872,
+          "percentage": 16.4902
+        },
+        "2": {
+          "count": 893,
+          "percentage": 16.8873
+        },
+        "3": {
+          "count": 923,
+          "percentage": 17.4546
+        },
+        "4": {
+          "count": 869,
+          "percentage": 16.4334
+        },
+        "5": {
+          "count": 887,
+          "percentage": 16.7738
+        },
+        "6": {
+          "count": 844,
+          "percentage": 15.9607
+        }
+      },
+      "difficulties": {
+        "multiple": {
+          "count": 172,
+          "percentage": 3.2526
+        },
+        "chunk": {
+          "count": 724,
+          "percentage": 13.6914
+        },
+        "mixed_quality": {
+          "count": 0,
+          "percentage": 0.0
+        }
+      },
+      "historical_tb": {
+        "paired_images": 4840,
+        "unpaired_images": 448,
+        "complete_pairs": 2420
+      }
+    }
+  },
+  "representativeness": {
+    "effective_label": {
+      "global_percentage": {
+        "Conforme": 30.7256,
+        "NON Conforme": 16.0663,
+        "PIETRA": 17.1158,
+        "Vide": 36.0924
+      },
+      "splits": {
+        "train": {
+          "differences_pp": {
+            "Conforme": -0.0006,
+            "NON Conforme": -0.0027,
+            "PIETRA": 0.0014,
+            "Vide": 0.002
+          },
+          "max_abs_pp_difference": 0.0027
+        },
+        "validation": {
+          "differences_pp": {
+            "Conforme": -0.0014,
+            "NON Conforme": 0.0048,
+            "PIETRA": -0.0048,
+            "Vide": 0.0014
+          },
+          "max_abs_pp_difference": 0.0048
+        },
+        "test": {
+          "differences_pp": {
+            "Conforme": 0.0044,
+            "NON Conforme": 0.0079,
+            "PIETRA": -0.0016,
+            "Vide": -0.0107
+          },
+          "max_abs_pp_difference": 0.0107
+        }
+      },
+      "max_abs_pp_difference": 0.0107
+    },
+    "year": {
+      "global_percentage": {
+        "2025": 57.4857,
+        "2026": 42.5143
+      },
+      "splits": {
+        "train": {
+          "differences_pp": {
+            "2025": 0.0011,
+            "2026": -0.0011
+          },
+          "max_abs_pp_difference": 0.0011
+        },
+        "validation": {
+          "differences_pp": {
+            "2025": -0.0079,
+            "2026": 0.0079
+          },
+          "max_abs_pp_difference": 0.0079
+        },
+        "test": {
+          "differences_pp": {
+            "2025": 0.003,
+            "2026": -0.003
+          },
+          "max_abs_pp_difference": 0.003
+        }
+      },
+      "max_abs_pp_difference": 0.0079
+    },
+    "cam_num": {
+      "global_percentage": {
+        "1": 16.4832,
+        "2": 16.886,
+        "3": 17.4647,
+        "4": 16.4293,
+        "5": 16.7726,
+        "6": 15.9641
+      },
+      "splits": {
+        "train": {
+          "differences_pp": {
+            "1": 0.0018,
+            "2": -0.0039,
+            "3": 0.001,
+            "4": 0.003,
+            "5": 0.0001,
+            "6": -0.0019
+          },
+          "max_abs_pp_difference": 0.0039
+        },
+        "validation": {
+          "differences_pp": {
+            "1": -0.0151,
+            "2": 0.017,
+            "3": 0.0055,
+            "4": -0.0179,
+            "5": -0.0019,
+            "6": 0.0124
+          },
+          "max_abs_pp_difference": 0.0179
+        },
+        "test": {
+          "differences_pp": {
+            "1": 0.0069,
+            "2": 0.0013,
+            "3": -0.0101,
+            "4": 0.0041,
+            "5": 0.0013,
+            "6": -0.0035
+          },
+          "max_abs_pp_difference": 0.0101
+        }
+      },
+      "max_abs_pp_difference": 0.0179
+    },
+    "cam_position": {
+      "global_percentage": {
+        "T": 48.4059,
+        "B": 51.5941
+      },
+      "splits": {
+        "train": {
+          "differences_pp": {
+            "T": 0.0117,
+            "B": -0.0117
+          },
+          "max_abs_pp_difference": 0.0117
+        },
+        "validation": {
+          "differences_pp": {
+            "T": -0.0224,
+            "B": 0.0224
+          },
+          "max_abs_pp_difference": 0.0224
+        },
+        "test": {
+          "differences_pp": {
+            "T": -0.0322,
+            "B": 0.0322
+          },
+          "max_abs_pp_difference": 0.0322
+        }
+      },
+      "max_abs_pp_difference": 0.0322
+    }
+  },
+  "difficulty_representativeness": {
+    "multiple": {
+      "global_percentage": 3.3954,
+      "splits": {
+        "train": {
+          "percentage": 3.4486,
+          "difference_pp": 0.0532
+        },
+        "validation": {
+          "percentage": 3.2898,
+          "difference_pp": -0.1055
+        },
+        "test": {
+          "percentage": 3.2526,
+          "difference_pp": -0.1427
+        }
+      },
+      "max_abs_pp_difference": 0.1427
+    },
+    "chunk": {
+      "global_percentage": 14.1119,
+      "splits": {
+        "train": {
+          "percentage": 14.2359,
+          "difference_pp": 0.1241
+        },
+        "validation": {
+          "percentage": 13.9535,
+          "difference_pp": -0.1584
+        },
+        "test": {
+          "percentage": 13.6914,
+          "difference_pp": -0.4205
+        }
+      },
+      "max_abs_pp_difference": 0.4205
+    },
+    "mixed_quality": {
+      "global_percentage": 0.0,
+      "splits": {
+        "train": {
+          "percentage": 0.0,
+          "difference_pp": 0.0
+        },
+        "validation": {
+          "percentage": 0.0,
+          "difference_pp": 0.0
+        },
+        "test": {
+          "percentage": 0.0,
+          "difference_pp": 0.0
+        }
+      },
+      "max_abs_pp_difference": 0.0
+    }
+  },
+  "validations": {
+    "filename_unique_and_in_one_split": true,
+    "split_group_id_in_one_split": true,
+    "historical_pair_id_in_one_split": true,
+    "train_inter_validation_empty": true,
+    "train_inter_test_empty": true,
+    "validation_inter_test_empty": true,
+    "union_35254_images": true,
+    "all_images_have_split": true,
+    "only_three_expected_splits": true,
+    "four_classes_in_each_split": true,
+    "both_years_in_each_split": true,
+    "top_bottom_in_each_split": true,
+    "cameras_1_to_6_in_each_split": true
+  },
+  "figures": [
+    "analysis/output/split_figures/classes_by_split.png",
+    "analysis/output/split_figures/years_by_split.png",
+    "analysis/output/split_figures/cameras_by_split.png",
+    "analysis/output/split_figures/positions_by_split.png"
+  ],
+  "test_is_frozen": true,
+  "training_started": false
+}

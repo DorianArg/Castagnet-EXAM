@@ -1,0 +1,64 @@
+{
+  "status": "completed",
+  "epochs_completed": 8,
+  "best_epoch": 3,
+  "training_time_seconds": 3923.057450100023,
+  "best_val_loss": 0.5433458435014777,
+  "final_train": {
+    "train_loss": 0.4387325497033381,
+    "train_accuracy": 0.8179276249138874,
+    "train_macro_f1": 0.7571016844997092
+  },
+  "best_epoch_train": {
+    "train_loss": 0.5097275580396411,
+    "train_accuracy": 0.7846577784981967,
+    "train_macro_f1": 0.7036721981538374
+  },
+  "best_validation": {
+    "accuracy": 0.7787861599546227,
+    "macro_precision": 0.7308850014729381,
+    "macro_recall": 0.6808936139089975,
+    "macro_f1": 0.6622208083302709,
+    "per_class": {
+      "Conforme": {
+        "precision": 0.6474411047928513,
+        "recall": 0.9809230769230769,
+        "f1": 0.7800342549547346,
+        "support": 1625
+      },
+      "NON Conforme": {
+        "precision": 0.7554945054945055,
+        "recall": 0.6470588235294118,
+        "f1": 0.697084917617237,
+        "support": 850
+      },
+      "PIETRA": {
+        "precision": 0.5384615384615384,
+        "recall": 0.11602209944751381,
+        "f1": 0.19090909090909092,
+        "support": 905
+      },
+      "Vide": {
+        "precision": 0.9821428571428571,
+        "recall": 0.9795704557359874,
+        "f1": 0.980854969840021,
+        "support": 1909
+      }
+    },
+    "business_errors": {
+      "false_conforme_non_conforme": 209,
+      "false_conforme_pietra": 626,
+      "false_conforme_total": 835,
+      "conforme_rejected": 31
+    }
+  },
+  "business_errors": {
+    "false_conforme_non_conforme": 209,
+    "false_conforme_pietra": 626,
+    "false_conforme_total": 835,
+    "conforme_rejected": 31
+  },
+  "overfitting_accuracy_gap": 0.0058716185435739865,
+  "diagnosis": "no_strong_divergence_detected",
+  "run_id": "42420caec760477da2c2cdb4c1041c10"
+}

@@ -1,0 +1,3 @@
+source_video,cam_position,total_video_frames,frames_with_crops,total_crops,frames_with_multiple_crops,mean_crops_per_selected_frame,mean_crop_width,median_crop_width,mean_crop_height,median_crop_height,retained_frame_proportion
+extrait-cam-1-t-conforme.avi,T,750,25,26,1,1.04,220.577,217.5,207.269,213.5,0.033333
+extrait-cam-1-b-conforme.avi,B,750,26,26,0,1.0,212.462,216.0,203.192,209.0,0.034667

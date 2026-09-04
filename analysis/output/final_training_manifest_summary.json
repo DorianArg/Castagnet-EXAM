@@ -1,0 +1,531 @@
+{
+  "purpose": "final_derived_training_manifest_for_section_4_2",
+  "source_hashes": {
+    "dataset_manifest.csv": "2ceaeca2a138aa874279b4e4c9d3be9d2da2942083d3e051f1a0294a814fabc1",
+    "masked_disagreements_adjudicated.csv": "706d93a64324b29a47d3803c12a76c6ffa01ce13cea96fbda3df75f38794fe25",
+    "historical_tb_pairs.csv": "4ae5787394a83d998e599d0fb962f185b6377437368ca959dd8d7fc497eeea51",
+    "multiclass_conflicts_review.csv": "c5929375d716d21e5fac4c8aa306c4875ad9216ca6e3028bcc6d234ba795a8f3"
+  },
+  "total_images": 35254,
+  "unique_filenames": 35254,
+  "effective_label_distribution": {
+    "Vide": {
+      "count": 12724,
+      "percentage": 36.09
+    },
+    "Conforme": {
+      "count": 10832,
+      "percentage": 30.73
+    },
+    "PIETRA": {
+      "count": 6034,
+      "percentage": 17.12
+    },
+    "NON Conforme": {
+      "count": 5664,
+      "percentage": 16.07
+    }
+  },
+  "year_distribution": {
+    "2025": {
+      "count": 20266,
+      "percentage": 57.49
+    },
+    "2026": {
+      "count": 14988,
+      "percentage": 42.51
+    }
+  },
+  "position_distribution": {
+    "B": {
+      "count": 18189,
+      "percentage": 51.59
+    },
+    "T": {
+      "count": 17065,
+      "percentage": 48.41
+    }
+  },
+  "camera_distribution": {
+    "3": {
+      "count": 6157,
+      "percentage": 17.46
+    },
+    "2": {
+      "count": 5953,
+      "percentage": 16.89
+    },
+    "5": {
+      "count": 5913,
+      "percentage": 16.77
+    },
+    "1": {
+      "count": 5811,
+      "percentage": 16.48
+    },
+    "4": {
+      "count": 5792,
+      "percentage": 16.43
+    },
+    "6": {
+      "count": 5628,
+      "percentage": 15.96
+    }
+  },
+  "difficult_cases": {
+    "multiple": 1197,
+    "chunk": 4975,
+    "mixed_quality": 0
+  },
+  "effective_label_source_distribution": {
+    "principal": {
+      "count": 35195,
+      "percentage": 99.83
+    },
+    "principal_confirmed_by_human": {
+      "count": 43,
+      "percentage": 0.12
+    },
+    "human_multiclass_review": {
+      "count": 9,
+      "percentage": 0.03
+    },
+    "human_binary_review": {
+      "count": 7,
+      "percentage": 0.02
+    }
+  },
+  "adjudication_status_distribution": {
+    "not_required": {
+      "count": 35195,
+      "percentage": 99.83
+    },
+    "confirmed": {
+      "count": 43,
+      "percentage": 0.12
+    },
+    "corrected_multiclass": {
+      "count": 9,
+      "percentage": 0.03
+    },
+    "corrected_to_vide": {
+      "count": 7,
+      "percentage": 0.02
+    }
+  },
+  "effective_corrections": 16,
+  "historical_tb": {
+    "paired_images": 32352,
+    "unpaired_images": 2902,
+    "pairs": 16176,
+    "pairs_same_effective_label": 10721,
+    "pairs_different_effective_label": 5455
+  },
+  "before_after": {
+    "global": {
+      "all": {
+        "Conforme": {
+          "original_count": 10836,
+          "effective_count": 10832,
+          "delta_count": -4,
+          "original_percentage": 30.7369,
+          "effective_percentage": 30.7256,
+          "delta_percentage_points": -0.0113
+        },
+        "NON Conforme": {
+          "original_count": 5659,
+          "effective_count": 5664,
+          "delta_count": 5,
+          "original_percentage": 16.0521,
+          "effective_percentage": 16.0663,
+          "delta_percentage_points": 0.0142
+        },
+        "PIETRA": {
+          "original_count": 6033,
+          "effective_count": 6034,
+          "delta_count": 1,
+          "original_percentage": 17.113,
+          "effective_percentage": 17.1158,
+          "delta_percentage_points": 0.0028
+        },
+        "Vide": {
+          "original_count": 12726,
+          "effective_count": 12724,
+          "delta_count": -2,
+          "original_percentage": 36.098,
+          "effective_percentage": 36.0924,
+          "delta_percentage_points": -0.0056
+        }
+      }
+    },
+    "by_year": {
+      "2025": {
+        "Conforme": {
+          "original_count": 7606,
+          "effective_count": 7602,
+          "delta_count": -4,
+          "original_percentage": 37.5308,
+          "effective_percentage": 37.5111,
+          "delta_percentage_points": -0.0197
+        },
+        "NON Conforme": {
+          "original_count": 3594,
+          "effective_count": 3599,
+          "delta_count": 5,
+          "original_percentage": 17.7341,
+          "effective_percentage": 17.7588,
+          "delta_percentage_points": 0.0247
+        },
+        "PIETRA": {
+          "original_count": 2596,
+          "effective_count": 2597,
+          "delta_count": 1,
+          "original_percentage": 12.8096,
+          "effective_percentage": 12.8146,
+          "delta_percentage_points": 0.005
+        },
+        "Vide": {
+          "original_count": 6470,
+          "effective_count": 6468,
+          "delta_count": -2,
+          "original_percentage": 31.9254,
+          "effective_percentage": 31.9155,
+          "delta_percentage_points": -0.0099
+        }
+      },
+      "2026": {
+        "Conforme": {
+          "original_count": 3230,
+          "effective_count": 3230,
+          "delta_count": 0,
+          "original_percentage": 21.5506,
+          "effective_percentage": 21.5506,
+          "delta_percentage_points": 0.0
+        },
+        "NON Conforme": {
+          "original_count": 2065,
+          "effective_count": 2065,
+          "delta_count": 0,
+          "original_percentage": 13.7777,
+          "effective_percentage": 13.7777,
+          "delta_percentage_points": 0.0
+        },
+        "PIETRA": {
+          "original_count": 3437,
+          "effective_count": 3437,
+          "delta_count": 0,
+          "original_percentage": 22.9317,
+          "effective_percentage": 22.9317,
+          "delta_percentage_points": 0.0
+        },
+        "Vide": {
+          "original_count": 6256,
+          "effective_count": 6256,
+          "delta_count": 0,
+          "original_percentage": 41.7401,
+          "effective_percentage": 41.7401,
+          "delta_percentage_points": 0.0
+        }
+      }
+    },
+    "by_position": {
+      "B": {
+        "Conforme": {
+          "original_count": 6145,
+          "effective_count": 6142,
+          "delta_count": -3,
+          "original_percentage": 33.7842,
+          "effective_percentage": 33.7677,
+          "delta_percentage_points": -0.0165
+        },
+        "NON Conforme": {
+          "original_count": 2892,
+          "effective_count": 2895,
+          "delta_count": 3,
+          "original_percentage": 15.8997,
+          "effective_percentage": 15.9162,
+          "delta_percentage_points": 0.0165
+        },
+        "PIETRA": {
+          "original_count": 3153,
+          "effective_count": 3153,
+          "delta_count": 0,
+          "original_percentage": 17.3347,
+          "effective_percentage": 17.3347,
+          "delta_percentage_points": 0.0
+        },
+        "Vide": {
+          "original_count": 5999,
+          "effective_count": 5999,
+          "delta_count": 0,
+          "original_percentage": 32.9815,
+          "effective_percentage": 32.9815,
+          "delta_percentage_points": 0.0
+        }
+      },
+      "T": {
+        "Conforme": {
+          "original_count": 4691,
+          "effective_count": 4690,
+          "delta_count": -1,
+          "original_percentage": 27.489,
+          "effective_percentage": 27.4832,
+          "delta_percentage_points": -0.0058
+        },
+        "NON Conforme": {
+          "original_count": 2767,
+          "effective_count": 2769,
+          "delta_count": 2,
+          "original_percentage": 16.2145,
+          "effective_percentage": 16.2262,
+          "delta_percentage_points": 0.0117
+        },
+        "PIETRA": {
+          "original_count": 2880,
+          "effective_count": 2881,
+          "delta_count": 1,
+          "original_percentage": 16.8766,
+          "effective_percentage": 16.8825,
+          "delta_percentage_points": 0.0059
+        },
+        "Vide": {
+          "original_count": 6727,
+          "effective_count": 6725,
+          "delta_count": -2,
+          "original_percentage": 39.4199,
+          "effective_percentage": 39.4081,
+          "delta_percentage_points": -0.0118
+        }
+      }
+    },
+    "by_camera": {
+      "1": {
+        "Conforme": {
+          "original_count": 1603,
+          "effective_count": 1602,
+          "delta_count": -1,
+          "original_percentage": 27.5856,
+          "effective_percentage": 27.5684,
+          "delta_percentage_points": -0.0172
+        },
+        "NON Conforme": {
+          "original_count": 810,
+          "effective_count": 810,
+          "delta_count": 0,
+          "original_percentage": 13.9391,
+          "effective_percentage": 13.9391,
+          "delta_percentage_points": 0.0
+        },
+        "PIETRA": {
+          "original_count": 873,
+          "effective_count": 873,
+          "delta_count": 0,
+          "original_percentage": 15.0232,
+          "effective_percentage": 15.0232,
+          "delta_percentage_points": 0.0
+        },
+        "Vide": {
+          "original_count": 2525,
+          "effective_count": 2526,
+          "delta_count": 1,
+          "original_percentage": 43.4521,
+          "effective_percentage": 43.4693,
+          "delta_percentage_points": 0.0172
+        }
+      },
+      "2": {
+        "Conforme": {
+          "original_count": 1917,
+          "effective_count": 1915,
+          "delta_count": -2,
+          "original_percentage": 32.2023,
+          "effective_percentage": 32.1687,
+          "delta_percentage_points": -0.0336
+        },
+        "NON Conforme": {
+          "original_count": 1051,
+          "effective_count": 1051,
+          "delta_count": 0,
+          "original_percentage": 17.655,
+          "effective_percentage": 17.655,
+          "delta_percentage_points": 0.0
+        },
+        "PIETRA": {
+          "original_count": 1155,
+          "effective_count": 1155,
+          "delta_count": 0,
+          "original_percentage": 19.402,
+          "effective_percentage": 19.402,
+          "delta_percentage_points": 0.0
+        },
+        "Vide": {
+          "original_count": 1830,
+          "effective_count": 1832,
+          "delta_count": 2,
+          "original_percentage": 30.7408,
+          "effective_percentage": 30.7744,
+          "delta_percentage_points": 0.0336
+        }
+      },
+      "3": {
+        "Conforme": {
+          "original_count": 2073,
+          "effective_count": 2073,
+          "delta_count": 0,
+          "original_percentage": 33.669,
+          "effective_percentage": 33.669,
+          "delta_percentage_points": 0.0
+        },
+        "NON Conforme": {
+          "original_count": 1089,
+          "effective_count": 1089,
+          "delta_count": 0,
+          "original_percentage": 17.6872,
+          "effective_percentage": 17.6872,
+          "delta_percentage_points": 0.0
+        },
+        "PIETRA": {
+          "original_count": 1123,
+          "effective_count": 1124,
+          "delta_count": 1,
+          "original_percentage": 18.2394,
+          "effective_percentage": 18.2556,
+          "delta_percentage_points": 0.0162
+        },
+        "Vide": {
+          "original_count": 1872,
+          "effective_count": 1871,
+          "delta_count": -1,
+          "original_percentage": 30.4044,
+          "effective_percentage": 30.3882,
+          "delta_percentage_points": -0.0162
+        }
+      },
+      "4": {
+        "Conforme": {
+          "original_count": 1972,
+          "effective_count": 1971,
+          "delta_count": -1,
+          "original_percentage": 34.047,
+          "effective_percentage": 34.0297,
+          "delta_percentage_points": -0.0173
+        },
+        "NON Conforme": {
+          "original_count": 1064,
+          "effective_count": 1066,
+          "delta_count": 2,
+          "original_percentage": 18.3702,
+          "effective_percentage": 18.4047,
+          "delta_percentage_points": 0.0345
+        },
+        "PIETRA": {
+          "original_count": 1011,
+          "effective_count": 1011,
+          "delta_count": 0,
+          "original_percentage": 17.4551,
+          "effective_percentage": 17.4551,
+          "delta_percentage_points": 0.0
+        },
+        "Vide": {
+          "original_count": 1745,
+          "effective_count": 1744,
+          "delta_count": -1,
+          "original_percentage": 30.1278,
+          "effective_percentage": 30.1105,
+          "delta_percentage_points": -0.0173
+        }
+      },
+      "5": {
+        "Conforme": {
+          "original_count": 1725,
+          "effective_count": 1725,
+          "delta_count": 0,
+          "original_percentage": 29.173,
+          "effective_percentage": 29.173,
+          "delta_percentage_points": 0.0
+        },
+        "NON Conforme": {
+          "original_count": 951,
+          "effective_count": 954,
+          "delta_count": 3,
+          "original_percentage": 16.0832,
+          "effective_percentage": 16.1339,
+          "delta_percentage_points": 0.0507
+        },
+        "PIETRA": {
+          "original_count": 1018,
+          "effective_count": 1018,
+          "delta_count": 0,
+          "original_percentage": 17.2163,
+          "effective_percentage": 17.2163,
+          "delta_percentage_points": 0.0
+        },
+        "Vide": {
+          "original_count": 2219,
+          "effective_count": 2216,
+          "delta_count": -3,
+          "original_percentage": 37.5275,
+          "effective_percentage": 37.4767,
+          "delta_percentage_points": -0.0508
+        }
+      },
+      "6": {
+        "Conforme": {
+          "original_count": 1546,
+          "effective_count": 1546,
+          "delta_count": 0,
+          "original_percentage": 27.4698,
+          "effective_percentage": 27.4698,
+          "delta_percentage_points": 0.0
+        },
+        "NON Conforme": {
+          "original_count": 694,
+          "effective_count": 694,
+          "delta_count": 0,
+          "original_percentage": 12.3312,
+          "effective_percentage": 12.3312,
+          "delta_percentage_points": 0.0
+        },
+        "PIETRA": {
+          "original_count": 853,
+          "effective_count": 853,
+          "delta_count": 0,
+          "original_percentage": 15.1564,
+          "effective_percentage": 15.1564,
+          "delta_percentage_points": 0.0
+        },
+        "Vide": {
+          "original_count": 2535,
+          "effective_count": 2535,
+          "delta_count": 0,
+          "original_percentage": 45.0426,
+          "effective_percentage": 45.0426,
+          "delta_percentage_points": 0.0
+        }
+      }
+    }
+  },
+  "validations": {
+    "row_count_35254": true,
+    "filename_unique_35254": true,
+    "effective_label_populated_35254": true,
+    "exactly_four_effective_labels": true,
+    "effective_label_exact_spelling": true,
+    "no_image_lost": true,
+    "no_image_duplicated": true,
+    "no_pending_adjudication": true,
+    "no_uncertain_adjudication": true,
+    "effective_label_sources_valid": true,
+    "adjudication_statuses_valid": true,
+    "historical_paired_images_32352": true,
+    "historical_unpaired_images_2902": true,
+    "historical_pair_ids_16176": true,
+    "each_pair_has_two_members": true,
+    "pair_members_share_split_group_id": true,
+    "no_pair_id_shared_between_pairs": true,
+    "each_unpaired_image_has_own_split_group_id": true,
+    "all_split_groups_are_disjoint": true
+  },
+  "video_crops_integrated": false,
+  "split_created": false
+}

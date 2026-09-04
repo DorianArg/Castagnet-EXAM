@@ -1,0 +1,60 @@
+filename,year,cam_position,cam_num,sample_num,label_principal,masked_label,human_review,review_action,effective_label,notes,multiclass_human_review,multiclass_review_status,human_agrees_principal,human_agrees_masked,human_disagrees_both
+2025_Conforme_1_Cam_T_3_239.jpg,2025,T,3,239,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_3_262.jpg,2025,T,3,262,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_3_265.jpg,2025,T,3,265,Conforme,vide,Vide,CORRECT_TO_VIDE,Vide,,,not_required,False,True,False
+2025_Conforme_1_Cam_T_3_309.jpg,2025,T,3,309,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_3_429.jpg,2025,T,3,429,Vide,chataigne,NonVide,NEED_MULTICLASS_REVIEW,Conforme,,Conforme,reviewed,False,True,False
+2025_Conforme_1_Cam_T_3_49.jpg,2025,T,3,49,Vide,chunks,NonVide,NEED_MULTICLASS_REVIEW,PIETRA,,PIETRA,reviewed,False,True,False
+2025_Conforme_1_Cam_T_3_89.jpg,2025,T,3,89,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_4_180.jpg,2025,T,4,180,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_4_285.jpg,2025,T,4,285,Vide,chunks,NonVide,NEED_MULTICLASS_REVIEW,Conforme,,Conforme,reviewed,False,True,False
+2025_Conforme_1_Cam_T_4_365.jpg,2025,T,4,365,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_4_39.jpg,2025,T,4,39,Conforme,vide,Vide,CORRECT_TO_VIDE,Vide,,,not_required,False,True,False
+2025_Conforme_1_Cam_T_4_439.jpg,2025,T,4,439,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_4_450.jpg,2025,T,4,450,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_4_463.jpg,2025,T,4,463,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_4_487.jpg,2025,T,4,487,Vide,chunks,NonVide,NEED_MULTICLASS_REVIEW,NON Conforme,,NON Conforme,reviewed,False,True,False
+2025_Conforme_1_Cam_T_5_148.jpg,2025,T,5,148,Vide,chunks,NonVide,NEED_MULTICLASS_REVIEW,NON Conforme,,NON Conforme,reviewed,False,True,False
+2025_Conforme_1_Cam_T_5_169.jpg,2025,T,5,169,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_5_177.jpg,2025,T,5,177,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_5_324.jpg,2025,T,5,324,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_5_94.jpg,2025,T,5,94,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_1_Cam_T_6_496.jpg,2025,T,6,496,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_1_100.jpg,2025,B,1,100,Vide,chunks,NonVide,NEED_MULTICLASS_REVIEW,Conforme,,Conforme,reviewed,False,True,False
+2025_Conforme_2_Cam_B_1_17.jpg,2025,B,1,17,Conforme,vide,Vide,CORRECT_TO_VIDE,Vide,,,not_required,False,True,False
+2025_Conforme_2_Cam_B_1_25.jpg,2025,B,1,25,Conforme,vide,Vide,CORRECT_TO_VIDE,Vide,,,not_required,False,True,False
+2025_Conforme_2_Cam_B_1_254.jpg,2025,B,1,254,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_1_470.jpg,2025,B,1,470,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_2_382.jpg,2025,B,2,382,Conforme,vide,Vide,CORRECT_TO_VIDE,Vide,,,not_required,False,True,False
+2025_Conforme_2_Cam_B_3_365.jpg,2025,B,3,365,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_3_85.jpg,2025,B,3,85,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_4_32.jpg,2025,B,4,32,Conforme,vide,Vide,CORRECT_TO_VIDE,Vide,,,not_required,False,True,False
+2025_Conforme_2_Cam_B_4_339.jpg,2025,B,4,339,Vide,chunks,NonVide,NEED_MULTICLASS_REVIEW,NON Conforme,,NON Conforme,reviewed,False,True,False
+2025_Conforme_2_Cam_B_4_394.jpg,2025,B,4,394,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_4_424.jpg,2025,B,4,424,Vide,chataigne,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_4_439.jpg,2025,B,4,439,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_4_491.jpg,2025,B,4,491,Vide,chataigne,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_5_145.jpg,2025,B,5,145,Vide,chunks,NonVide,NEED_MULTICLASS_REVIEW,NON Conforme,,NON Conforme,reviewed,False,True,False
+2025_Conforme_2_Cam_B_5_436.jpg,2025,B,5,436,Vide,chunks,NonVide,NEED_MULTICLASS_REVIEW,NON Conforme,,NON Conforme,reviewed,False,True,False
+2025_Conforme_2_Cam_B_6_136.jpg,2025,B,6,136,Conforme,vide,NonVide,KEEP_PRINCIPAL,Conforme,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_6_206.jpg,2025,B,6,206,Conforme,vide,NonVide,KEEP_PRINCIPAL,Conforme,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_6_264.jpg,2025,B,6,264,Conforme,vide,NonVide,KEEP_PRINCIPAL,Conforme,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_6_433.jpg,2025,B,6,433,Conforme,vide,NonVide,KEEP_PRINCIPAL,Conforme,,,not_required,True,False,False
+2025_Conforme_2_Cam_B_6_512.jpg,2025,B,6,512,Conforme,vide,NonVide,KEEP_PRINCIPAL,Conforme,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_1_144.jpg,2025,T,1,144,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_2_10.jpg,2025,T,2,10,Vide,chataigne,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_2_22.jpg,2025,T,2,22,Conforme,vide,Vide,CORRECT_TO_VIDE,Vide,,,not_required,False,True,False
+2025_Conforme_2_Cam_T_2_33.jpg,2025,T,2,33,Vide,chataigne,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_3_121.jpg,2025,T,3,121,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_3_217.jpg,2025,T,3,217,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_4_141.jpg,2025,T,4,141,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_4_168.jpg,2025,T,4,168,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_4_232.jpg,2025,T,4,232,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_4_31.jpg,2025,T,4,31,Vide,chataigne,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_4_61.jpg,2025,T,4,61,Vide,chunks,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_6_0.jpg,2025,T,6,0,Vide,chataigne,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_6_2.jpg,2025,T,6,2,Vide,chataigne,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_6_36.jpg,2025,T,6,36,Vide,chataigne,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_6_38.jpg,2025,T,6,38,Vide,chataigne,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_6_4.jpg,2025,T,6,4,Vide,chataigne,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False
+2025_Conforme_2_Cam_T_6_41.jpg,2025,T,6,41,Vide,chataigne,Vide,KEEP_PRINCIPAL,Vide,,,not_required,True,False,False

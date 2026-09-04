@@ -1,0 +1,37 @@
+{
+  "source_hashes": {
+    "masked_disagreements.csv": "825a611ab18062a2f002e5eb78179f70775657e05dd422cd9ad1fac28ca3f611",
+    "masked_disagreements_review.csv": "c9d7801c5784816a0bf393a39a1ceda1d86c418eea0ec15ae70d1d8c743b15c0",
+    "multiclass_conflicts_review.csv": "c5929375d716d21e5fac4c8aa306c4875ad9216ca6e3028bcc6d234ba795a8f3"
+  },
+  "reviewed_images": 59,
+  "human_review_distribution": {
+    "Vide": 45,
+    "NonVide": 14,
+    "Incertain": 0
+  },
+  "agreement_with_label_principal": 43,
+  "agreement_with_labels_masked": 16,
+  "human_supports_principal_against_masked": 43,
+  "human_supports_masked_against_principal": 16,
+  "human_disagrees_with_both": 0,
+  "action_counts": {
+    "KEEP_PRINCIPAL": 43,
+    "CORRECT_TO_VIDE": 7,
+    "NEED_MULTICLASS_REVIEW": 9,
+    "EXCLUDE_UNCERTAIN": 0
+  },
+  "multiclass_review_required": 9,
+  "multiclass_review_determined": 9,
+  "multiclass_review_still_pending": 0,
+  "s1_reviewed": {
+    "status": "ready_for_final_human_validation",
+    "reintegrated_from_59": 59,
+    "excluded_from_59": 0,
+    "excluded_uncertain": 0,
+    "excluded_pending_multiclass": 0,
+    "dataset_images_if_applied_now": 35254,
+    "derived_corrections_to_vide": 7,
+    "source_labels_modified": false
+  }
+}

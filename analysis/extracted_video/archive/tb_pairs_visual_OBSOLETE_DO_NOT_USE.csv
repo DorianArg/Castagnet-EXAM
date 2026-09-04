@@ -1,0 +1,13 @@
+pair_id,top_filename,bottom_filename,top_frame,bottom_frame,top_timestamp_ms,bottom_timestamp_ms,delta_frames,delta_ms,status,notes
+pair_0001,T_frame_000013_crop_02.jpg,B_frame_000020_crop_01.jpg,13,20,520.0,800.0,7,280.0,matched,
+pair_0002,T_frame_000040_crop_02.jpg,B_frame_000046_crop_01.jpg,40,46,1600.0,1840.0,6,240.0,matched,
+pair_0003,T_frame_000066_crop_01.jpg,B_frame_000073_crop_01.jpg,66,73,2640.0,2920.0,7,280.0,matched,
+pair_0004,T_frame_000119_crop_01.jpg,B_frame_000126_crop_01.jpg,119,126,4760.0,5040.0,7,280.0,matched,
+pair_0005,T_frame_000146_crop_01.jpg,B_frame_000153_crop_01.jpg,146,153,5840.0,6120.0,7,280.0,matched,
+pair_0006,T_frame_000173_crop_02.jpg,B_frame_000180_crop_01.jpg,173,180,6920.0,7200.0,7,280.0,matched,
+pair_0007,T_frame_000199_crop_01.jpg,B_frame_000206_crop_01.jpg,199,206,7960.0,8240.0,7,280.0,matched,
+pair_0008,T_frame_000226_crop_01.jpg,B_frame_000233_crop_01.jpg,226,233,9040.0,9320.0,7,280.0,matched,
+pair_0009,T_frame_000279_crop_02.jpg,B_frame_000286_crop_01.jpg,279,286,11160.0,11440.0,7,280.0,matched,
+pair_0010,T_frame_000306_crop_01.jpg,B_frame_000313_crop_01.jpg,306,313,12240.0,12520.0,7,280.0,matched,
+pair_0011,T_frame_000333_crop_01.jpg,B_frame_000339_crop_01.jpg,333,339,13320.0,13560.0,6,240.0,matched,
+pair_0012,T_frame_000359_crop_01.jpg,B_frame_000366_crop_01.jpg,359,366,14360.0,14640.0,7,280.0,matched,

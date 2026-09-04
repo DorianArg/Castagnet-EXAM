@@ -1,0 +1,40 @@
+/images
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tmp
+*.bak
+*.deleteme
+Thumbs.db
+~$*.docx
+*.jpg
+*.jpeg
+!analysis/extracted_video/top/crops/*.jpg
+!analysis/extracted_video/top/frames/*.jpg
+!analysis/extracted_video/bottom/crops/*.jpg
+!analysis/extracted_video/bottom/frames/*.jpg
+training/runs/**/*.pt
+training/splits*.csv
+
+# Configuration DVC locale contenant des identifiants ; fournir une version assainie avant suivi.
+.dvc/config
+
+# Artefacts MLflow locaux volumineux et dupliqués dans analysis/output/.
+mlartifacts/
+mlruns/
+
+# Extraits vidéo locaux volumineux, conservés sur la machine mais pas dans Git.
+*.avi
+
+# Fichiers produits uniquement pour le contrôle visuel des rapports.
+analysis/report_assets/report_preview.html
+analysis/report_assets/report_preview.pdf
+analysis/report_assets/preview_pages/
+analysis/output/report_4_3_preview.html
+analysis/output/report_4_3_preview_pages/

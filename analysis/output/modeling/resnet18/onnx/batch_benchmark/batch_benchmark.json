@@ -1,0 +1,587 @@
+{
+  "status": "completed",
+  "created_at": "2026-09-04T11:53:12.172672+02:00",
+  "model": "resnet18",
+  "provider": "CUDAExecutionProvider",
+  "providers_active": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "validation_only": true,
+  "test_manifest_loaded": false,
+  "training_performed": false,
+  "iterations_per_batch_size": 300,
+  "warmup_iterations_per_batch_size": 50,
+  "batch_results": [
+    {
+      "batch_size": 1,
+      "warmup_iterations": 50,
+      "measured_iterations": 300,
+      "decode_only": {
+        "iterations": 300,
+        "batch_size": 1,
+        "mean_ms_per_batch": 6.4615009957924485,
+        "median_ms_per_batch": 5.999199929647148,
+        "p90_ms_per_batch": 8.050300041213632,
+        "p95_ms_per_batch": 8.746909984620288,
+        "p99_ms_per_batch": 9.932021040003743,
+        "min_ms_per_batch": 5.0448999973014,
+        "max_ms_per_batch": 14.106599963270128,
+        "mean_ms_per_image": 6.4615009957924485,
+        "images_per_second": 154.76280211845088
+      },
+      "preprocessing_without_decode": {
+        "iterations": 300,
+        "batch_size": 1,
+        "mean_ms_per_batch": 5.711532332546388,
+        "median_ms_per_batch": 5.764550005551428,
+        "p90_ms_per_batch": 6.505680014379324,
+        "p95_ms_per_batch": 6.714195013046265,
+        "p99_ms_per_batch": 7.452598046511411,
+        "min_ms_per_batch": 4.125199979171157,
+        "max_ms_per_batch": 9.621899924241006,
+        "mean_ms_per_image": 5.711532332546388,
+        "images_per_second": 175.08436296537033
+      },
+      "batch_construction": {
+        "iterations": 300,
+        "batch_size": 1,
+        "mean_ms_per_batch": 0.1001986674964428,
+        "median_ms_per_batch": 0.09844999294728041,
+        "p90_ms_per_batch": 0.1085100113414228,
+        "p95_ms_per_batch": 0.11291504488326609,
+        "p99_ms_per_batch": 0.11830396950244904,
+        "min_ms_per_batch": 0.08720008190721273,
+        "max_ms_per_batch": 0.3937000874429941,
+        "mean_ms_per_image": 0.1001986674964428,
+        "images_per_second": 9980.172640873707
+      },
+      "inference_only": {
+        "iterations": 300,
+        "batch_size": 1,
+        "mean_ms_per_batch": 4.114871330093592,
+        "median_ms_per_batch": 3.902949974872172,
+        "p90_ms_per_batch": 4.8101499560289085,
+        "p95_ms_per_batch": 5.083735048538075,
+        "p99_ms_per_batch": 6.739278075983732,
+        "min_ms_per_batch": 3.3355000196024776,
+        "max_ms_per_batch": 10.484599974006414,
+        "mean_ms_per_image": 4.114871330093592,
+        "images_per_second": 243.02096463785543
+      },
+      "preprocessing_plus_inference": {
+        "iterations": 300,
+        "batch_size": 1,
+        "mean_ms_per_batch": 20.472869001872215,
+        "median_ms_per_batch": 20.267250016331673,
+        "p90_ms_per_batch": 23.74914991669357,
+        "p95_ms_per_batch": 24.53861996182241,
+        "p99_ms_per_batch": 27.199765036348243,
+        "min_ms_per_batch": 15.162999974563718,
+        "max_ms_per_batch": 86.17789996787906,
+        "mean_ms_per_image": 20.472869001872215,
+        "images_per_second": 48.84513254632516
+      },
+      "measurement_scope": {
+        "decode_only": "PIL open, decode, RGB conversion and in-memory copy",
+        "preprocessing_without_decode": "deterministic resize, padding, tensor conversion and ImageNet normalization",
+        "batch_construction": "numpy.stack of already preprocessed CHW arrays",
+        "inference_only": "ONNX Runtime session.run; includes host-to-device input transfer, CUDA execution, synchronization and output return",
+        "preprocessing_plus_inference": "decode + preprocessing + batch construction + session.run",
+        "cpu_to_gpu_copy_separately_measured": false
+      }
+    },
+    {
+      "batch_size": 2,
+      "warmup_iterations": 50,
+      "measured_iterations": 300,
+      "decode_only": {
+        "iterations": 300,
+        "batch_size": 2,
+        "mean_ms_per_batch": 16.454731000897784,
+        "median_ms_per_batch": 16.13160001579672,
+        "p90_ms_per_batch": 20.26710003847257,
+        "p95_ms_per_batch": 22.41487498395145,
+        "p99_ms_per_batch": 25.780045982683056,
+        "min_ms_per_batch": 11.483100010082126,
+        "max_ms_per_batch": 29.027200071141124,
+        "mean_ms_per_image": 8.227365500448892,
+        "images_per_second": 121.54559074170693
+      },
+      "preprocessing_without_decode": {
+        "iterations": 300,
+        "batch_size": 2,
+        "mean_ms_per_batch": 15.540236668894067,
+        "median_ms_per_batch": 14.051800011657178,
+        "p90_ms_per_batch": 18.540070042945445,
+        "p95_ms_per_batch": 26.842125039547692,
+        "p99_ms_per_batch": 39.52193802222605,
+        "min_ms_per_batch": 10.574499960057437,
+        "max_ms_per_batch": 56.134500075131655,
+        "mean_ms_per_image": 7.770118334447034,
+        "images_per_second": 128.69816867096216
+      },
+      "batch_construction": {
+        "iterations": 300,
+        "batch_size": 2,
+        "mean_ms_per_batch": 0.9623706651230652,
+        "median_ms_per_batch": 0.9660499636083841,
+        "p90_ms_per_batch": 1.113630086183548,
+        "p95_ms_per_batch": 1.1660049145575615,
+        "p99_ms_per_batch": 1.3741049822419877,
+        "min_ms_per_batch": 0.7099999347701669,
+        "max_ms_per_batch": 1.587199978530407,
+        "mean_ms_per_image": 0.4811853325615326,
+        "images_per_second": 2078.201333936385
+      },
+      "inference_only": {
+        "iterations": 300,
+        "batch_size": 2,
+        "mean_ms_per_batch": 4.975747668650001,
+        "median_ms_per_batch": 4.757349961437285,
+        "p90_ms_per_batch": 6.072549987584353,
+        "p95_ms_per_batch": 6.801814964273945,
+        "p99_ms_per_batch": 8.92412509419954,
+        "min_ms_per_batch": 3.71160008944571,
+        "max_ms_per_batch": 14.818500028923154,
+        "mean_ms_per_image": 2.4878738343250006,
+        "images_per_second": 401.9496431865146
+      },
+      "preprocessing_plus_inference": {
+        "iterations": 300,
+        "batch_size": 2,
+        "mean_ms_per_batch": 51.72709433361888,
+        "median_ms_per_batch": 50.74445001082495,
+        "p90_ms_per_batch": 58.24797003297137,
+        "p95_ms_per_batch": 63.47084493609145,
+        "p99_ms_per_batch": 76.59566601156256,
+        "min_ms_per_batch": 41.925399913452566,
+        "max_ms_per_batch": 98.72210002504289,
+        "mean_ms_per_image": 25.86354716680944,
+        "images_per_second": 38.66445671780455
+      },
+      "measurement_scope": {
+        "decode_only": "PIL open, decode, RGB conversion and in-memory copy",
+        "preprocessing_without_decode": "deterministic resize, padding, tensor conversion and ImageNet normalization",
+        "batch_construction": "numpy.stack of already preprocessed CHW arrays",
+        "inference_only": "ONNX Runtime session.run; includes host-to-device input transfer, CUDA execution, synchronization and output return",
+        "preprocessing_plus_inference": "decode + preprocessing + batch construction + session.run",
+        "cpu_to_gpu_copy_separately_measured": false
+      }
+    },
+    {
+      "batch_size": 4,
+      "warmup_iterations": 50,
+      "measured_iterations": 300,
+      "decode_only": {
+        "iterations": 300,
+        "batch_size": 4,
+        "mean_ms_per_batch": 35.63786233348461,
+        "median_ms_per_batch": 31.764800020027906,
+        "p90_ms_per_batch": 49.652100063394755,
+        "p95_ms_per_batch": 65.041090012528,
+        "p99_ms_per_batch": 91.04800205444911,
+        "min_ms_per_batch": 19.988599931821227,
+        "max_ms_per_batch": 99.69329996965826,
+        "mean_ms_per_image": 8.909465583371153,
+        "images_per_second": 112.24017766749385
+      },
+      "preprocessing_without_decode": {
+        "iterations": 300,
+        "batch_size": 4,
+        "mean_ms_per_batch": 34.13403999836495,
+        "median_ms_per_batch": 29.189150023739785,
+        "p90_ms_per_batch": 46.070500020869076,
+        "p95_ms_per_batch": 56.384485092712595,
+        "p99_ms_per_batch": 135.79619399039066,
+        "min_ms_per_batch": 19.142999895848334,
+        "max_ms_per_batch": 207.45990006253123,
+        "mean_ms_per_image": 8.533509999591237,
+        "images_per_second": 117.18507390838015
+      },
+      "batch_construction": {
+        "iterations": 300,
+        "batch_size": 4,
+        "mean_ms_per_batch": 1.7294470046181232,
+        "median_ms_per_batch": 1.7332500428892672,
+        "p90_ms_per_batch": 1.975310023408383,
+        "p95_ms_per_batch": 2.030019974336028,
+        "p99_ms_per_batch": 2.3033610684797163,
+        "min_ms_per_batch": 1.3277999823912978,
+        "max_ms_per_batch": 2.6822000509127975,
+        "mean_ms_per_image": 0.4323617511545308,
+        "images_per_second": 2312.878040968497
+      },
+      "inference_only": {
+        "iterations": 300,
+        "batch_size": 4,
+        "mean_ms_per_batch": 5.806063330965117,
+        "median_ms_per_batch": 5.297999945469201,
+        "p90_ms_per_batch": 7.71305001107976,
+        "p95_ms_per_batch": 8.748495019972324,
+        "p99_ms_per_batch": 11.98614998022094,
+        "min_ms_per_batch": 3.8842998910695314,
+        "max_ms_per_batch": 20.537400036118925,
+        "mean_ms_per_image": 1.4515158327412792,
+        "images_per_second": 688.934958505714
+      },
+      "preprocessing_plus_inference": {
+        "iterations": 300,
+        "batch_size": 4,
+        "mean_ms_per_batch": 90.51192466751672,
+        "median_ms_per_batch": 88.37105002021417,
+        "p90_ms_per_batch": 97.68799003213645,
+        "p95_ms_per_batch": 103.83282994735059,
+        "p99_ms_per_batch": 148.51686300477013,
+        "min_ms_per_batch": 76.59009995404631,
+        "max_ms_per_batch": 237.60520003270358,
+        "mean_ms_per_image": 22.62798116687918,
+        "images_per_second": 44.19307195923031
+      },
+      "measurement_scope": {
+        "decode_only": "PIL open, decode, RGB conversion and in-memory copy",
+        "preprocessing_without_decode": "deterministic resize, padding, tensor conversion and ImageNet normalization",
+        "batch_construction": "numpy.stack of already preprocessed CHW arrays",
+        "inference_only": "ONNX Runtime session.run; includes host-to-device input transfer, CUDA execution, synchronization and output return",
+        "preprocessing_plus_inference": "decode + preprocessing + batch construction + session.run",
+        "cpu_to_gpu_copy_separately_measured": false
+      }
+    },
+    {
+      "batch_size": 8,
+      "warmup_iterations": 50,
+      "measured_iterations": 300,
+      "decode_only": {
+        "iterations": 300,
+        "batch_size": 8,
+        "mean_ms_per_batch": 41.310185001542166,
+        "median_ms_per_batch": 40.11415003333241,
+        "p90_ms_per_batch": 46.03926996933297,
+        "p95_ms_per_batch": 48.421395011246204,
+        "p99_ms_per_batch": 51.745755997253575,
+        "min_ms_per_batch": 37.16740000527352,
+        "max_ms_per_batch": 61.70780002139509,
+        "mean_ms_per_image": 5.163773125192771,
+        "images_per_second": 193.65684273022134
+      },
+      "preprocessing_without_decode": {
+        "iterations": 300,
+        "batch_size": 8,
+        "mean_ms_per_batch": 48.36735099864502,
+        "median_ms_per_batch": 47.197850013617426,
+        "p90_ms_per_batch": 54.65518998680636,
+        "p95_ms_per_batch": 57.40594993112609,
+        "p99_ms_per_batch": 74.78041101596315,
+        "min_ms_per_batch": 37.32460003811866,
+        "max_ms_per_batch": 122.50140006653965,
+        "mean_ms_per_image": 6.045918874830628,
+        "images_per_second": 165.40082999840357
+      },
+      "batch_construction": {
+        "iterations": 300,
+        "batch_size": 8,
+        "mean_ms_per_batch": 2.7045493336239206,
+        "median_ms_per_batch": 2.653099945746362,
+        "p90_ms_per_batch": 2.9626699746586382,
+        "p95_ms_per_batch": 3.1436749559361488,
+        "p99_ms_per_batch": 3.394980003358796,
+        "min_ms_per_batch": 2.421999932266772,
+        "max_ms_per_batch": 3.5862999502569437,
+        "mean_ms_per_image": 0.3380686667029901,
+        "images_per_second": 2957.9789507039677
+      },
+      "inference_only": {
+        "iterations": 300,
+        "batch_size": 8,
+        "mean_ms_per_batch": 6.249824666495745,
+        "median_ms_per_batch": 6.0258000157773495,
+        "p90_ms_per_batch": 6.8688799859955925,
+        "p95_ms_per_batch": 7.660374935949224,
+        "p99_ms_per_batch": 9.401516984216869,
+        "min_ms_per_batch": 5.766100017353892,
+        "max_ms_per_batch": 10.469799977727234,
+        "mean_ms_per_image": 0.7812280833119681,
+        "images_per_second": 1280.0359093090483
+      },
+      "preprocessing_plus_inference": {
+        "iterations": 300,
+        "batch_size": 8,
+        "mean_ms_per_batch": 137.82623599671447,
+        "median_ms_per_batch": 133.99205007590353,
+        "p90_ms_per_batch": 160.99202999612316,
+        "p95_ms_per_batch": 165.10847493773326,
+        "p99_ms_per_batch": 171.63601391599502,
+        "min_ms_per_batch": 110.89500004891306,
+        "max_ms_per_batch": 215.3546999907121,
+        "mean_ms_per_image": 17.22827949958931,
+        "images_per_second": 58.04410127104324
+      },
+      "measurement_scope": {
+        "decode_only": "PIL open, decode, RGB conversion and in-memory copy",
+        "preprocessing_without_decode": "deterministic resize, padding, tensor conversion and ImageNet normalization",
+        "batch_construction": "numpy.stack of already preprocessed CHW arrays",
+        "inference_only": "ONNX Runtime session.run; includes host-to-device input transfer, CUDA execution, synchronization and output return",
+        "preprocessing_plus_inference": "decode + preprocessing + batch construction + session.run",
+        "cpu_to_gpu_copy_separately_measured": false
+      }
+    },
+    {
+      "batch_size": 12,
+      "warmup_iterations": 50,
+      "measured_iterations": 300,
+      "decode_only": {
+        "iterations": 300,
+        "batch_size": 12,
+        "mean_ms_per_batch": 61.585645336502544,
+        "median_ms_per_batch": 60.85314997471869,
+        "p90_ms_per_batch": 66.07021992094815,
+        "p95_ms_per_batch": 68.23778507532552,
+        "p99_ms_per_batch": 73.15067595802248,
+        "min_ms_per_batch": 56.9725000532344,
+        "max_ms_per_batch": 75.8170000044629,
+        "mean_ms_per_image": 5.132137111375212,
+        "images_per_second": 194.85060088974106
+      },
+      "preprocessing_without_decode": {
+        "iterations": 300,
+        "batch_size": 12,
+        "mean_ms_per_batch": 80.36781133385375,
+        "median_ms_per_batch": 75.21490001818165,
+        "p90_ms_per_batch": 89.1668299213052,
+        "p95_ms_per_batch": 95.75762996100822,
+        "p99_ms_per_batch": 243.41667700558872,
+        "min_ms_per_batch": 59.51930000446737,
+        "max_ms_per_batch": 302.47450002934784,
+        "mean_ms_per_image": 6.697317611154479,
+        "images_per_second": 149.3135099841294
+      },
+      "batch_construction": {
+        "iterations": 300,
+        "batch_size": 12,
+        "mean_ms_per_batch": 5.8582886680960655,
+        "median_ms_per_batch": 5.648599937558174,
+        "p90_ms_per_batch": 6.765000079758467,
+        "p95_ms_per_batch": 7.102555013261737,
+        "p99_ms_per_batch": 9.483914059819641,
+        "min_ms_per_batch": 4.784099990502,
+        "max_ms_per_batch": 11.035899980925024,
+        "mean_ms_per_image": 0.4881907223413388,
+        "images_per_second": 2048.379770930609
+      },
+      "inference_only": {
+        "iterations": 300,
+        "batch_size": 12,
+        "mean_ms_per_batch": 7.853720673592761,
+        "median_ms_per_batch": 7.803899992723018,
+        "p90_ms_per_batch": 8.176120079588145,
+        "p95_ms_per_batch": 8.369405043777078,
+        "p99_ms_per_batch": 8.929226099280637,
+        "min_ms_per_batch": 7.479500025510788,
+        "max_ms_per_batch": 9.339499985799193,
+        "mean_ms_per_image": 0.6544767227993967,
+        "images_per_second": 1527.9382217333791
+      },
+      "preprocessing_plus_inference": {
+        "iterations": 300,
+        "batch_size": 12,
+        "mean_ms_per_batch": 237.79394166815715,
+        "median_ms_per_batch": 235.39440002059564,
+        "p90_ms_per_batch": 254.95470000896603,
+        "p95_ms_per_batch": 261.4884950162377,
+        "p99_ms_per_batch": 280.76277099084103,
+        "min_ms_per_batch": 211.53339999727905,
+        "max_ms_per_batch": 442.71390000358224,
+        "mean_ms_per_image": 19.816161805679762,
+        "images_per_second": 50.46385923803757
+      },
+      "measurement_scope": {
+        "decode_only": "PIL open, decode, RGB conversion and in-memory copy",
+        "preprocessing_without_decode": "deterministic resize, padding, tensor conversion and ImageNet normalization",
+        "batch_construction": "numpy.stack of already preprocessed CHW arrays",
+        "inference_only": "ONNX Runtime session.run; includes host-to-device input transfer, CUDA execution, synchronization and output return",
+        "preprocessing_plus_inference": "decode + preprocessing + batch construction + session.run",
+        "cpu_to_gpu_copy_separately_measured": false
+      }
+    }
+  ],
+  "theoretical_12_stream_capacity": [
+    {
+      "batch_size": 1,
+      "fps_per_camera": 1,
+      "required_images_per_second": 12,
+      "inference_only_met": true,
+      "end_to_end_met": true
+    },
+    {
+      "batch_size": 1,
+      "fps_per_camera": 2,
+      "required_images_per_second": 24,
+      "inference_only_met": true,
+      "end_to_end_met": true
+    },
+    {
+      "batch_size": 1,
+      "fps_per_camera": 5,
+      "required_images_per_second": 60,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 1,
+      "fps_per_camera": 10,
+      "required_images_per_second": 120,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 1,
+      "fps_per_camera": 25,
+      "required_images_per_second": 300,
+      "inference_only_met": false,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 2,
+      "fps_per_camera": 1,
+      "required_images_per_second": 12,
+      "inference_only_met": true,
+      "end_to_end_met": true
+    },
+    {
+      "batch_size": 2,
+      "fps_per_camera": 2,
+      "required_images_per_second": 24,
+      "inference_only_met": true,
+      "end_to_end_met": true
+    },
+    {
+      "batch_size": 2,
+      "fps_per_camera": 5,
+      "required_images_per_second": 60,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 2,
+      "fps_per_camera": 10,
+      "required_images_per_second": 120,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 2,
+      "fps_per_camera": 25,
+      "required_images_per_second": 300,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 4,
+      "fps_per_camera": 1,
+      "required_images_per_second": 12,
+      "inference_only_met": true,
+      "end_to_end_met": true
+    },
+    {
+      "batch_size": 4,
+      "fps_per_camera": 2,
+      "required_images_per_second": 24,
+      "inference_only_met": true,
+      "end_to_end_met": true
+    },
+    {
+      "batch_size": 4,
+      "fps_per_camera": 5,
+      "required_images_per_second": 60,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 4,
+      "fps_per_camera": 10,
+      "required_images_per_second": 120,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 4,
+      "fps_per_camera": 25,
+      "required_images_per_second": 300,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 8,
+      "fps_per_camera": 1,
+      "required_images_per_second": 12,
+      "inference_only_met": true,
+      "end_to_end_met": true
+    },
+    {
+      "batch_size": 8,
+      "fps_per_camera": 2,
+      "required_images_per_second": 24,
+      "inference_only_met": true,
+      "end_to_end_met": true
+    },
+    {
+      "batch_size": 8,
+      "fps_per_camera": 5,
+      "required_images_per_second": 60,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 8,
+      "fps_per_camera": 10,
+      "required_images_per_second": 120,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 8,
+      "fps_per_camera": 25,
+      "required_images_per_second": 300,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 12,
+      "fps_per_camera": 1,
+      "required_images_per_second": 12,
+      "inference_only_met": true,
+      "end_to_end_met": true
+    },
+    {
+      "batch_size": 12,
+      "fps_per_camera": 2,
+      "required_images_per_second": 24,
+      "inference_only_met": true,
+      "end_to_end_met": true
+    },
+    {
+      "batch_size": 12,
+      "fps_per_camera": 5,
+      "required_images_per_second": 60,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 12,
+      "fps_per_camera": 10,
+      "required_images_per_second": 120,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    },
+    {
+      "batch_size": 12,
+      "fps_per_camera": 25,
+      "required_images_per_second": 300,
+      "inference_only_met": true,
+      "end_to_end_met": false
+    }
+  ],
+  "target_hardware_is_current_machine": false,
+  "target_hardware": "GTX 1060 3 GB + older i7",
+  "no_numeric_extrapolation_to_target": true
+}

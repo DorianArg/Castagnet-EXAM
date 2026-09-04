@@ -1,0 +1,68 @@
+{
+  "status": "valid",
+  "created_at": "2026-09-04T11:48:27.395331+02:00",
+  "model": "resnet18",
+  "checkpoint": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\resnet18\\best_model.pt",
+  "checkpoint_sha256": "2aff26da95785868bbead488531874265f242e3d178ee9937cb16ff47b67348d",
+  "checkpoint_epoch": 13,
+  "validation_only": true,
+  "test_manifest_loaded": false,
+  "numerical_validation_provider": [
+    "CPUExecutionProvider"
+  ],
+  "onnx_path": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\resnet18\\onnx\\resnet18_castagnet_dynamic_batch.onnx",
+  "onnx_sha256": "9e4a5a7a5628bc89598c67a27da7e49c6ff8c0512539e17d4266fb40d4e82011",
+  "onnx_size_bytes": 44704771,
+  "onnx_size_mib": 42.63379192352295,
+  "opset": 17,
+  "input_name": "input",
+  "input_shape": [
+    "batch_size",
+    3,
+    224,
+    224
+  ],
+  "output_name": "logits",
+  "output_shape": [
+    "batch_size",
+    4
+  ],
+  "softmax_nodes_in_graph": 0,
+  "business_threshold_in_graph": false,
+  "numerical_validation": [
+    {
+      "batch_size": 1,
+      "max_absolute_difference_logits": 8.106231689453125e-06,
+      "mean_absolute_difference_logits": 5.185604095458984e-06,
+      "max_absolute_difference_probabilities": 1.83936208486557e-08,
+      "mean_absolute_difference_probabilities": 4.761345095971592e-09,
+      "argmax_differences": 0,
+      "threshold_055_decision_differences": 0,
+      "valid": true
+    },
+    {
+      "batch_size": 4,
+      "max_absolute_difference_logits": 8.106231689453125e-06,
+      "mean_absolute_difference_logits": 2.644956111907959e-06,
+      "max_absolute_difference_probabilities": 2.682209014892578e-07,
+      "mean_absolute_difference_probabilities": 3.586142938161174e-08,
+      "argmax_differences": 0,
+      "threshold_055_decision_differences": 0,
+      "valid": true
+    },
+    {
+      "batch_size": 12,
+      "max_absolute_difference_logits": 1.71661376953125e-05,
+      "mean_absolute_difference_logits": 4.047217316838214e-06,
+      "max_absolute_difference_probabilities": 2.041459083557129e-06,
+      "mean_absolute_difference_probabilities": 2.88459176545075e-07,
+      "argmax_differences": 0,
+      "threshold_055_decision_differences": 0,
+      "valid": true
+    }
+  ],
+  "tolerances": {
+    "max_logits": 0.001,
+    "max_probabilities": 0.0001
+  }
+}

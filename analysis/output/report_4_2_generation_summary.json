@@ -1,0 +1,44 @@
+{
+  "docx": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\Rapport_CastagNet_4_2_Modelisation.docx",
+  "markdown": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\Rapport_CastagNet_4_2_Modelisation.md",
+  "figures": [
+    "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\report_4_2_figures\\customcnn_losses.png",
+    "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\report_4_2_figures\\resnet18_losses.png",
+    "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\report_4_2_figures\\resnet18_accuracy.png",
+    "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\report_4_2_figures\\resnet18_val_macro_f1.png",
+    "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\report_4_2_figures\\resnet18_conforme_threshold_calibration.png",
+    "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\report_4_2_figures\\test_confusion_argmax.png",
+    "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\report_4_2_figures\\test_confusion_threshold_055.png"
+  ],
+  "figure_titles": [
+    "Figure 1 — Losses d'entraînement et de validation des deux CNN maison",
+    "Figure 2 — ResNet18 — losses train et validation, phases et meilleur checkpoint",
+    "Figure 3 — ResNet18 — accuracy train et validation",
+    "Figure 4 — ResNet18 — macro-F1 de validation",
+    "Figure 5 — Calibration du seuil de décision Conforme",
+    "Figure 6 — Matrice de confusion ResNet18 sur test — argmax",
+    "Figure 7 — Matrice de confusion ResNet18 sur test — seuil Conforme 0,55"
+  ],
+  "table_titles": [
+    "Tableau 1 — Répartition group-aware des données",
+    "Tableau 2 — Prétraitement commun et justification",
+    "Tableau 3 — Architecture du CNN maison",
+    "Tableau 4 — Comparaison des deux CNN maison sur validation",
+    "Tableau 5 — Protocole commun de transfer learning",
+    "Tableau 6 — Complexité théorique et statut des architectures",
+    "Tableau 7 — Traçabilité des runs d'entraînement MLflow",
+    "Tableau 8 — Comparaison principale sur validation",
+    "Tableau 9 — Trois seuils de décision examinés sur validation",
+    "Tableau 10 — ResNet18 argmax — validation et test",
+    "Tableau 11 — Test final — argmax et règle métier figée",
+    "Tableau 12 — Métriques par classe — configuration finale test",
+    "Tableau 13 — Respect des contraintes métier sur le test final"
+  ],
+  "mlflow_runs": {
+    "CustomCNN v1": "76cb13166116439aa05a4174fd954c18",
+    "CustomCNN v2": "42420caec760477da2c2cdb4c1041c10",
+    "MobileNetV3 Small": "8b9b161b9dd24e208af9be3baa532f2e",
+    "EfficientNet-B0": "a434cccec8624ad2bcdae5fe952726e9",
+    "ResNet18": "db0ee7873903411e899e2f85384ae58a"
+  }
+}

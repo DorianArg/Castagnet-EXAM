@@ -1,0 +1,34 @@
+grouping,group,label,count,percentage
+global,all,Conforme,14818,42.03
+global,all,PIETRA,11267,31.96
+global,all,NON Conforme,9169,26.01
+year,2025,Conforme,9986,49.27
+year,2025,NON Conforme,5824,28.74
+year,2025,PIETRA,4456,21.99
+year,2026,PIETRA,6811,45.44
+year,2026,Conforme,4832,32.24
+year,2026,NON Conforme,3345,22.32
+camera,1,Conforme,2394,41.2
+camera,1,PIETRA,1891,32.54
+camera,1,NON Conforme,1526,26.26
+camera,2,Conforme,2416,40.58
+camera,2,PIETRA,1961,32.94
+camera,2,NON Conforme,1576,26.47
+camera,3,Conforme,2671,43.38
+camera,3,PIETRA,1943,31.56
+camera,3,NON Conforme,1543,25.06
+camera,4,Conforme,2520,43.51
+camera,4,PIETRA,1769,30.54
+camera,4,NON Conforme,1503,25.95
+camera,5,Conforme,2446,41.37
+camera,5,PIETRA,1886,31.9
+camera,5,NON Conforme,1581,26.74
+camera,6,Conforme,2371,42.13
+camera,6,PIETRA,1817,32.29
+camera,6,NON Conforme,1440,25.59
+position,B,Conforme,8133,44.71
+position,B,PIETRA,5531,30.41
+position,B,NON Conforme,4525,24.88
+position,T,Conforme,6685,39.17
+position,T,PIETRA,5736,33.61
+position,T,NON Conforme,4644,27.21

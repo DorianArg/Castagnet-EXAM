@@ -1,0 +1,1502 @@
+{
+  "purpose": "simulation_only_no_dataset_created",
+  "source_hashes": {
+    "dataset_manifest.csv": "2ceaeca2a138aa874279b4e4c9d3be9d2da2942083d3e051f1a0294a814fabc1",
+    "historical_tb_pairs.csv": "4ae5787394a83d998e599d0fb962f185b6377437368ca959dd8d7fc497eeea51",
+    "historical_tb_unpaired.csv": "66c147a29089de8bc7afb75d96a25e9b106bfc1067f948c07c2818ff4e0fffc3"
+  },
+  "dataset_images": 35254,
+  "valid_label_images": 35254,
+  "atomic_flag_counts": {
+    "is_masked_disagreement": 59,
+    "is_multiple": 1197,
+    "is_chunk": 4975,
+    "is_mixed_quality": 0,
+    "is_missing_labeled_by": 8033,
+    "is_label_filename_changed": 12726,
+    "is_historical_paired": 32352,
+    "is_historical_unpaired": 2902,
+    "has_pair_label_disagreement": 10924
+  },
+  "strategies": {
+    "S0": {
+      "title": "Baseline large",
+      "excluded_flags": [],
+      "kept_images": 35254,
+      "removed_images": 0,
+      "kept_pct": 100.0,
+      "removed_pct": 0.0,
+      "classes": {
+        "Conforme": {
+          "count": 10836,
+          "percentage": 30.74,
+          "s0_percentage": 30.74,
+          "delta_percentage_points": 0.0
+        },
+        "NON Conforme": {
+          "count": 5659,
+          "percentage": 16.05,
+          "s0_percentage": 16.05,
+          "delta_percentage_points": 0.0
+        },
+        "PIETRA": {
+          "count": 6033,
+          "percentage": 17.11,
+          "s0_percentage": 17.11,
+          "delta_percentage_points": 0.0
+        },
+        "Vide": {
+          "count": 12726,
+          "percentage": 36.1,
+          "s0_percentage": 36.1,
+          "delta_percentage_points": 0.0
+        }
+      },
+      "years": {
+        "2025": {
+          "count": 20266,
+          "percentage": 57.49,
+          "s0_percentage": 57.49,
+          "delta_percentage_points": 0.0
+        },
+        "2026": {
+          "count": 14988,
+          "percentage": 42.51,
+          "s0_percentage": 42.51,
+          "delta_percentage_points": 0.0
+        }
+      },
+      "positions": {
+        "B": {
+          "count": 18189,
+          "percentage": 51.59,
+          "s0_percentage": 51.59,
+          "delta_percentage_points": 0.0
+        },
+        "T": {
+          "count": 17065,
+          "percentage": 48.41,
+          "s0_percentage": 48.41,
+          "delta_percentage_points": 0.0
+        }
+      },
+      "cameras": {
+        "1": {
+          "count": 5811,
+          "percentage": 16.48,
+          "s0_percentage": 16.48,
+          "delta_percentage_points": 0.0
+        },
+        "2": {
+          "count": 5953,
+          "percentage": 16.89,
+          "s0_percentage": 16.89,
+          "delta_percentage_points": 0.0
+        },
+        "3": {
+          "count": 6157,
+          "percentage": 17.46,
+          "s0_percentage": 17.46,
+          "delta_percentage_points": 0.0
+        },
+        "4": {
+          "count": 5792,
+          "percentage": 16.43,
+          "s0_percentage": 16.43,
+          "delta_percentage_points": 0.0
+        },
+        "5": {
+          "count": 5913,
+          "percentage": 16.77,
+          "s0_percentage": 16.77,
+          "delta_percentage_points": 0.0
+        },
+        "6": {
+          "count": 5628,
+          "percentage": 15.96,
+          "s0_percentage": 15.96,
+          "delta_percentage_points": 0.0
+        }
+      },
+      "remaining_flags": {
+        "is_masked_disagreement": 59,
+        "is_multiple": 1197,
+        "is_chunk": 4975,
+        "is_mixed_quality": 0,
+        "is_missing_labeled_by": 8033
+      },
+      "provenance": {
+        "labeled_by_present": 27221,
+        "labeled_by_missing": 8033,
+        "labeled_by_canonical_distribution": {
+          "Nico": {
+            "count": 15518,
+            "percentage": 44.02
+          },
+          "Tilyah": {
+            "count": 11080,
+            "percentage": 31.43
+          },
+          "(missing)": {
+            "count": 8033,
+            "percentage": 22.79
+          },
+          "auto_empty_v1": {
+            "count": 596,
+            "percentage": 1.69
+          },
+          "popas1": {
+            "count": 27,
+            "percentage": 0.08
+          }
+        }
+      },
+      "historical_tb": {
+        "complete_pairs": 16176,
+        "partial_pairs": 0,
+        "fully_removed_pairs": 0,
+        "complete_pairs_same_label_principal": 10714,
+        "complete_pairs_different_label_principal": 5462,
+        "paired_images_kept": 32352,
+        "unpaired_images_kept": 2902,
+        "images_in_disagreeing_pairs_kept": 10924
+      },
+      "changed_to_vide": {
+        "count": 12726,
+        "by_year": {
+          "2025": {
+            "count": 6470,
+            "percentage": 50.84
+          },
+          "2026": {
+            "count": 6256,
+            "percentage": 49.16
+          }
+        },
+        "by_camera": {
+          "6": {
+            "count": 2535,
+            "percentage": 19.92
+          },
+          "1": {
+            "count": 2525,
+            "percentage": 19.84
+          },
+          "5": {
+            "count": 2219,
+            "percentage": 17.44
+          },
+          "3": {
+            "count": 1872,
+            "percentage": 14.71
+          },
+          "2": {
+            "count": 1830,
+            "percentage": 14.38
+          },
+          "4": {
+            "count": 1745,
+            "percentage": 13.71
+          }
+        },
+        "by_position": {
+          "T": {
+            "count": 6727,
+            "percentage": 52.86
+          },
+          "B": {
+            "count": 5999,
+            "percentage": 47.14
+          }
+        },
+        "by_labeled_by_canonical": {
+          "Nico": {
+            "count": 5654,
+            "percentage": 44.43
+          },
+          "Tilyah": {
+            "count": 3474,
+            "percentage": 27.3
+          },
+          "(missing)": {
+            "count": 3000,
+            "percentage": 23.57
+          },
+          "auto_empty_v1": {
+            "count": 596,
+            "percentage": 4.68
+          },
+          "popas1": {
+            "count": 2,
+            "percentage": 0.02
+          }
+        },
+        "masked_covered": 1607,
+        "masked_not_covered": 11119
+      }
+    },
+    "S1": {
+      "title": "Prudente",
+      "excluded_flags": [
+        "is_masked_disagreement"
+      ],
+      "kept_images": 35195,
+      "removed_images": 59,
+      "kept_pct": 99.83,
+      "removed_pct": 0.17,
+      "classes": {
+        "Conforme": {
+          "count": 10824,
+          "percentage": 30.75,
+          "s0_percentage": 30.74,
+          "delta_percentage_points": 0.01
+        },
+        "NON Conforme": {
+          "count": 5659,
+          "percentage": 16.08,
+          "s0_percentage": 16.05,
+          "delta_percentage_points": 0.03
+        },
+        "PIETRA": {
+          "count": 6033,
+          "percentage": 17.14,
+          "s0_percentage": 17.11,
+          "delta_percentage_points": 0.03
+        },
+        "Vide": {
+          "count": 12679,
+          "percentage": 36.03,
+          "s0_percentage": 36.1,
+          "delta_percentage_points": -0.07
+        }
+      },
+      "years": {
+        "2025": {
+          "count": 20207,
+          "percentage": 57.41,
+          "s0_percentage": 57.49,
+          "delta_percentage_points": -0.08
+        },
+        "2026": {
+          "count": 14988,
+          "percentage": 42.59,
+          "s0_percentage": 42.51,
+          "delta_percentage_points": 0.08
+        }
+      },
+      "positions": {
+        "B": {
+          "count": 18168,
+          "percentage": 51.62,
+          "s0_percentage": 51.59,
+          "delta_percentage_points": 0.03
+        },
+        "T": {
+          "count": 17027,
+          "percentage": 48.38,
+          "s0_percentage": 48.41,
+          "delta_percentage_points": -0.03
+        }
+      },
+      "cameras": {
+        "1": {
+          "count": 5805,
+          "percentage": 16.49,
+          "s0_percentage": 16.48,
+          "delta_percentage_points": 0.01
+        },
+        "2": {
+          "count": 5949,
+          "percentage": 16.9,
+          "s0_percentage": 16.89,
+          "delta_percentage_points": 0.01
+        },
+        "3": {
+          "count": 6146,
+          "percentage": 17.46,
+          "s0_percentage": 17.46,
+          "delta_percentage_points": 0.0
+        },
+        "4": {
+          "count": 5773,
+          "percentage": 16.4,
+          "s0_percentage": 16.43,
+          "delta_percentage_points": -0.03
+        },
+        "5": {
+          "count": 5906,
+          "percentage": 16.78,
+          "s0_percentage": 16.77,
+          "delta_percentage_points": 0.01
+        },
+        "6": {
+          "count": 5616,
+          "percentage": 15.96,
+          "s0_percentage": 15.96,
+          "delta_percentage_points": 0.0
+        }
+      },
+      "remaining_flags": {
+        "is_masked_disagreement": 0,
+        "is_multiple": 1197,
+        "is_chunk": 4973,
+        "is_mixed_quality": 0,
+        "is_missing_labeled_by": 8028
+      },
+      "provenance": {
+        "labeled_by_present": 27167,
+        "labeled_by_missing": 8028,
+        "labeled_by_canonical_distribution": {
+          "Nico": {
+            "count": 15512,
+            "percentage": 44.07
+          },
+          "Tilyah": {
+            "count": 11032,
+            "percentage": 31.35
+          },
+          "(missing)": {
+            "count": 8028,
+            "percentage": 22.81
+          },
+          "auto_empty_v1": {
+            "count": 596,
+            "percentage": 1.69
+          },
+          "popas1": {
+            "count": 27,
+            "percentage": 0.08
+          }
+        }
+      },
+      "historical_tb": {
+        "complete_pairs": 16131,
+        "partial_pairs": 45,
+        "fully_removed_pairs": 0,
+        "complete_pairs_same_label_principal": 10706,
+        "complete_pairs_different_label_principal": 5425,
+        "paired_images_kept": 32307,
+        "unpaired_images_kept": 2888,
+        "images_in_disagreeing_pairs_kept": 10887
+      },
+      "changed_to_vide": {
+        "count": 12679,
+        "by_year": {
+          "2025": {
+            "count": 6423,
+            "percentage": 50.66
+          },
+          "2026": {
+            "count": 6256,
+            "percentage": 49.34
+          }
+        },
+        "by_camera": {
+          "6": {
+            "count": 2528,
+            "percentage": 19.94
+          },
+          "1": {
+            "count": 2521,
+            "percentage": 19.88
+          },
+          "5": {
+            "count": 2212,
+            "percentage": 17.45
+          },
+          "3": {
+            "count": 1862,
+            "percentage": 14.69
+          },
+          "2": {
+            "count": 1828,
+            "percentage": 14.42
+          },
+          "4": {
+            "count": 1728,
+            "percentage": 13.63
+          }
+        },
+        "by_position": {
+          "T": {
+            "count": 6692,
+            "percentage": 52.78
+          },
+          "B": {
+            "count": 5987,
+            "percentage": 47.22
+          }
+        },
+        "by_labeled_by_canonical": {
+          "Nico": {
+            "count": 5651,
+            "percentage": 44.57
+          },
+          "Tilyah": {
+            "count": 3433,
+            "percentage": 27.08
+          },
+          "(missing)": {
+            "count": 2997,
+            "percentage": 23.64
+          },
+          "auto_empty_v1": {
+            "count": 596,
+            "percentage": 4.7
+          },
+          "popas1": {
+            "count": 2,
+            "percentage": 0.02
+          }
+        },
+        "masked_covered": 1560,
+        "masked_not_covered": 11119
+      }
+    },
+    "S2": {
+      "title": "Contrôlée",
+      "excluded_flags": [
+        "is_masked_disagreement",
+        "is_multiple",
+        "is_chunk",
+        "is_mixed_quality"
+      ],
+      "kept_images": 29043,
+      "removed_images": 6211,
+      "kept_pct": 82.38,
+      "removed_pct": 17.62,
+      "classes": {
+        "Conforme": {
+          "count": 7922,
+          "percentage": 27.28,
+          "s0_percentage": 30.74,
+          "delta_percentage_points": -3.46
+        },
+        "NON Conforme": {
+          "count": 4667,
+          "percentage": 16.07,
+          "s0_percentage": 16.05,
+          "delta_percentage_points": 0.02
+        },
+        "PIETRA": {
+          "count": 3775,
+          "percentage": 13.0,
+          "s0_percentage": 17.11,
+          "delta_percentage_points": -4.11
+        },
+        "Vide": {
+          "count": 12679,
+          "percentage": 43.66,
+          "s0_percentage": 36.1,
+          "delta_percentage_points": 7.56
+        }
+      },
+      "years": {
+        "2025": {
+          "count": 15873,
+          "percentage": 54.65,
+          "s0_percentage": 57.49,
+          "delta_percentage_points": -2.84
+        },
+        "2026": {
+          "count": 13170,
+          "percentage": 45.35,
+          "s0_percentage": 42.51,
+          "delta_percentage_points": 2.84
+        }
+      },
+      "positions": {
+        "B": {
+          "count": 14878,
+          "percentage": 51.23,
+          "s0_percentage": 51.59,
+          "delta_percentage_points": -0.36
+        },
+        "T": {
+          "count": 14165,
+          "percentage": 48.77,
+          "s0_percentage": 48.41,
+          "delta_percentage_points": 0.36
+        }
+      },
+      "cameras": {
+        "1": {
+          "count": 5177,
+          "percentage": 17.83,
+          "s0_percentage": 16.48,
+          "delta_percentage_points": 1.35
+        },
+        "2": {
+          "count": 4998,
+          "percentage": 17.21,
+          "s0_percentage": 16.89,
+          "delta_percentage_points": 0.32
+        },
+        "3": {
+          "count": 4811,
+          "percentage": 16.57,
+          "s0_percentage": 17.46,
+          "delta_percentage_points": -0.89
+        },
+        "4": {
+          "count": 4559,
+          "percentage": 15.7,
+          "s0_percentage": 16.43,
+          "delta_percentage_points": -0.73
+        },
+        "5": {
+          "count": 4929,
+          "percentage": 16.97,
+          "s0_percentage": 16.77,
+          "delta_percentage_points": 0.2
+        },
+        "6": {
+          "count": 4569,
+          "percentage": 15.73,
+          "s0_percentage": 15.96,
+          "delta_percentage_points": -0.23
+        }
+      },
+      "remaining_flags": {
+        "is_masked_disagreement": 0,
+        "is_multiple": 0,
+        "is_chunk": 0,
+        "is_mixed_quality": 0,
+        "is_missing_labeled_by": 6940
+      },
+      "provenance": {
+        "labeled_by_present": 22103,
+        "labeled_by_missing": 6940,
+        "labeled_by_canonical_distribution": {
+          "Nico": {
+            "count": 13682,
+            "percentage": 47.11
+          },
+          "Tilyah": {
+            "count": 7806,
+            "percentage": 26.88
+          },
+          "(missing)": {
+            "count": 6940,
+            "percentage": 23.9
+          },
+          "auto_empty_v1": {
+            "count": 596,
+            "percentage": 2.05
+          },
+          "popas1": {
+            "count": 19,
+            "percentage": 0.07
+          }
+        }
+      },
+      "historical_tb": {
+        "complete_pairs": 11229,
+        "partial_pairs": 4245,
+        "fully_removed_pairs": 702,
+        "complete_pairs_same_label_principal": 7348,
+        "complete_pairs_different_label_principal": 3881,
+        "paired_images_kept": 26703,
+        "unpaired_images_kept": 2340,
+        "images_in_disagreeing_pairs_kept": 9336
+      },
+      "changed_to_vide": {
+        "count": 12679,
+        "by_year": {
+          "2025": {
+            "count": 6423,
+            "percentage": 50.66
+          },
+          "2026": {
+            "count": 6256,
+            "percentage": 49.34
+          }
+        },
+        "by_camera": {
+          "6": {
+            "count": 2528,
+            "percentage": 19.94
+          },
+          "1": {
+            "count": 2521,
+            "percentage": 19.88
+          },
+          "5": {
+            "count": 2212,
+            "percentage": 17.45
+          },
+          "3": {
+            "count": 1862,
+            "percentage": 14.69
+          },
+          "2": {
+            "count": 1828,
+            "percentage": 14.42
+          },
+          "4": {
+            "count": 1728,
+            "percentage": 13.63
+          }
+        },
+        "by_position": {
+          "T": {
+            "count": 6692,
+            "percentage": 52.78
+          },
+          "B": {
+            "count": 5987,
+            "percentage": 47.22
+          }
+        },
+        "by_labeled_by_canonical": {
+          "Nico": {
+            "count": 5651,
+            "percentage": 44.57
+          },
+          "Tilyah": {
+            "count": 3433,
+            "percentage": 27.08
+          },
+          "(missing)": {
+            "count": 2997,
+            "percentage": 23.64
+          },
+          "auto_empty_v1": {
+            "count": 596,
+            "percentage": 4.7
+          },
+          "popas1": {
+            "count": 2,
+            "percentage": 0.02
+          }
+        },
+        "masked_covered": 1560,
+        "masked_not_covered": 11119
+      }
+    },
+    "S3a": {
+      "title": "Stricte",
+      "excluded_flags": [
+        "is_masked_disagreement",
+        "is_multiple",
+        "is_chunk",
+        "is_mixed_quality"
+      ],
+      "kept_images": 29043,
+      "removed_images": 6211,
+      "kept_pct": 82.38,
+      "removed_pct": 17.62,
+      "classes": {
+        "Conforme": {
+          "count": 7922,
+          "percentage": 27.28,
+          "s0_percentage": 30.74,
+          "delta_percentage_points": -3.46
+        },
+        "NON Conforme": {
+          "count": 4667,
+          "percentage": 16.07,
+          "s0_percentage": 16.05,
+          "delta_percentage_points": 0.02
+        },
+        "PIETRA": {
+          "count": 3775,
+          "percentage": 13.0,
+          "s0_percentage": 17.11,
+          "delta_percentage_points": -4.11
+        },
+        "Vide": {
+          "count": 12679,
+          "percentage": 43.66,
+          "s0_percentage": 36.1,
+          "delta_percentage_points": 7.56
+        }
+      },
+      "years": {
+        "2025": {
+          "count": 15873,
+          "percentage": 54.65,
+          "s0_percentage": 57.49,
+          "delta_percentage_points": -2.84
+        },
+        "2026": {
+          "count": 13170,
+          "percentage": 45.35,
+          "s0_percentage": 42.51,
+          "delta_percentage_points": 2.84
+        }
+      },
+      "positions": {
+        "B": {
+          "count": 14878,
+          "percentage": 51.23,
+          "s0_percentage": 51.59,
+          "delta_percentage_points": -0.36
+        },
+        "T": {
+          "count": 14165,
+          "percentage": 48.77,
+          "s0_percentage": 48.41,
+          "delta_percentage_points": 0.36
+        }
+      },
+      "cameras": {
+        "1": {
+          "count": 5177,
+          "percentage": 17.83,
+          "s0_percentage": 16.48,
+          "delta_percentage_points": 1.35
+        },
+        "2": {
+          "count": 4998,
+          "percentage": 17.21,
+          "s0_percentage": 16.89,
+          "delta_percentage_points": 0.32
+        },
+        "3": {
+          "count": 4811,
+          "percentage": 16.57,
+          "s0_percentage": 17.46,
+          "delta_percentage_points": -0.89
+        },
+        "4": {
+          "count": 4559,
+          "percentage": 15.7,
+          "s0_percentage": 16.43,
+          "delta_percentage_points": -0.73
+        },
+        "5": {
+          "count": 4929,
+          "percentage": 16.97,
+          "s0_percentage": 16.77,
+          "delta_percentage_points": 0.2
+        },
+        "6": {
+          "count": 4569,
+          "percentage": 15.73,
+          "s0_percentage": 15.96,
+          "delta_percentage_points": -0.23
+        }
+      },
+      "remaining_flags": {
+        "is_masked_disagreement": 0,
+        "is_multiple": 0,
+        "is_chunk": 0,
+        "is_mixed_quality": 0,
+        "is_missing_labeled_by": 6940
+      },
+      "provenance": {
+        "labeled_by_present": 22103,
+        "labeled_by_missing": 6940,
+        "labeled_by_canonical_distribution": {
+          "Nico": {
+            "count": 13682,
+            "percentage": 47.11
+          },
+          "Tilyah": {
+            "count": 7806,
+            "percentage": 26.88
+          },
+          "(missing)": {
+            "count": 6940,
+            "percentage": 23.9
+          },
+          "auto_empty_v1": {
+            "count": 596,
+            "percentage": 2.05
+          },
+          "popas1": {
+            "count": 19,
+            "percentage": 0.07
+          }
+        }
+      },
+      "historical_tb": {
+        "complete_pairs": 11229,
+        "partial_pairs": 4245,
+        "fully_removed_pairs": 702,
+        "complete_pairs_same_label_principal": 7348,
+        "complete_pairs_different_label_principal": 3881,
+        "paired_images_kept": 26703,
+        "unpaired_images_kept": 2340,
+        "images_in_disagreeing_pairs_kept": 9336
+      },
+      "changed_to_vide": {
+        "count": 12679,
+        "by_year": {
+          "2025": {
+            "count": 6423,
+            "percentage": 50.66
+          },
+          "2026": {
+            "count": 6256,
+            "percentage": 49.34
+          }
+        },
+        "by_camera": {
+          "6": {
+            "count": 2528,
+            "percentage": 19.94
+          },
+          "1": {
+            "count": 2521,
+            "percentage": 19.88
+          },
+          "5": {
+            "count": 2212,
+            "percentage": 17.45
+          },
+          "3": {
+            "count": 1862,
+            "percentage": 14.69
+          },
+          "2": {
+            "count": 1828,
+            "percentage": 14.42
+          },
+          "4": {
+            "count": 1728,
+            "percentage": 13.63
+          }
+        },
+        "by_position": {
+          "T": {
+            "count": 6692,
+            "percentage": 52.78
+          },
+          "B": {
+            "count": 5987,
+            "percentage": 47.22
+          }
+        },
+        "by_labeled_by_canonical": {
+          "Nico": {
+            "count": 5651,
+            "percentage": 44.57
+          },
+          "Tilyah": {
+            "count": 3433,
+            "percentage": 27.08
+          },
+          "(missing)": {
+            "count": 2997,
+            "percentage": 23.64
+          },
+          "auto_empty_v1": {
+            "count": 596,
+            "percentage": 4.7
+          },
+          "popas1": {
+            "count": 2,
+            "percentage": 0.02
+          }
+        },
+        "masked_covered": 1560,
+        "masked_not_covered": 11119
+      }
+    },
+    "S3b": {
+      "title": "Stricte avec provenance",
+      "excluded_flags": [
+        "is_masked_disagreement",
+        "is_multiple",
+        "is_chunk",
+        "is_mixed_quality",
+        "is_missing_labeled_by"
+      ],
+      "kept_images": 22103,
+      "removed_images": 13151,
+      "kept_pct": 62.7,
+      "removed_pct": 37.3,
+      "classes": {
+        "Conforme": {
+          "count": 6723,
+          "percentage": 30.42,
+          "s0_percentage": 30.74,
+          "delta_percentage_points": -0.32
+        },
+        "NON Conforme": {
+          "count": 2553,
+          "percentage": 11.55,
+          "s0_percentage": 16.05,
+          "delta_percentage_points": -4.5
+        },
+        "PIETRA": {
+          "count": 3145,
+          "percentage": 14.23,
+          "s0_percentage": 17.11,
+          "delta_percentage_points": -2.88
+        },
+        "Vide": {
+          "count": 9682,
+          "percentage": 43.8,
+          "s0_percentage": 36.1,
+          "delta_percentage_points": 7.7
+        }
+      },
+      "years": {
+        "2025": {
+          "count": 11022,
+          "percentage": 49.87,
+          "s0_percentage": 57.49,
+          "delta_percentage_points": -7.62
+        },
+        "2026": {
+          "count": 11081,
+          "percentage": 50.13,
+          "s0_percentage": 42.51,
+          "delta_percentage_points": 7.62
+        }
+      },
+      "positions": {
+        "B": {
+          "count": 12759,
+          "percentage": 57.73,
+          "s0_percentage": 51.59,
+          "delta_percentage_points": 6.14
+        },
+        "T": {
+          "count": 9344,
+          "percentage": 42.27,
+          "s0_percentage": 48.41,
+          "delta_percentage_points": -6.14
+        }
+      },
+      "cameras": {
+        "1": {
+          "count": 3192,
+          "percentage": 14.44,
+          "s0_percentage": 16.48,
+          "delta_percentage_points": -2.04
+        },
+        "2": {
+          "count": 3011,
+          "percentage": 13.62,
+          "s0_percentage": 16.89,
+          "delta_percentage_points": -3.27
+        },
+        "3": {
+          "count": 3770,
+          "percentage": 17.06,
+          "s0_percentage": 17.46,
+          "delta_percentage_points": -0.4
+        },
+        "4": {
+          "count": 3898,
+          "percentage": 17.64,
+          "s0_percentage": 16.43,
+          "delta_percentage_points": 1.21
+        },
+        "5": {
+          "count": 4552,
+          "percentage": 20.59,
+          "s0_percentage": 16.77,
+          "delta_percentage_points": 3.82
+        },
+        "6": {
+          "count": 3680,
+          "percentage": 16.65,
+          "s0_percentage": 15.96,
+          "delta_percentage_points": 0.69
+        }
+      },
+      "remaining_flags": {
+        "is_masked_disagreement": 0,
+        "is_multiple": 0,
+        "is_chunk": 0,
+        "is_mixed_quality": 0,
+        "is_missing_labeled_by": 0
+      },
+      "provenance": {
+        "labeled_by_present": 22103,
+        "labeled_by_missing": 0,
+        "labeled_by_canonical_distribution": {
+          "Nico": {
+            "count": 13682,
+            "percentage": 61.9
+          },
+          "Tilyah": {
+            "count": 7806,
+            "percentage": 35.32
+          },
+          "auto_empty_v1": {
+            "count": 596,
+            "percentage": 2.7
+          },
+          "popas1": {
+            "count": 19,
+            "percentage": 0.09
+          }
+        }
+      },
+      "historical_tb": {
+        "complete_pairs": 6600,
+        "partial_pairs": 6795,
+        "fully_removed_pairs": 2781,
+        "complete_pairs_same_label_principal": 4177,
+        "complete_pairs_different_label_principal": 2423,
+        "paired_images_kept": 19995,
+        "unpaired_images_kept": 2108,
+        "images_in_disagreeing_pairs_kept": 7282
+      },
+      "changed_to_vide": {
+        "count": 9682,
+        "by_year": {
+          "2026": {
+            "count": 5152,
+            "percentage": 53.21
+          },
+          "2025": {
+            "count": 4530,
+            "percentage": 46.79
+          }
+        },
+        "by_camera": {
+          "5": {
+            "count": 2045,
+            "percentage": 21.12
+          },
+          "6": {
+            "count": 1990,
+            "percentage": 20.55
+          },
+          "4": {
+            "count": 1551,
+            "percentage": 16.02
+          },
+          "3": {
+            "count": 1540,
+            "percentage": 15.91
+          },
+          "1": {
+            "count": 1452,
+            "percentage": 15.0
+          },
+          "2": {
+            "count": 1104,
+            "percentage": 11.4
+          }
+        },
+        "by_position": {
+          "B": {
+            "count": 5101,
+            "percentage": 52.69
+          },
+          "T": {
+            "count": 4581,
+            "percentage": 47.31
+          }
+        },
+        "by_labeled_by_canonical": {
+          "Nico": {
+            "count": 5651,
+            "percentage": 58.37
+          },
+          "Tilyah": {
+            "count": 3433,
+            "percentage": 35.46
+          },
+          "auto_empty_v1": {
+            "count": 596,
+            "percentage": 6.16
+          },
+          "popas1": {
+            "count": 2,
+            "percentage": 0.02
+          }
+        },
+        "masked_covered": 1396,
+        "masked_not_covered": 8286
+      }
+    }
+  },
+  "S1_REVIEWED": {
+    "title": "S1 après revues humaines",
+    "status": "complete",
+    "kept_images": 35254,
+    "removed_images": 0,
+    "kept_pct": 100.0,
+    "removed_pct": 0.0,
+    "classes": {
+      "Conforme": {
+        "count": 10832,
+        "percentage": 30.73,
+        "s0_percentage": 30.74,
+        "delta_percentage_points": -0.01
+      },
+      "NON Conforme": {
+        "count": 5664,
+        "percentage": 16.07,
+        "s0_percentage": 16.05,
+        "delta_percentage_points": 0.02
+      },
+      "PIETRA": {
+        "count": 6034,
+        "percentage": 17.12,
+        "s0_percentage": 17.11,
+        "delta_percentage_points": 0.01
+      },
+      "Vide": {
+        "count": 12724,
+        "percentage": 36.09,
+        "s0_percentage": 36.1,
+        "delta_percentage_points": -0.01
+      }
+    },
+    "years": {
+      "2025": {
+        "count": 20266,
+        "percentage": 57.49,
+        "s0_percentage": 57.49,
+        "delta_percentage_points": 0.0
+      },
+      "2026": {
+        "count": 14988,
+        "percentage": 42.51,
+        "s0_percentage": 42.51,
+        "delta_percentage_points": 0.0
+      }
+    },
+    "positions": {
+      "B": {
+        "count": 18189,
+        "percentage": 51.59,
+        "s0_percentage": 51.59,
+        "delta_percentage_points": 0.0
+      },
+      "T": {
+        "count": 17065,
+        "percentage": 48.41,
+        "s0_percentage": 48.41,
+        "delta_percentage_points": 0.0
+      }
+    },
+    "cameras": {
+      "1": {
+        "count": 5811,
+        "percentage": 16.48,
+        "s0_percentage": 16.48,
+        "delta_percentage_points": 0.0
+      },
+      "2": {
+        "count": 5953,
+        "percentage": 16.89,
+        "s0_percentage": 16.89,
+        "delta_percentage_points": 0.0
+      },
+      "3": {
+        "count": 6157,
+        "percentage": 17.46,
+        "s0_percentage": 17.46,
+        "delta_percentage_points": 0.0
+      },
+      "4": {
+        "count": 5792,
+        "percentage": 16.43,
+        "s0_percentage": 16.43,
+        "delta_percentage_points": 0.0
+      },
+      "5": {
+        "count": 5913,
+        "percentage": 16.77,
+        "s0_percentage": 16.77,
+        "delta_percentage_points": 0.0
+      },
+      "6": {
+        "count": 5628,
+        "percentage": 15.96,
+        "s0_percentage": 15.96,
+        "delta_percentage_points": 0.0
+      }
+    },
+    "historical_tb": {
+      "complete_pairs": 16176,
+      "partial_pairs": 0,
+      "fully_removed_pairs": 0,
+      "complete_pairs_same_label_principal": 10714,
+      "complete_pairs_different_label_principal": 5462
+    },
+    "pending_or_uncertain_conflicts": 0,
+    "derived_labels_only": true
+  },
+  "individual_filter_impacts": {
+    "is_masked_disagreement": {
+      "removed_images": 59,
+      "by_class": {
+        "Vide": {
+          "count": 47,
+          "percentage": 79.66
+        },
+        "Conforme": {
+          "count": 12,
+          "percentage": 20.34
+        }
+      },
+      "by_year": {
+        "2025": {
+          "count": 59,
+          "percentage": 100.0
+        }
+      },
+      "by_position": {
+        "T": {
+          "count": 38,
+          "percentage": 64.41
+        },
+        "B": {
+          "count": 21,
+          "percentage": 35.59
+        }
+      },
+      "by_camera": {
+        "4": {
+          "count": 19,
+          "percentage": 32.2
+        },
+        "6": {
+          "count": 12,
+          "percentage": 20.34
+        },
+        "3": {
+          "count": 11,
+          "percentage": 18.64
+        },
+        "5": {
+          "count": 7,
+          "percentage": 11.86
+        },
+        "1": {
+          "count": 6,
+          "percentage": 10.17
+        },
+        "2": {
+          "count": 4,
+          "percentage": 6.78
+        }
+      }
+    },
+    "is_multiple": {
+      "removed_images": 1197,
+      "by_class": {
+        "Conforme": {
+          "count": 595,
+          "percentage": 49.71
+        },
+        "NON Conforme": {
+          "count": 388,
+          "percentage": 32.41
+        },
+        "PIETRA": {
+          "count": 214,
+          "percentage": 17.88
+        }
+      },
+      "by_year": {
+        "2025": {
+          "count": 664,
+          "percentage": 55.47
+        },
+        "2026": {
+          "count": 533,
+          "percentage": 44.53
+        }
+      },
+      "by_position": {
+        "B": {
+          "count": 639,
+          "percentage": 53.38
+        },
+        "T": {
+          "count": 558,
+          "percentage": 46.62
+        }
+      },
+      "by_camera": {
+        "3": {
+          "count": 330,
+          "percentage": 27.57
+        },
+        "2": {
+          "count": 243,
+          "percentage": 20.3
+        },
+        "4": {
+          "count": 203,
+          "percentage": 16.96
+        },
+        "1": {
+          "count": 192,
+          "percentage": 16.04
+        },
+        "5": {
+          "count": 143,
+          "percentage": 11.95
+        },
+        "6": {
+          "count": 86,
+          "percentage": 7.18
+        }
+      }
+    },
+    "is_chunk": {
+      "removed_images": 4975,
+      "by_class": {
+        "Conforme": {
+          "count": 2317,
+          "percentage": 46.57
+        },
+        "PIETRA": {
+          "count": 2045,
+          "percentage": 41.11
+        },
+        "NON Conforme": {
+          "count": 612,
+          "percentage": 12.3
+        },
+        "Vide": {
+          "count": 1,
+          "percentage": 0.02
+        }
+      },
+      "by_year": {
+        "2025": {
+          "count": 3684,
+          "percentage": 74.05
+        },
+        "2026": {
+          "count": 1291,
+          "percentage": 25.95
+        }
+      },
+      "by_position": {
+        "B": {
+          "count": 2656,
+          "percentage": 53.39
+        },
+        "T": {
+          "count": 2319,
+          "percentage": 46.61
+        }
+      },
+      "by_camera": {
+        "3": {
+          "count": 1018,
+          "percentage": 20.46
+        },
+        "4": {
+          "count": 1014,
+          "percentage": 20.38
+        },
+        "6": {
+          "count": 962,
+          "percentage": 19.34
+        },
+        "5": {
+          "count": 834,
+          "percentage": 16.76
+        },
+        "2": {
+          "count": 711,
+          "percentage": 14.29
+        },
+        "1": {
+          "count": 436,
+          "percentage": 8.76
+        }
+      }
+    },
+    "is_mixed_quality": {
+      "removed_images": 0,
+      "by_class": {},
+      "by_year": {},
+      "by_position": {},
+      "by_camera": {}
+    },
+    "is_missing_labeled_by": {
+      "removed_images": 8033,
+      "by_class": {
+        "Vide": {
+          "count": 3000,
+          "percentage": 37.35
+        },
+        "NON Conforme": {
+          "count": 2719,
+          "percentage": 33.85
+        },
+        "Conforme": {
+          "count": 1526,
+          "percentage": 19.0
+        },
+        "PIETRA": {
+          "count": 788,
+          "percentage": 9.81
+        }
+      },
+      "by_year": {
+        "2025": {
+          "count": 5694,
+          "percentage": 70.88
+        },
+        "2026": {
+          "count": 2339,
+          "percentage": 29.12
+        }
+      },
+      "by_position": {
+        "T": {
+          "count": 5511,
+          "percentage": 68.6
+        },
+        "B": {
+          "count": 2522,
+          "percentage": 31.4
+        }
+      },
+      "by_camera": {
+        "2": {
+          "count": 2322,
+          "percentage": 28.91
+        },
+        "1": {
+          "count": 2262,
+          "percentage": 28.16
+        },
+        "3": {
+          "count": 1229,
+          "percentage": 15.3
+        },
+        "6": {
+          "count": 976,
+          "percentage": 12.15
+        },
+        "4": {
+          "count": 817,
+          "percentage": 10.17
+        },
+        "5": {
+          "count": 427,
+          "percentage": 5.32
+        }
+      }
+    }
+  },
+  "flag_intersections": {
+    "multiple_and_chunk": 18,
+    "chunk_and_masked_disagreement": 2,
+    "multiple_and_masked_disagreement": 0,
+    "missing_labeled_by_and_vide": 3000,
+    "missing_labeled_by_and_multiple": 388,
+    "missing_labeled_by_and_chunk": 711,
+    "missing_labeled_by_and_masked_disagreement": 5,
+    "multiple_and_chunk_and_masked_disagreement": 0,
+    "missing_labeled_by_and_multiple_and_chunk": 11,
+    "union_masked_multiple_chunk_mixed_quality": 6211,
+    "missing_labeled_by_and_any_quality_filter": 1093
+  },
+  "notes": {
+    "S2_equals_S3a": true,
+    "pair_label_disagreement_is_not_a_filter": true,
+    "label_filename_change_is_not_a_filter": true,
+    "recommended_for_human_review": "S1_quantitatively_conservative_not_finally_validated"
+  }
+}

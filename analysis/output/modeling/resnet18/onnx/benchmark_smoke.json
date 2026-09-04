@@ -1,0 +1,148 @@
+{
+  "status": "smoke_pass",
+  "created_at": "2026-09-04T11:01:38.657310+02:00",
+  "model": "resnet18",
+  "onnx_path": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\resnet18\\onnx\\resnet18_castagnet.onnx",
+  "onnx_sha256": "e663bf4b6f3746072ea978f53ba6d958f3ea49c591c5a97311bebea219bcfd23",
+  "validation_only": true,
+  "test_manifest_loaded": false,
+  "batch_size": 1,
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "iterations": 5,
+  "warmup": 2,
+  "available_providers": [
+    "TensorrtExecutionProvider",
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "provider_failures": {},
+  "machine_measured": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "logical_cpu_count": 16,
+    "gpu": {
+      "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+      "memory_total_mib": 8192.0,
+      "driver_version": "591.74"
+    },
+    "target_hardware_is_current_machine": false,
+    "target_hardware": "NVIDIA GTX 1060 3 Go, ancien Intel i7, 12 flux",
+    "no_numeric_extrapolation_to_target": true
+  },
+  "results": {
+    "cpu": {
+      "provider_requested": "CPUExecutionProvider",
+      "providers_active": [
+        "CPUExecutionProvider"
+      ],
+      "session_load_seconds_excluded_from_latencies": 0.27168390003498644,
+      "warmup_iterations": 2,
+      "batch_size": 1,
+      "preprocessing_includes_image_decode": true,
+      "preprocessing": {
+        "iterations": 5,
+        "mean_ms": 17.062539979815483,
+        "median_ms": 15.110800042748451,
+        "p90_ms": 21.428039949387312,
+        "p95_ms": 23.15401993691921,
+        "p99_ms": 24.534803926944733,
+        "min_ms": 14.123599976301193,
+        "max_ms": 24.879999924451113,
+        "images_per_second": 58.60792128153092,
+        "total_measured_seconds": 0.08531269989907742
+      },
+      "inference_only": {
+        "iterations": 5,
+        "mean_ms": 22.47830000706017,
+        "median_ms": 21.227600052952766,
+        "p90_ms": 25.59795998968184,
+        "p95_ms": 25.668979971669614,
+        "p99_ms": 25.725795957259834,
+        "min_ms": 19.688499975018203,
+        "max_ms": 25.73999995365739,
+        "images_per_second": 44.48735000804828,
+        "total_measured_seconds": 0.11239150003530085
+      },
+      "preprocessing_plus_inference": {
+        "iterations": 5,
+        "mean_ms": 38.98785999044776,
+        "median_ms": 39.68970000278205,
+        "p90_ms": 41.656639985740185,
+        "p95_ms": 41.68221999425441,
+        "p99_ms": 41.70268400106579,
+        "min_ms": 34.42979999817908,
+        "max_ms": 41.707800002768636,
+        "images_per_second": 25.64900972366797,
+        "total_measured_seconds": 0.1949392999522388
+      },
+      "memory": {
+        "process_ram_before_session_bytes": 569065472,
+        "process_ram_after_bytes": 685977600,
+        "process_ram_peak_observed_bytes": 685977600,
+        "process_ram_peak_observed_mib": 654.19921875,
+        "gpu_process_memory_observed_mib": null,
+        "gpu_memory_measurement_note": "Non applicable au provider CPU."
+      }
+    },
+    "cuda": {
+      "provider_requested": "CUDAExecutionProvider",
+      "providers_active": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ],
+      "session_load_seconds_excluded_from_latencies": 8.82879449997563,
+      "warmup_iterations": 2,
+      "batch_size": 1,
+      "preprocessing_includes_image_decode": true,
+      "preprocessing": {
+        "iterations": 5,
+        "mean_ms": 12.945020035840571,
+        "median_ms": 12.259300099685788,
+        "p90_ms": 14.258180023171008,
+        "p95_ms": 14.377440023235977,
+        "p99_ms": 14.472848023287952,
+        "min_ms": 11.981500079855323,
+        "max_ms": 14.496700023300946,
+        "images_per_second": 77.24978387297382,
+        "total_measured_seconds": 0.06472510017920285
+      },
+      "inference_only": {
+        "iterations": 5,
+        "mean_ms": 4.240640019997954,
+        "median_ms": 4.183500073850155,
+        "p90_ms": 4.525200021453202,
+        "p95_ms": 4.562700004316866,
+        "p99_ms": 4.592699990607798,
+        "min_ms": 3.874200046993792,
+        "max_ms": 4.600199987180531,
+        "images_per_second": 235.81346100687944,
+        "total_measured_seconds": 0.021203200099989772
+      },
+      "preprocessing_plus_inference": {
+        "iterations": 5,
+        "mean_ms": 19.610420032404363,
+        "median_ms": 20.22260008379817,
+        "p90_ms": 20.829460001550615,
+        "p95_ms": 20.994279999285936,
+        "p99_ms": 21.126135997474194,
+        "min_ms": 17.887200112454593,
+        "max_ms": 21.159099997021258,
+        "images_per_second": 50.993298376454696,
+        "total_measured_seconds": 0.09805210016202182
+      },
+      "memory": {
+        "process_ram_before_session_bytes": 636182528,
+        "process_ram_after_bytes": 1162993664,
+        "process_ram_peak_observed_bytes": 1162993664,
+        "process_ram_peak_observed_mib": 1109.1171875,
+        "gpu_process_memory_observed_mib": null,
+        "gpu_memory_measurement_note": "Valeur nvidia-smi du processus si accessible ; ce n'est pas la mémoire d'une GTX 1060."
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+pair_id,top_filename,bottom_filename,top_frame,bottom_frame,top_timestamp_ms,bottom_timestamp_ms,delta_frames,delta_ms,temporal_cost,status,notes
+pair_0001,T_frame_000013_crop_02.jpg,B_frame_000020_crop_01.jpg,13,20,520.0,800.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0002,T_frame_000040_crop_02.jpg,B_frame_000046_crop_01.jpg,40,46,1600.0,1840.0,6,240.0,1,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0003,T_frame_000066_crop_01.jpg,B_frame_000073_crop_01.jpg,66,73,2640.0,2920.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0004,,B_frame_000100_crop_01.jpg,,100,,4000.0,,,,unmatched_bottom,Aucune association admissible forcée dans l'alignement temporel.
+pair_0005,T_frame_000119_crop_01.jpg,B_frame_000126_crop_01.jpg,119,126,4760.0,5040.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0006,T_frame_000146_crop_01.jpg,B_frame_000153_crop_01.jpg,146,153,5840.0,6120.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0007,T_frame_000173_crop_02.jpg,B_frame_000180_crop_01.jpg,173,180,6920.0,7200.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0008,T_frame_000199_crop_01.jpg,B_frame_000206_crop_01.jpg,199,206,7960.0,8240.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0009,T_frame_000226_crop_01.jpg,B_frame_000233_crop_01.jpg,226,233,9040.0,9320.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0010,,B_frame_000260_crop_02.jpg,,260,,10400.0,,,,unmatched_bottom,Aucune association admissible forcée dans l'alignement temporel.
+pair_0011,T_frame_000279_crop_02.jpg,B_frame_000286_crop_01.jpg,279,286,11160.0,11440.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0012,T_frame_000306_crop_01.jpg,B_frame_000313_crop_01.jpg,306,313,12240.0,12520.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0013,T_frame_000333_crop_01.jpg,B_frame_000339_crop_01.jpg,333,339,13320.0,13560.0,6,240.0,1,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0014,T_frame_000359_crop_01.jpg,B_frame_000366_crop_01.jpg,359,366,14360.0,14640.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0015,T_frame_000386_crop_01.jpg,,386,,15440.0,,,,,unmatched_top,Aucune association admissible forcée dans l'alignement temporel.
+pair_0016,T_frame_000413_crop_01.jpg,B_frame_000419_crop_01.jpg,413,419,16520.0,16760.0,6,240.0,1,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0017,T_frame_000439_crop_01.jpg,B_frame_000446_crop_01.jpg,439,446,17560.0,17840.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0018,T_frame_000466_crop_01.jpg,B_frame_000473_crop_01.jpg,466,473,18640.0,18920.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0019,T_frame_000492_crop_01.jpg,B_frame_000499_crop_01.jpg,492,499,19680.0,19960.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0020,T_frame_000519_crop_01.jpg,B_frame_000526_crop_01.jpg,519,526,20760.0,21040.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0021,T_frame_000546_crop_01.jpg,,546,,21840.0,,,,,unmatched_top,Aucune association admissible forcée dans l'alignement temporel.
+pair_0022,T_frame_000572_crop_01.jpg|T_frame_000572_crop_02.jpg,B_frame_000579_crop_01.jpg,572|572,579,22880.0|22880.0,23160.0,,,,ambiguous,"Associations optimales concurrentes : T_frame_000572_crop_01.jpg->B_frame_000579_crop_01.jpg (delta=7, cost=0); T_frame_000572_crop_02.jpg->B_frame_000579_crop_01.jpg (delta=7, cost=0)"
+pair_0023,T_frame_000599_crop_01.jpg,B_frame_000606_crop_01.jpg,599,606,23960.0,24240.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0024,T_frame_000626_crop_01.jpg,B_frame_000632_crop_01.jpg,626,632,25040.0,25280.0,6,240.0,1,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0025,T_frame_000652_crop_01.jpg,B_frame_000659_crop_01.jpg,652,659,26080.0,26360.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0026,T_frame_000679_crop_01.jpg,B_frame_000686_crop_01.jpg,679,686,27160.0,27440.0,7,280.0,0,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0027,T_frame_000706_crop_01.jpg,B_frame_000712_crop_01.jpg,706,712,28240.0,28480.0,6,240.0,1,matched_temporal,Paire forcée dans toutes les solutions optimales ; identité inférée temporellement.
+pair_0028,,B_frame_000739_crop_01.jpg,,739,,29560.0,,,,unmatched_bottom,Aucune association admissible forcée dans l'alignement temporel.

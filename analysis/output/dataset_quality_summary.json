@@ -1,0 +1,30 @@
+{
+  "dataset_images": 35254,
+  "unique_filenames": 35254,
+  "batch_num_present": 9986,
+  "reviewed_true": 35254,
+  "reviewed_false": 0,
+  "reviewed_true_missing_labeled_by": 8033,
+  "labelers": {
+    "raw_identifier_count": 7,
+    "canonical_labeler_count": 4,
+    "nico_images": 15518
+  },
+  "ambiguous_cases": {
+    "multiple": 1197,
+    "chunk": 4975,
+    "mixed_quality": 0,
+    "label_filename_vs_principal": 12726,
+    "masked_vs_principal": 59,
+    "unique_ambiguous_images": 18890
+  },
+  "labels_masked": {
+    "covered_images": 6577,
+    "coverage_percentage": 18.66,
+    "disagreements": 59
+  },
+  "source_sha256": {
+    "labels_principal.csv": "bda1b84412f1b7e2f2310624d31fef694b551673b9f0d0bbb0532422b25122cc",
+    "labels_masked.csv": "28fdac02f29515f9bda47c8f06203580fb818004bd1dccf8bb24a5a73f483023"
+  }
+}

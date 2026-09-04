@@ -1,0 +1,14 @@
+{
+  "python": "3.12.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "cpu_threads": 16,
+  "torch": "2.6.0+cu126",
+  "torchvision": "0.21.0+cu126",
+  "cuda_available": true,
+  "cuda_version": "12.6",
+  "cudnn_version": 90501,
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "gpu_vram_bytes": 8589410304
+}

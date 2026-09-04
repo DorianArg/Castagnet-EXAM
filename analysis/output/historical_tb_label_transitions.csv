@@ -1,0 +1,100 @@
+scope,key_id,top_label_principal,bottom_label_principal,count
+all,A,Conforme,Conforme,2570
+all,A,Conforme,Vide,407
+all,A,NON Conforme,NON Conforme,310
+all,A,NON Conforme,Vide,90
+all,A,PIETRA,PIETRA,325
+all,A,PIETRA,Vide,194
+all,A,Vide,Conforme,515
+all,A,Vide,NON Conforme,117
+all,A,Vide,PIETRA,225
+all,A,Vide,Vide,808
+2025,A,Conforme,Conforme,2570
+2025,A,Conforme,Vide,407
+2025,A,NON Conforme,NON Conforme,310
+2025,A,NON Conforme,Vide,90
+2025,A,Vide,Conforme,515
+2025,A,Vide,NON Conforme,117
+2025,A,Vide,PIETRA,5
+2025,A,Vide,Vide,653
+2026,A,PIETRA,PIETRA,325
+2026,A,PIETRA,Vide,194
+2026,A,Vide,PIETRA,220
+2026,A,Vide,Vide,155
+all,B,Conforme,Conforme,3743
+all,B,Conforme,Vide,745
+all,B,NON Conforme,NON Conforme,2078
+all,B,NON Conforme,Vide,625
+all,B,PIETRA,PIETRA,1733
+all,B,PIETRA,Vide,968
+all,B,Vide,Conforme,1018
+all,B,Vide,NON Conforme,797
+all,B,Vide,PIETRA,1309
+all,B,Vide,Vide,3160
+2025,B,Conforme,Conforme,2570
+2025,B,Conforme,Vide,407
+2025,B,NON Conforme,NON Conforme,1373
+2025,B,NON Conforme,Vide,335
+2025,B,PIETRA,PIETRA,780
+2025,B,PIETRA,Vide,394
+2025,B,Vide,Conforme,515
+2025,B,Vide,NON Conforme,467
+2025,B,Vide,PIETRA,486
+2025,B,Vide,Vide,1623
+2026,B,Conforme,Conforme,1173
+2026,B,Conforme,Vide,338
+2026,B,NON Conforme,NON Conforme,705
+2026,B,NON Conforme,Vide,290
+2026,B,PIETRA,PIETRA,953
+2026,B,PIETRA,Vide,574
+2026,B,Vide,Conforme,503
+2026,B,Vide,NON Conforme,330
+2026,B,Vide,PIETRA,823
+2026,B,Vide,Vide,1537
+all,C,Conforme,Conforme,1278
+all,C,Conforme,Vide,368
+all,C,NON Conforme,NON Conforme,2078
+all,C,NON Conforme,Vide,625
+all,C,PIETRA,PIETRA,1733
+all,C,PIETRA,Vide,968
+all,C,Vide,Conforme,536
+all,C,Vide,NON Conforme,797
+all,C,Vide,PIETRA,1309
+all,C,Vide,Vide,2626
+2025,C,Conforme,Conforme,105
+2025,C,Conforme,Vide,30
+2025,C,NON Conforme,NON Conforme,1373
+2025,C,NON Conforme,Vide,335
+2025,C,PIETRA,PIETRA,780
+2025,C,PIETRA,Vide,394
+2025,C,Vide,Conforme,33
+2025,C,Vide,NON Conforme,467
+2025,C,Vide,PIETRA,486
+2025,C,Vide,Vide,1089
+2026,C,Conforme,Conforme,1173
+2026,C,Conforme,Vide,338
+2026,C,NON Conforme,NON Conforme,705
+2026,C,NON Conforme,Vide,290
+2026,C,PIETRA,PIETRA,953
+2026,C,PIETRA,Vide,574
+2026,C,Vide,Conforme,503
+2026,C,Vide,NON Conforme,330
+2026,C,Vide,PIETRA,823
+2026,C,Vide,Vide,1537
+all,D,Conforme,Conforme,16
+all,D,Conforme,Vide,2
+all,D,NON Conforme,Conforme,3
+all,D,PIETRA,PIETRA,325
+all,D,PIETRA,Vide,194
+all,D,Vide,Conforme,12
+all,D,Vide,PIETRA,220
+all,D,Vide,Vide,160
+2025,D,Conforme,Conforme,16
+2025,D,Conforme,Vide,2
+2025,D,NON Conforme,Conforme,3
+2025,D,Vide,Conforme,12
+2025,D,Vide,Vide,5
+2026,D,PIETRA,PIETRA,325
+2026,D,PIETRA,Vide,194
+2026,D,Vide,PIETRA,220
+2026,D,Vide,Vide,155

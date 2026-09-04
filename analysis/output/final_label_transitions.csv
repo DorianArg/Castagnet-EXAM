@@ -1,0 +1,9 @@
+original_label,effective_label,count,is_correction
+Conforme,Vide,7,True
+Vide,Conforme,3,True
+Vide,NON Conforme,5,True
+Vide,PIETRA,1,True
+Conforme,Conforme,10829,False
+NON Conforme,NON Conforme,5659,False
+PIETRA,PIETRA,6033,False
+Vide,Vide,12717,False

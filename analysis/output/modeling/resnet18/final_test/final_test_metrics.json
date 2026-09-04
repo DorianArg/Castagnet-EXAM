@@ -1,0 +1,201 @@
+{
+  "status": "completed",
+  "evaluation_kind": "single_final_test_evaluation",
+  "test_images": 5288,
+  "single_inference_pass": true,
+  "device": "cuda",
+  "model": "resnet18",
+  "checkpoint_epoch": 13,
+  "checkpoint_sha256": "2aff26da95785868bbead488531874265f242e3d178ee9937cb16ff47b67348d",
+  "training_run_id": "db0ee7873903411e899e2f85384ae58a",
+  "frozen_conforme_threshold": 0.55,
+  "class_mapping": {
+    "Conforme": 0,
+    "NON Conforme": 1,
+    "PIETRA": 2,
+    "Vide": 3
+  },
+  "argmax": {
+    "accuracy": 0.8770801815431165,
+    "macro_precision": 0.849929007578168,
+    "macro_recall": 0.8435808635968587,
+    "macro_f1": 0.8453638096387199,
+    "per_class": {
+      "Conforme": {
+        "precision": 0.8815136476426799,
+        "recall": 0.8744615384615385,
+        "f1": 0.8779734321902997,
+        "support": 1625
+      },
+      "NON Conforme": {
+        "precision": 0.8571428571428571,
+        "recall": 0.7552941176470588,
+        "f1": 0.8030018761726079,
+        "support": 850
+      },
+      "PIETRA": {
+        "precision": 0.6699507389162561,
+        "recall": 0.7513812154696132,
+        "f1": 0.7083333333333334,
+        "support": 905
+      },
+      "Vide": {
+        "precision": 0.9911087866108786,
+        "recall": 0.9931865828092243,
+        "f1": 0.9921465968586387,
+        "support": 1908
+      }
+    },
+    "business_errors": {
+      "false_conforme_non_conforme": 42,
+      "false_conforme_pietra": 146,
+      "false_conforme_total": 188,
+      "conforme_rejected": 204
+    },
+    "loss": 0.34687498237380443,
+    "confusion_matrix": [
+      [
+        1421,
+        29,
+        173,
+        2
+      ],
+      [
+        42,
+        642,
+        156,
+        10
+      ],
+      [
+        146,
+        74,
+        680,
+        5
+      ],
+      [
+        3,
+        4,
+        6,
+        1895
+      ]
+    ]
+  },
+  "threshold_055": {
+    "accuracy": 0.875,
+    "macro_precision": 0.8480107982269424,
+    "macro_recall": 0.844425867471762,
+    "macro_f1": 0.8443970623478148,
+    "per_class": {
+      "Conforme": {
+        "precision": 0.8915971776779987,
+        "recall": 0.8553846153846154,
+        "f1": 0.8731155778894473,
+        "support": 1625
+      },
+      "NON Conforme": {
+        "precision": 0.852437417654809,
+        "recall": 0.7611764705882353,
+        "f1": 0.8042262274704786,
+        "support": 850
+      },
+      "PIETRA": {
+        "precision": 0.6568998109640832,
+        "recall": 0.7679558011049724,
+        "f1": 0.7080998471726948,
+        "support": 905
+      },
+      "Vide": {
+        "precision": 0.9911087866108786,
+        "recall": 0.9931865828092243,
+        "f1": 0.9921465968586387,
+        "support": 1908
+      }
+    },
+    "business_errors": {
+      "false_conforme_non_conforme": 36,
+      "false_conforme_pietra": 130,
+      "false_conforme_total": 166,
+      "conforme_rejected": 235
+    },
+    "loss": 0.34687498237380443,
+    "confusion_matrix": [
+      [
+        1390,
+        33,
+        200,
+        2
+      ],
+      [
+        36,
+        647,
+        157,
+        10
+      ],
+      [
+        130,
+        75,
+        695,
+        5
+      ],
+      [
+        3,
+        4,
+        6,
+        1895
+      ]
+    ]
+  },
+  "business_requirements": {
+    "precision_conforme_target": 0.95,
+    "recall_conforme_target": 0.85,
+    "precision_conforme_pass": false,
+    "recall_conforme_pass": true,
+    "both_pass": false
+  },
+  "anti_leakage": {
+    "test_used_for_architecture_selection": false,
+    "test_used_for_hyperparameter_tuning": false,
+    "threshold_selected_on_validation_before_test": true,
+    "model_or_threshold_adaptation_after_test": false,
+    "train_manifest_loaded": false,
+    "validation_manifest_loaded": false
+  },
+  "training_best_validation": {
+    "accuracy": 0.8814520703346569,
+    "macro_precision": 0.8596291609295512,
+    "macro_recall": 0.8497843913514525,
+    "macro_f1": 0.8521299153055785,
+    "per_class": {
+      "Conforme": {
+        "precision": 0.8835913312693499,
+        "recall": 0.8781538461538462,
+        "f1": 0.8808641975308642,
+        "support": 1625
+      },
+      "NON Conforme": {
+        "precision": 0.8892005610098177,
+        "recall": 0.7458823529411764,
+        "f1": 0.8112603966730646,
+        "support": 850
+      },
+      "PIETRA": {
+        "precision": 0.6761904761904762,
+        "recall": 0.7845303867403315,
+        "f1": 0.7263427109974424,
+        "support": 905
+      },
+      "Vide": {
+        "precision": 0.989534275248561,
+        "recall": 0.9905709795704557,
+        "f1": 0.9900523560209424,
+        "support": 1909
+      }
+    },
+    "business_errors": {
+      "false_conforme_non_conforme": 49,
+      "false_conforme_pietra": 132,
+      "false_conforme_total": 181,
+      "conforme_rejected": 198
+    }
+  }
+}

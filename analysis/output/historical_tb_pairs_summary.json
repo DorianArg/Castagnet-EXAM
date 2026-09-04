@@ -1,0 +1,48 @@
+{
+  "pairing_method": "historical_namespace",
+  "pairing_status": "heuristic_pair",
+  "historical_key": [
+    "year",
+    "batch_num",
+    "cam_num",
+    "sample_num",
+    "label_filename"
+  ],
+  "qualification": "strongly_supported_but_still_heuristic",
+  "manifest_sha256": "2ceaeca2a138aa874279b4e4c9d3be9d2da2942083d3e051f1a0294a814fabc1",
+  "dataset_images": 35254,
+  "pairs": 16176,
+  "covered_images": 32352,
+  "dataset_coverage_pct": 91.77,
+  "same_label_principal_pairs": 10714,
+  "different_label_principal_pairs": 5462,
+  "label_principal_agreement_rate_pct": 66.23,
+  "pairs_with_multiple": 1098,
+  "pairs_with_chunk": 3969,
+  "pairs_with_vide": 8622,
+  "unpaired_top_images": 889,
+  "unpaired_bottom_images": 2013,
+  "unpaired_images_total": 2902,
+  "unpaired_reason_distribution": {
+    "bottom_only": 2013,
+    "top_only": 889
+  },
+  "validations": {
+    "expected_pair_count": true,
+    "pair_id_unique": true,
+    "top_filename_unique": true,
+    "bottom_filename_unique": true,
+    "no_image_used_twice": true,
+    "all_top_in_manifest": true,
+    "all_bottom_in_manifest": true,
+    "exactly_one_top_and_one_bottom": true,
+    "historical_key_components_match": true,
+    "filenames_differ_only_by_position": true
+  },
+  "ml_semantics": {
+    "label_filename": "historical_namespace_only_not_target_or_feature",
+    "label_principal": "training_target_preserved_per_image",
+    "pair_level_final_label_created": false
+  },
+  "video_pairing_kept_separate": true
+}

@@ -1,0 +1,39 @@
+{
+  "status": "completed",
+  "selection": "minimum_euclidean_shortfall",
+  "objectives": {
+    "precision_conforme": 0.95,
+    "recall_conforme": 0.85
+  },
+  "eligible_threshold_count": 0,
+  "recommended": {
+    "threshold": 0.56,
+    "precision_conforme": 0.9001956947162426,
+    "recall_conforme": 0.8492307692307692,
+    "f1_conforme": 0.8739708676377455,
+    "non_conforme_to_conforme": 38,
+    "pietra_to_conforme": 111,
+    "false_conforme_total": 149,
+    "conforme_rejected": 245,
+    "accuracy": 0.8780487804878049,
+    "macro_f1": 0.8500795568508785,
+    "precision_shortfall": 0.049804305283757344,
+    "recall_shortfall": 0.0007692307692307443,
+    "distance_to_objectives": 0.049810245339428225
+  },
+  "validation_only": true,
+  "test_loaded": false,
+  "validation_images": 5289,
+  "thresholds_tested": 50,
+  "threshold_min": 0.5,
+  "threshold_max": 0.99,
+  "threshold_step": 0.01,
+  "device": "cuda",
+  "checkpoint": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\resnet18\\best_model.pt",
+  "checkpoint_sha256": "2aff26da95785868bbead488531874265f242e3d178ee9937cb16ff47b67348d",
+  "checkpoint_epoch": 13,
+  "checkpoint_val_loss": 0.325563205193313,
+  "validation_manifest": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\validation_manifest.csv",
+  "validation_manifest_sha256": "1c74f842439c2e20360097bb95745bb72ca9696e5c245a0e67ac0a97af1ce6cb",
+  "curve_csv": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\resnet18\\calibration\\conforme_threshold_curve.csv"
+}

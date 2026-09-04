@@ -1,0 +1,709 @@
+filename,effective_label,predicted_label,predicted_confidence,year,cam_position,cam_num,chunk,multiple,historical_pair_id
+2025_Conforme_1_Cam_B_3_133.jpg,Conforme,NON Conforme,0.6651626,2025,B,3,False,False,hist_550e3a2b5d890c730f2c038f
+2025_Conforme_1_Cam_B_3_144.jpg,Conforme,PIETRA,0.5765802,2025,B,3,False,False,hist_fdedf07b5ed4e4987e05c935
+2025_Conforme_1_Cam_B_3_189.jpg,Conforme,PIETRA,0.5396689,2025,B,3,False,False,hist_a10dce7251d6df5d1bc36043
+2025_Conforme_1_Cam_B_3_250.jpg,Conforme,PIETRA,0.5931965,2025,B,3,False,False,hist_a7df21c96079cdc557cacefb
+2025_Conforme_1_Cam_B_3_268.jpg,Conforme,PIETRA,0.7843862,2025,B,3,False,False,hist_549bb58704ecca5a8c6dc303
+2025_Conforme_1_Cam_B_3_398.jpg,Conforme,NON Conforme,0.6540612,2025,B,3,False,False,hist_fba045654b7d61de114da6eb
+2025_Conforme_1_Cam_B_3_463.jpg,Conforme,PIETRA,0.555266,2025,B,3,False,False,hist_01ab9eb1534a5cfb0a9a81ca
+2025_Conforme_1_Cam_B_3_464.jpg,Conforme,PIETRA,0.66501623,2025,B,3,False,False,hist_6a6f9561e9bf45cb7ff8e5dd
+2025_Conforme_1_Cam_B_3_472.jpg,Conforme,PIETRA,0.4979102,2025,B,3,False,True,hist_5a6b307cf0b55f166a478e95
+2025_Conforme_1_Cam_B_3_60.jpg,Conforme,PIETRA,0.48593724,2025,B,3,True,False,hist_dd48edd19eb337d6590a989a
+2025_Conforme_1_Cam_B_4_160.jpg,Conforme,PIETRA,0.9281941,2025,B,4,True,False,hist_3f89d733d28b1732883daa96
+2025_Conforme_1_Cam_B_4_177.jpg,Conforme,PIETRA,0.7276669,2025,B,4,True,False,hist_698f1e755f9119de3a707421
+2025_Conforme_1_Cam_B_4_179.jpg,Conforme,PIETRA,0.5664409,2025,B,4,False,False,hist_f574e7e45f23a8bed3933d0b
+2025_Conforme_1_Cam_B_4_247.jpg,Conforme,PIETRA,0.81636375,2025,B,4,True,False,hist_72276249a525d0f69149849c
+2025_Conforme_1_Cam_B_4_255.jpg,Conforme,PIETRA,0.6928888,2025,B,4,True,False,hist_f934471e05fce74b200f11de
+2025_Conforme_1_Cam_B_4_302.jpg,Conforme,PIETRA,0.6716987,2025,B,4,False,False,hist_8463b595c6b810129b89efd6
+2025_Conforme_1_Cam_B_4_318.jpg,Conforme,PIETRA,0.80743146,2025,B,4,False,False,hist_da458dc502812a405cf63544
+2025_Conforme_1_Cam_B_4_333.jpg,Conforme,PIETRA,0.77240586,2025,B,4,True,False,hist_1cb71879a9a55e7ee9b644f9
+2025_Conforme_1_Cam_B_4_353.jpg,Conforme,PIETRA,0.572442,2025,B,4,True,False,hist_de8db128cc8847bfd280df23
+2025_Conforme_1_Cam_B_4_359.jpg,Conforme,PIETRA,0.75272423,2025,B,4,True,False,hist_8b3909e93c8c2d0ed4224de5
+2025_Conforme_1_Cam_B_4_390.jpg,Conforme,PIETRA,0.5239564,2025,B,4,True,False,hist_efa1666b02c42bfe0ffae97d
+2025_Conforme_1_Cam_B_4_80.jpg,Conforme,PIETRA,0.58257496,2025,B,4,False,True,hist_4798047f23c4558f7b4cddd5
+2025_Conforme_1_Cam_B_4_88.jpg,Conforme,PIETRA,0.8154859,2025,B,4,False,False,hist_192bd13d4ccb2dc08f9e5c84
+2025_Conforme_1_Cam_B_6_406.jpg,Vide,Conforme,0.99805534,2025,B,6,False,False,hist_f15a0ce1197c361d5c906a8d
+2025_Conforme_1_Cam_T_2_27.jpg,Conforme,Vide,0.9977354,2025,T,2,False,False,hist_bc1183a848af0da5148470c5
+2025_Conforme_1_Cam_T_3_115.jpg,Conforme,PIETRA,0.52706003,2025,T,3,False,False,hist_fb6bdb4e36dbacae3c59d3af
+2025_Conforme_1_Cam_T_3_133.jpg,Conforme,PIETRA,0.56152785,2025,T,3,False,False,hist_550e3a2b5d890c730f2c038f
+2025_Conforme_1_Cam_T_3_144.jpg,Conforme,NON Conforme,0.6251617,2025,T,3,True,False,hist_fdedf07b5ed4e4987e05c935
+2025_Conforme_1_Cam_T_3_159.jpg,Conforme,PIETRA,0.8304375,2025,T,3,False,False,hist_f76d1a282c8bad7af49ad8d2
+2025_Conforme_1_Cam_T_3_195.jpg,Conforme,PIETRA,0.5480802,2025,T,3,False,False,hist_3ac6cf908eccf5e2116ee8c6
+2025_Conforme_1_Cam_T_3_255.jpg,Conforme,PIETRA,0.7406064,2025,T,3,True,False,hist_d8025a6ce10f060936628a73
+2025_Conforme_1_Cam_T_3_293.jpg,Conforme,PIETRA,0.42970595,2025,T,3,True,False,hist_a5332ea48cd82c9c6f77335b
+2025_Conforme_1_Cam_T_3_30.jpg,Conforme,PIETRA,0.4930624,2025,T,3,False,False,hist_6f4e94dfee7f8391cd38ac4c
+2025_Conforme_1_Cam_T_3_345.jpg,Conforme,PIETRA,0.4914102,2025,T,3,False,False,hist_3139262aac36b553562d7246
+2025_Conforme_1_Cam_T_3_398.jpg,Conforme,PIETRA,0.8674175,2025,T,3,False,False,hist_fba045654b7d61de114da6eb
+2025_Conforme_1_Cam_T_3_441.jpg,Conforme,PIETRA,0.61032,2025,T,3,True,False,hist_81d24a18b1ec82b42a1d3891
+2025_Conforme_1_Cam_T_3_442.jpg,Conforme,PIETRA,0.6859651,2025,T,3,True,False,hist_ebd6c6728ab8c8fc75966611
+2025_Conforme_1_Cam_T_3_461.jpg,Conforme,PIETRA,0.6074465,2025,T,3,False,False,hist_a08f1b622d0e8cd62717dc07
+2025_Conforme_1_Cam_T_3_464.jpg,Conforme,PIETRA,0.77234674,2025,T,3,False,False,hist_6a6f9561e9bf45cb7ff8e5dd
+2025_Conforme_1_Cam_T_3_47.jpg,Conforme,PIETRA,0.8395298,2025,T,3,False,False,hist_271b7fdb24faa7c67cbb57b9
+2025_Conforme_1_Cam_T_3_472.jpg,Conforme,PIETRA,0.8162524,2025,T,3,True,False,hist_5a6b307cf0b55f166a478e95
+2025_Conforme_1_Cam_T_3_475.jpg,Conforme,PIETRA,0.66756034,2025,T,3,False,False,hist_559bcea6de2e69d9e25e352d
+2025_Conforme_1_Cam_T_3_478.jpg,Conforme,PIETRA,0.69298613,2025,T,3,False,False,hist_d3b5f12345fbdb47888b8cc9
+2025_Conforme_1_Cam_T_3_483.jpg,Conforme,PIETRA,0.5998881,2025,T,3,True,False,hist_d4b314111289c7f81ec160dd
+2025_Conforme_1_Cam_T_3_507.jpg,Conforme,NON Conforme,0.5051006,2025,T,3,False,False,hist_7a41ec1f7e63f964b1ce9ffd
+2025_Conforme_1_Cam_T_3_68.jpg,Conforme,PIETRA,0.7312248,2025,T,3,False,False,hist_d1124e7ffa50393994fc004c
+2025_Conforme_1_Cam_T_3_71.jpg,Conforme,PIETRA,0.78445596,2025,T,3,False,False,hist_17be1f64aa4f11eb8689ca27
+2025_Conforme_1_Cam_T_4_113.jpg,Conforme,PIETRA,0.5053464,2025,T,4,False,True,
+2025_Conforme_1_Cam_T_4_124.jpg,Conforme,PIETRA,0.63068783,2025,T,4,True,False,hist_12f3449e33195980134fb576
+2025_Conforme_1_Cam_T_4_161.jpg,Conforme,PIETRA,0.90041256,2025,T,4,True,False,hist_13dfd5d9d5479b068613b36d
+2025_Conforme_1_Cam_T_4_170.jpg,Conforme,PIETRA,0.7954814,2025,T,4,True,False,hist_bc35344193a2851490ed441a
+2025_Conforme_1_Cam_T_4_190.jpg,Conforme,NON Conforme,0.63964903,2025,T,4,True,False,hist_5a15fb9e64b24dba82154ade
+2025_Conforme_1_Cam_T_4_302.jpg,Conforme,PIETRA,0.7085172,2025,T,4,False,False,hist_8463b595c6b810129b89efd6
+2025_Conforme_1_Cam_T_4_303.jpg,Conforme,PIETRA,0.8037211,2025,T,4,False,False,hist_e89e458bdb29cb5cf511177c
+2025_Conforme_1_Cam_T_4_439.jpg,Vide,Conforme,0.57910156,2025,T,4,False,False,hist_90f57636a4823f833be220ab
+2025_Conforme_1_Cam_T_4_51.jpg,Conforme,PIETRA,0.6213486,2025,T,4,True,False,hist_5b9c0e97e0f517276bfaa9d9
+2025_Conforme_1_Cam_T_5_120.jpg,Conforme,PIETRA,0.47701868,2025,T,5,True,False,hist_e72f387fa66007f599ef8c90
+2025_Conforme_1_Cam_T_5_143.jpg,Conforme,PIETRA,0.80912715,2025,T,5,False,False,hist_b374b95904f701f688aa6c80
+2025_Conforme_1_Cam_T_5_162.jpg,Conforme,PIETRA,0.6176198,2025,T,5,False,False,hist_8fb60a8357361d23d7f18b77
+2025_Conforme_1_Cam_T_5_260.jpg,Conforme,NON Conforme,0.39193484,2025,T,5,False,False,hist_e80448d0665d2b957830b018
+2025_Conforme_1_Cam_T_5_320.jpg,Conforme,NON Conforme,0.51845604,2025,T,5,False,False,hist_045cc861492765977bef8255
+2025_Conforme_1_Cam_T_5_71.jpg,Conforme,NON Conforme,0.69413376,2025,T,5,False,False,hist_9adc4e37e7c50ea37f18ec9b
+2025_Conforme_1_Cam_T_6_101.jpg,Conforme,PIETRA,0.663063,2025,T,6,True,False,hist_d276e39fb8d28f3fc348eedf
+2025_Conforme_1_Cam_T_6_146.jpg,Conforme,PIETRA,0.80111766,2025,T,6,False,False,hist_35b83fa7f56d7aa1807ae71f
+2025_Conforme_1_Cam_T_6_148.jpg,Conforme,PIETRA,0.5070873,2025,T,6,False,False,hist_59deb256a157f8eecea6a473
+2025_Conforme_1_Cam_T_6_254.jpg,Conforme,PIETRA,0.6762786,2025,T,6,False,False,hist_8f09b9d99594d33ed0bfdb74
+2025_Conforme_1_Cam_T_6_285.jpg,Conforme,NON Conforme,0.6184555,2025,T,6,True,False,hist_0f48319734d2c098b3e10ef8
+2025_Conforme_1_Cam_T_6_358.jpg,Conforme,PIETRA,0.4897497,2025,T,6,False,False,hist_02b736208379a17defbbbf69
+2025_Conforme_1_Cam_T_6_366.jpg,Conforme,PIETRA,0.38065425,2025,T,6,True,False,hist_f78886883b914407c890609e
+2025_Conforme_1_Cam_T_6_374.jpg,Conforme,NON Conforme,0.9401845,2025,T,6,False,False,hist_1cad0dd2aa7e21b73fd16c2a
+2025_Conforme_1_Cam_T_6_441.jpg,Conforme,PIETRA,0.46295366,2025,T,6,False,False,
+2025_Conforme_2_Cam_B_1_140.jpg,Conforme,PIETRA,0.67679095,2025,B,1,True,False,hist_202270ab167a25bf62d5426b
+2025_Conforme_2_Cam_B_1_187.jpg,Conforme,PIETRA,0.9013893,2025,B,1,False,False,hist_c57d0c00455c1b7a0131bf50
+2025_Conforme_2_Cam_B_1_199.jpg,Conforme,PIETRA,0.6932517,2025,B,1,False,True,hist_8ca3259fd4a61113fa076231
+2025_Conforme_2_Cam_B_1_249.jpg,Conforme,PIETRA,0.5353615,2025,B,1,False,False,hist_cc4a188f09beab46e8e8c600
+2025_Conforme_2_Cam_B_1_294.jpg,Conforme,PIETRA,0.7180434,2025,B,1,False,False,
+2025_Conforme_2_Cam_B_1_302.jpg,Conforme,PIETRA,0.80484927,2025,B,1,False,False,
+2025_Conforme_2_Cam_B_1_315.jpg,Conforme,PIETRA,0.63177854,2025,B,1,True,False,
+2025_Conforme_2_Cam_B_1_367.jpg,Conforme,PIETRA,0.672613,2025,B,1,False,False,
+2025_Conforme_2_Cam_B_1_398.jpg,Conforme,PIETRA,0.72520244,2025,B,1,False,False,
+2025_Conforme_2_Cam_B_1_42.jpg,Conforme,PIETRA,0.5008083,2025,B,1,False,False,hist_5f0a915d0a61e56ebaad6275
+2025_Conforme_2_Cam_B_1_422.jpg,Conforme,NON Conforme,0.68155956,2025,B,1,False,True,
+2025_Conforme_2_Cam_B_1_454.jpg,Conforme,PIETRA,0.54923177,2025,B,1,False,False,
+2025_Conforme_2_Cam_B_1_466.jpg,Conforme,PIETRA,0.650385,2025,B,1,False,False,
+2025_Conforme_2_Cam_B_1_80.jpg,Conforme,PIETRA,0.5947846,2025,B,1,False,False,hist_29e2341182c59a27c2dcc69e
+2025_Conforme_2_Cam_B_2_209.jpg,Conforme,PIETRA,0.61449105,2025,B,2,False,True,hist_17d0eb3ae859a3775245be78
+2025_Conforme_2_Cam_B_2_215.jpg,Conforme,PIETRA,0.6530832,2025,B,2,False,False,hist_1f1acf7cd394f015319b5bd1
+2025_Conforme_2_Cam_B_2_216.jpg,Conforme,PIETRA,0.70959705,2025,B,2,False,False,hist_75bdea05b2997dcba99b1689
+2025_Conforme_2_Cam_B_2_251.jpg,Conforme,PIETRA,0.64988804,2025,B,2,False,False,hist_f04d461df52e15959ac5001a
+2025_Conforme_2_Cam_B_2_268.jpg,Conforme,NON Conforme,0.57001376,2025,B,2,True,False,hist_5aaaa221621f0dd85c24620e
+2025_Conforme_2_Cam_B_2_332.jpg,Conforme,PIETRA,0.52127105,2025,B,2,False,False,
+2025_Conforme_2_Cam_B_2_339.jpg,Conforme,PIETRA,0.92211103,2025,B,2,True,False,
+2025_Conforme_2_Cam_B_2_342.jpg,Conforme,PIETRA,0.4410172,2025,B,2,False,False,
+2025_Conforme_2_Cam_B_2_351.jpg,Conforme,PIETRA,0.6177579,2025,B,2,False,False,
+2025_Conforme_2_Cam_B_2_365.jpg,Conforme,PIETRA,0.5088007,2025,B,2,False,False,
+2025_Conforme_2_Cam_B_2_420.jpg,Conforme,PIETRA,0.49770314,2025,B,2,False,False,
+2025_Conforme_2_Cam_B_2_441.jpg,Conforme,PIETRA,0.5944307,2025,B,2,False,False,
+2025_Conforme_2_Cam_B_2_489.jpg,Conforme,PIETRA,0.49236202,2025,B,2,False,False,
+2025_Conforme_2_Cam_B_2_493.jpg,Conforme,PIETRA,0.738257,2025,B,2,False,False,
+2025_Conforme_2_Cam_B_2_504.jpg,Conforme,PIETRA,0.5496851,2025,B,2,True,False,
+2025_Conforme_2_Cam_B_2_505.jpg,Conforme,NON Conforme,0.61098254,2025,B,2,True,False,
+2025_Conforme_2_Cam_B_2_518.jpg,Conforme,PIETRA,0.7879754,2025,B,2,False,True,
+2025_Conforme_2_Cam_B_3_120.jpg,Conforme,NON Conforme,0.5550353,2025,B,3,True,False,hist_c31b0d152abcd0b95bfd0230
+2025_Conforme_2_Cam_B_3_145.jpg,Conforme,NON Conforme,0.6393253,2025,B,3,True,False,hist_7443e789f03be67daa58dac0
+2025_Conforme_2_Cam_B_3_319.jpg,Conforme,PIETRA,0.48761025,2025,B,3,True,False,
+2025_Conforme_2_Cam_B_3_349.jpg,Conforme,NON Conforme,0.98192465,2025,B,3,True,False,
+2025_Conforme_2_Cam_B_3_37.jpg,Conforme,PIETRA,0.6722639,2025,B,3,True,False,hist_2576c87621406ee5ab9e7dde
+2025_Conforme_2_Cam_B_3_395.jpg,Conforme,PIETRA,0.8421465,2025,B,3,False,True,
+2025_Conforme_2_Cam_B_3_448.jpg,Conforme,PIETRA,0.5024649,2025,B,3,False,False,
+2025_Conforme_2_Cam_B_4_196.jpg,Conforme,PIETRA,0.72049576,2025,B,4,False,False,hist_486a36b96e8240beef502f94
+2025_Conforme_2_Cam_B_4_211.jpg,Conforme,PIETRA,0.5709021,2025,B,4,True,False,hist_f574b641901694ecfe38c1b4
+2025_Conforme_2_Cam_B_4_220.jpg,Conforme,PIETRA,0.69721407,2025,B,4,False,False,hist_0a0be2bf7764c125216dc1fa
+2025_Conforme_2_Cam_B_4_237.jpg,Conforme,PIETRA,0.52012676,2025,B,4,True,False,hist_51f040fa1261acccefb1f493
+2025_Conforme_2_Cam_B_4_269.jpg,Conforme,PIETRA,0.71907717,2025,B,4,False,False,
+2025_Conforme_2_Cam_B_4_287.jpg,Conforme,PIETRA,0.9396581,2025,B,4,True,False,
+2025_Conforme_2_Cam_B_4_319.jpg,Conforme,PIETRA,0.7079859,2025,B,4,True,False,
+2025_Conforme_2_Cam_B_4_339.jpg,NON Conforme,PIETRA,0.7768573,2025,B,4,False,False,
+2025_Conforme_2_Cam_B_4_364.jpg,Conforme,PIETRA,0.6091032,2025,B,4,False,False,
+2025_Conforme_2_Cam_B_4_365.jpg,Conforme,PIETRA,0.65476036,2025,B,4,True,False,
+2025_Conforme_2_Cam_B_4_370.jpg,Conforme,PIETRA,0.5412008,2025,B,4,True,False,
+2025_Conforme_2_Cam_B_4_394.jpg,Vide,PIETRA,0.555022,2025,B,4,False,False,
+2025_Conforme_2_Cam_B_5_141.jpg,Conforme,PIETRA,0.78758425,2025,B,5,True,False,hist_18b9fe7f2dbbf1baeaf4af53
+2025_Conforme_2_Cam_B_5_150.jpg,Conforme,PIETRA,0.83601785,2025,B,5,True,False,hist_20e734cdba7f449d39c292d9
+2025_Conforme_2_Cam_B_5_173.jpg,Conforme,PIETRA,0.3997135,2025,B,5,False,False,hist_c6253a2dfebd08612c89fe11
+2025_Conforme_2_Cam_B_5_253.jpg,Conforme,PIETRA,0.5046171,2025,B,5,False,False,
+2025_Conforme_2_Cam_B_5_298.jpg,Conforme,NON Conforme,0.5441738,2025,B,5,False,False,
+2025_Conforme_2_Cam_B_5_350.jpg,Conforme,PIETRA,0.61473393,2025,B,5,True,False,
+2025_Conforme_2_Cam_B_5_376.jpg,Conforme,NON Conforme,0.7206595,2025,B,5,False,False,
+2025_Conforme_2_Cam_B_5_436.jpg,NON Conforme,Vide,0.6743684,2025,B,5,False,False,
+2025_Conforme_2_Cam_B_5_510.jpg,Conforme,PIETRA,0.860459,2025,B,5,True,False,
+2025_Conforme_2_Cam_B_5_512.jpg,Conforme,PIETRA,0.5234002,2025,B,5,False,False,
+2025_Conforme_2_Cam_B_5_58.jpg,Conforme,NON Conforme,0.64246106,2025,B,5,False,False,hist_9b18410b51966ac444965103
+2025_Conforme_2_Cam_B_5_76.jpg,Conforme,PIETRA,0.6799953,2025,B,5,True,False,hist_201abb795e467a64aa61fa7a
+2025_Conforme_2_Cam_B_6_136.jpg,Conforme,PIETRA,0.37923437,2025,B,6,False,False,hist_eb6c67beb36a5583f4ffbf0e
+2025_Conforme_2_Cam_B_6_144.jpg,Conforme,PIETRA,0.7851871,2025,B,6,True,False,hist_faeebf8d32c1ca4f501c55df
+2025_Conforme_2_Cam_B_6_161.jpg,Conforme,PIETRA,0.7338708,2025,B,6,True,False,hist_c94390788538befb9ff3efe8
+2025_Conforme_2_Cam_B_6_276.jpg,Conforme,PIETRA,0.8435936,2025,B,6,False,False,
+2025_Conforme_2_Cam_B_6_370.jpg,Conforme,PIETRA,0.529117,2025,B,6,True,False,
+2025_Conforme_2_Cam_B_6_381.jpg,Conforme,PIETRA,0.7278316,2025,B,6,True,False,
+2025_Conforme_2_Cam_B_6_44.jpg,Conforme,PIETRA,0.5313536,2025,B,6,False,False,hist_4f3716c1e65be85794280dcb
+2025_Conforme_2_Cam_B_6_459.jpg,Conforme,PIETRA,0.8994067,2025,B,6,True,False,
+2025_Conforme_2_Cam_B_6_473.jpg,Conforme,PIETRA,0.810846,2025,B,6,False,False,
+2025_Conforme_2_Cam_B_6_513.jpg,Conforme,PIETRA,0.63580316,2025,B,6,False,False,
+2025_Conforme_2_Cam_T_1_144.jpg,Vide,Conforme,0.85488284,2025,T,1,False,False,hist_b29a312eaa1277b00dddbaf8
+2025_Conforme_2_Cam_T_3_182.jpg,Conforme,PIETRA,0.51537544,2025,T,3,False,False,hist_045f3917fa4896fea4997e7d
+2025_NON_Conforme_Cam_B_1_101.jpg,NON Conforme,PIETRA,0.86081725,2025,B,1,False,False,hist_b8470246156e31676f1a18d6
+2025_NON_Conforme_Cam_B_1_404.jpg,NON Conforme,PIETRA,0.52477163,2025,B,1,False,False,hist_1a12565e130c8af4cfcf022c
+2025_NON_Conforme_Cam_B_1_415.jpg,NON Conforme,PIETRA,0.60678446,2025,B,1,True,False,hist_6bddfe36ab5734fb4dffc04a
+2025_NON_Conforme_Cam_B_1_421.jpg,NON Conforme,Conforme,0.8918913,2025,B,1,False,False,hist_853ed66b1849cc7936a127f4
+2025_NON_Conforme_Cam_B_1_454.jpg,NON Conforme,PIETRA,0.85749596,2025,B,1,False,False,hist_7d4155f3e1223e55557c8d3d
+2025_NON_Conforme_Cam_B_1_477.jpg,NON Conforme,PIETRA,0.68734336,2025,B,1,True,False,hist_4b593a77270da5c95537e008
+2025_NON_Conforme_Cam_B_1_67.jpg,NON Conforme,PIETRA,0.7031681,2025,B,1,True,False,hist_c11d495992cfeb34b07e07b4
+2025_NON_Conforme_Cam_B_1_98.jpg,NON Conforme,PIETRA,0.7659306,2025,B,1,True,False,hist_ea25a99bfa3a773a0138e58c
+2025_NON_Conforme_Cam_B_1_99.jpg,NON Conforme,PIETRA,0.79807204,2025,B,1,False,True,hist_21ff009b4fffcf30f98c86b2
+2025_NON_Conforme_Cam_B_2_153.jpg,NON Conforme,PIETRA,0.51385766,2025,B,2,False,False,hist_4aa40d0fddd067e9ddcb2580
+2025_NON_Conforme_Cam_B_2_224.jpg,NON Conforme,PIETRA,0.9431217,2025,B,2,False,False,hist_37e6e27a798d9a779c38d926
+2025_NON_Conforme_Cam_B_2_225.jpg,NON Conforme,Conforme,0.6626965,2025,B,2,False,False,hist_4b7477569b0b038d177f425b
+2025_NON_Conforme_Cam_B_2_230.jpg,NON Conforme,PIETRA,0.84077185,2025,B,2,False,False,hist_e5e9882d34023b016ff22a2b
+2025_NON_Conforme_Cam_B_2_288.jpg,NON Conforme,PIETRA,0.92693645,2025,B,2,False,False,hist_22ebd9c74810c39ad2f02418
+2025_NON_Conforme_Cam_B_2_314.jpg,NON Conforme,PIETRA,0.6652884,2025,B,2,False,False,hist_bde9f25b1978f1bc8ba7e2e3
+2025_NON_Conforme_Cam_B_2_316.jpg,NON Conforme,Conforme,0.5046493,2025,B,2,False,True,hist_2b3542e7fafcc3394589dd4a
+2025_NON_Conforme_Cam_B_2_336.jpg,NON Conforme,Conforme,0.69581026,2025,B,2,False,False,hist_e7fed5334b2bd19520f16255
+2025_NON_Conforme_Cam_B_2_343.jpg,NON Conforme,Conforme,0.6909824,2025,B,2,False,False,hist_4bac4775d7da75104bed542b
+2025_NON_Conforme_Cam_B_2_358.jpg,NON Conforme,Conforme,0.43261063,2025,B,2,False,False,hist_4baf27d9dfb0082190aa8831
+2025_NON_Conforme_Cam_B_2_437.jpg,NON Conforme,PIETRA,0.70662487,2025,B,2,False,True,hist_c5249dee3d9411efe57d809d
+2025_NON_Conforme_Cam_B_2_457.jpg,NON Conforme,PIETRA,0.5976043,2025,B,2,True,False,hist_b346ac0777baa0169b6686e3
+2025_NON_Conforme_Cam_B_2_467.jpg,NON Conforme,Conforme,0.94372123,2025,B,2,False,False,hist_278c814ca466a4e015660bd5
+2025_NON_Conforme_Cam_B_2_472.jpg,NON Conforme,PIETRA,0.56906605,2025,B,2,False,False,hist_078cead051ee360ac915cf9a
+2025_NON_Conforme_Cam_B_2_492.jpg,NON Conforme,PIETRA,0.65945804,2025,B,2,False,False,hist_92bde3d2e3031c164e1e0c36
+2025_NON_Conforme_Cam_B_3_187.jpg,NON Conforme,PIETRA,0.51727957,2025,B,3,False,False,hist_4b942f2dd0d86f185adab31a
+2025_NON_Conforme_Cam_B_3_199.jpg,NON Conforme,Conforme,0.4957865,2025,B,3,False,False,hist_3fa063483be4a6f429f0c0b4
+2025_NON_Conforme_Cam_B_3_200.jpg,NON Conforme,PIETRA,0.6290447,2025,B,3,True,False,hist_1e863a4ea5459f67c7b66a8a
+2025_NON_Conforme_Cam_B_3_275.jpg,NON Conforme,PIETRA,0.96992964,2025,B,3,False,False,hist_b1f742997ad20e0facea6352
+2025_NON_Conforme_Cam_B_3_288.jpg,NON Conforme,PIETRA,0.58960116,2025,B,3,False,False,hist_48f15a77ff2f2ce5da625968
+2025_NON_Conforme_Cam_B_3_292.jpg,NON Conforme,PIETRA,0.7947048,2025,B,3,False,False,hist_baf2d5754c461b9a019360e9
+2025_NON_Conforme_Cam_B_3_316.jpg,NON Conforme,PIETRA,0.6139765,2025,B,3,False,False,hist_d3d9984e9623527e0728fc19
+2025_NON_Conforme_Cam_B_3_336.jpg,NON Conforme,PIETRA,0.70160586,2025,B,3,True,False,hist_a9262991d4e28a75cea1b584
+2025_NON_Conforme_Cam_B_3_397.jpg,NON Conforme,PIETRA,0.86174303,2025,B,3,False,False,hist_6e99990f8deb89ab66359abe
+2025_NON_Conforme_Cam_B_3_421.jpg,NON Conforme,Conforme,0.5742979,2025,B,3,False,False,hist_f5a01578a2125464bf7336a2
+2025_NON_Conforme_Cam_B_3_67.jpg,NON Conforme,PIETRA,0.5181424,2025,B,3,True,False,hist_a9f5f8e030b90b133ea4db62
+2025_NON_Conforme_Cam_B_3_90.jpg,NON Conforme,Conforme,0.9312553,2025,B,3,False,False,hist_62251e459806c9662b12a9a9
+2025_NON_Conforme_Cam_B_3_99.jpg,NON Conforme,Conforme,0.5716704,2025,B,3,False,False,hist_1ab1d7f3359819ba65c69796
+2025_NON_Conforme_Cam_B_4_124.jpg,NON Conforme,Conforme,0.6170505,2025,B,4,True,False,hist_207199cfac612b27da628e5d
+2025_NON_Conforme_Cam_B_4_144.jpg,NON Conforme,PIETRA,0.49321902,2025,B,4,False,False,hist_ca9c2d58efe7fd6450ae57ed
+2025_NON_Conforme_Cam_B_4_178.jpg,NON Conforme,PIETRA,0.7693495,2025,B,4,False,True,hist_810d594ff277e0bd8918d236
+2025_NON_Conforme_Cam_B_4_209.jpg,NON Conforme,PIETRA,0.90539813,2025,B,4,False,False,hist_c1e814c581caba5a9c13fa13
+2025_NON_Conforme_Cam_B_4_310.jpg,NON Conforme,Conforme,0.8030537,2025,B,4,False,False,hist_888410b8d1ef2c39c20ace1a
+2025_NON_Conforme_Cam_B_4_322.jpg,NON Conforme,PIETRA,0.52055717,2025,B,4,False,False,hist_d584bddebb2941bac9004dee
+2025_NON_Conforme_Cam_B_4_329.jpg,NON Conforme,PIETRA,0.7550897,2025,B,4,False,False,hist_37c4c28845203d6dc36fc6be
+2025_NON_Conforme_Cam_B_4_354.jpg,NON Conforme,PIETRA,0.47369644,2025,B,4,True,False,hist_315028b1ac5391dd867ad807
+2025_NON_Conforme_Cam_B_4_359.jpg,NON Conforme,PIETRA,0.8131018,2025,B,4,False,False,hist_a9b0cfd487b9852c4d0dbf1b
+2025_NON_Conforme_Cam_B_4_375.jpg,NON Conforme,PIETRA,0.9192961,2025,B,4,False,False,hist_6560bba151007dd3e66a9744
+2025_NON_Conforme_Cam_B_4_401.jpg,NON Conforme,PIETRA,0.89789563,2025,B,4,False,False,hist_e77885ce4a12ae6c27fd96bb
+2025_NON_Conforme_Cam_B_4_419.jpg,NON Conforme,PIETRA,0.97906566,2025,B,4,False,False,hist_5574c12f97e854b27bf2111b
+2025_NON_Conforme_Cam_B_4_422.jpg,NON Conforme,Conforme,0.61584663,2025,B,4,False,False,hist_e5a08e3781a71093bc5c26ee
+2025_NON_Conforme_Cam_B_4_428.jpg,NON Conforme,PIETRA,0.9523009,2025,B,4,False,False,hist_59e7e9048c25a7f2dc03a6ab
+2025_NON_Conforme_Cam_B_4_451.jpg,NON Conforme,PIETRA,0.55647737,2025,B,4,False,False,hist_99eefb8f4f008ef1bfc7a5c0
+2025_NON_Conforme_Cam_B_4_454.jpg,NON Conforme,PIETRA,0.88584524,2025,B,4,False,False,hist_592f7602e72608314af86523
+2025_NON_Conforme_Cam_B_4_63.jpg,NON Conforme,PIETRA,0.7547554,2025,B,4,False,False,hist_c20ec85cb1ecdb0b4450bfe0
+2025_NON_Conforme_Cam_B_5_139.jpg,NON Conforme,PIETRA,0.89660466,2025,B,5,False,False,hist_f04ad507be1eb49f3ca74dc2
+2025_NON_Conforme_Cam_B_5_161.jpg,NON Conforme,PIETRA,0.6326214,2025,B,5,False,False,hist_430ba742c6665890ba11696c
+2025_NON_Conforme_Cam_B_5_204.jpg,NON Conforme,Conforme,0.6118712,2025,B,5,True,False,hist_86b9ad63adc69f299caf12ad
+2025_NON_Conforme_Cam_B_5_244.jpg,NON Conforme,Conforme,0.5959005,2025,B,5,False,False,hist_149ede7e3b40277fca356703
+2025_NON_Conforme_Cam_B_5_245.jpg,NON Conforme,PIETRA,0.4218805,2025,B,5,False,False,hist_b31def9e9e78556a29c879be
+2025_NON_Conforme_Cam_B_5_255.jpg,NON Conforme,Conforme,0.7431135,2025,B,5,False,False,hist_6b9ce9b8b249683d435a4125
+2025_NON_Conforme_Cam_B_5_257.jpg,NON Conforme,PIETRA,0.53804874,2025,B,5,False,True,hist_04973310b91791abc15815e0
+2025_NON_Conforme_Cam_B_5_313.jpg,NON Conforme,PIETRA,0.6125575,2025,B,5,False,False,hist_2ad0b5cecc02585110a56081
+2025_NON_Conforme_Cam_B_5_317.jpg,NON Conforme,PIETRA,0.7209898,2025,B,5,False,False,hist_abf421edf9c20c20b4eb6e8e
+2025_NON_Conforme_Cam_B_5_324.jpg,NON Conforme,Vide,0.6752172,2025,B,5,True,False,hist_509d4502c755d0d3e6e151c8
+2025_NON_Conforme_Cam_B_5_367.jpg,NON Conforme,PIETRA,0.8642611,2025,B,5,False,False,hist_7cb7e809e9415912da563828
+2025_NON_Conforme_Cam_B_5_368.jpg,NON Conforme,Conforme,0.527549,2025,B,5,False,False,hist_7b7f4e03dd91c61c12175d4e
+2025_NON_Conforme_Cam_B_5_385.jpg,NON Conforme,PIETRA,0.8293795,2025,B,5,False,False,hist_4b89e4e90308e654a53569c6
+2025_NON_Conforme_Cam_B_5_440.jpg,NON Conforme,Conforme,0.723352,2025,B,5,False,False,hist_4288fb705bcc56d4c9e1ffd6
+2025_NON_Conforme_Cam_B_5_472.jpg,NON Conforme,Conforme,0.6100941,2025,B,5,False,False,hist_455e2024e3120189dcf53f88
+2025_NON_Conforme_Cam_B_6_100.jpg,NON Conforme,PIETRA,0.7578707,2025,B,6,False,False,hist_3fccad4e1579af6594268cbb
+2025_NON_Conforme_Cam_B_6_217.jpg,NON Conforme,Conforme,0.6642516,2025,B,6,True,False,hist_c4ff9b9ccb0604a5ae15d6a0
+2025_NON_Conforme_Cam_B_6_285.jpg,NON Conforme,PIETRA,0.7201554,2025,B,6,False,False,hist_7f6b440de4bb7063064426e7
+2025_NON_Conforme_Cam_B_6_309.jpg,NON Conforme,PIETRA,0.9260829,2025,B,6,False,False,hist_1dc0258d15d8d522a4622e78
+2025_NON_Conforme_Cam_B_6_310.jpg,NON Conforme,PIETRA,0.8112634,2025,B,6,False,False,hist_d4b2834f229f22b7521c8743
+2025_NON_Conforme_Cam_B_6_414.jpg,NON Conforme,PIETRA,0.84818655,2025,B,6,False,False,hist_7e729cdf47e7af502096aad6
+2025_NON_Conforme_Cam_B_6_432.jpg,NON Conforme,PIETRA,0.82042253,2025,B,6,False,False,hist_d2a7db1624d8e41b15d238d7
+2025_NON_Conforme_Cam_B_6_436.jpg,NON Conforme,PIETRA,0.82414603,2025,B,6,False,False,hist_15361104ce4aaef6ac537be9
+2025_NON_Conforme_Cam_B_6_96.jpg,NON Conforme,PIETRA,0.775055,2025,B,6,False,False,hist_f69d8a1acdaa5ebf42bcd9c9
+2025_NON_Conforme_Cam_T_1_181.jpg,NON Conforme,PIETRA,0.612093,2025,T,1,False,True,hist_e304fb5343ec522008675ad8
+2025_NON_Conforme_Cam_T_1_226.jpg,NON Conforme,PIETRA,0.69069177,2025,T,1,False,True,hist_a210854685fdd55aab167e75
+2025_NON_Conforme_Cam_T_1_401.jpg,NON Conforme,Vide,0.9776095,2025,T,1,True,False,hist_c4e001fa413e4a302398dd52
+2025_NON_Conforme_Cam_T_1_406.jpg,NON Conforme,PIETRA,0.7446247,2025,T,1,False,False,hist_49ae4b3a1e4c8ff9dc4dd14c
+2025_NON_Conforme_Cam_T_1_424.jpg,NON Conforme,Vide,0.6317257,2025,T,1,True,False,hist_d32f41b9c1dd9bec81c2d04b
+2025_NON_Conforme_Cam_T_1_461.jpg,NON Conforme,PIETRA,0.8084126,2025,T,1,False,False,hist_cbc7be8a5491aae2ddcf6798
+2025_NON_Conforme_Cam_T_2_213.jpg,NON Conforme,PIETRA,0.60376227,2025,T,2,False,False,hist_5a085d6d60459f6ceef35a2d
+2025_NON_Conforme_Cam_T_2_222.jpg,NON Conforme,PIETRA,0.5474652,2025,T,2,False,False,hist_d8952236505656b7c2ae152a
+2025_NON_Conforme_Cam_T_2_224.jpg,NON Conforme,Conforme,0.66975445,2025,T,2,False,False,hist_37e6e27a798d9a779c38d926
+2025_NON_Conforme_Cam_T_2_239.jpg,NON Conforme,PIETRA,0.73032844,2025,T,2,False,False,hist_db728e42eef2da9b4693513f
+2025_NON_Conforme_Cam_T_2_291.jpg,NON Conforme,PIETRA,0.6787242,2025,T,2,True,False,hist_58a59fc3ff39d3207cff91dc
+2025_NON_Conforme_Cam_T_2_338.jpg,NON Conforme,PIETRA,0.49619645,2025,T,2,True,False,hist_420ad32978285f4abeac68a8
+2025_NON_Conforme_Cam_T_2_367.jpg,NON Conforme,PIETRA,0.63218063,2025,T,2,False,True,hist_c2608bdbddfe1f405985b4fe
+2025_NON_Conforme_Cam_T_2_416.jpg,NON Conforme,PIETRA,0.605653,2025,T,2,False,False,hist_ad7d946c533638247d73fa94
+2025_NON_Conforme_Cam_T_2_464.jpg,NON Conforme,Vide,0.6539651,2025,T,2,True,False,hist_6ea563e94dde6744da6c7308
+2025_NON_Conforme_Cam_T_2_504.jpg,NON Conforme,PIETRA,0.82994974,2025,T,2,False,False,
+2025_NON_Conforme_Cam_T_3_158.jpg,NON Conforme,PIETRA,0.7910402,2025,T,3,False,False,hist_d6eda88f1b1e0823d81d608c
+2025_NON_Conforme_Cam_T_3_187.jpg,NON Conforme,PIETRA,0.41650492,2025,T,3,False,False,hist_4b942f2dd0d86f185adab31a
+2025_NON_Conforme_Cam_T_3_200.jpg,NON Conforme,PIETRA,0.7048782,2025,T,3,False,False,hist_1e863a4ea5459f67c7b66a8a
+2025_NON_Conforme_Cam_T_3_221.jpg,NON Conforme,PIETRA,0.5598606,2025,T,3,False,False,hist_e28251f671d484adf0e19882
+2025_NON_Conforme_Cam_T_3_222.jpg,NON Conforme,PIETRA,0.6428236,2025,T,3,False,False,hist_f34f1865cc561a10a6bdb8f4
+2025_NON_Conforme_Cam_T_3_256.jpg,NON Conforme,Conforme,0.9682192,2025,T,3,False,False,hist_2cc58c0afa1ffc621e4ec3f3
+2025_NON_Conforme_Cam_T_3_288.jpg,NON Conforme,PIETRA,0.6657517,2025,T,3,False,False,hist_48f15a77ff2f2ce5da625968
+2025_NON_Conforme_Cam_T_3_316.jpg,NON Conforme,PIETRA,0.71492225,2025,T,3,False,False,hist_d3d9984e9623527e0728fc19
+2025_NON_Conforme_Cam_T_3_318.jpg,NON Conforme,PIETRA,0.6099282,2025,T,3,False,True,hist_7949b060999440e0e1c9af84
+2025_NON_Conforme_Cam_T_3_84.jpg,NON Conforme,PIETRA,0.44470158,2025,T,3,True,False,hist_84c92c9541295d2b50c9bd4f
+2025_NON_Conforme_Cam_T_4_304.jpg,NON Conforme,PIETRA,0.6045204,2025,T,4,False,False,hist_9c915f25d9ebfad6c3ed9d5c
+2025_NON_Conforme_Cam_T_4_401.jpg,NON Conforme,PIETRA,0.43036166,2025,T,4,False,False,hist_e77885ce4a12ae6c27fd96bb
+2025_NON_Conforme_Cam_T_4_403.jpg,NON Conforme,PIETRA,0.5410427,2025,T,4,False,False,hist_e119199ffcda04dcb185e166
+2025_NON_Conforme_Cam_T_5_192.jpg,NON Conforme,PIETRA,0.6376063,2025,T,5,False,False,hist_afef4edb6f974fc18fe6e5d0
+2025_NON_Conforme_Cam_T_5_202.jpg,NON Conforme,PIETRA,0.51080793,2025,T,5,False,False,hist_03074956fb108541d9457db7
+2025_NON_Conforme_Cam_T_5_212.jpg,NON Conforme,Conforme,0.70853716,2025,T,5,False,False,hist_c587ad8f0c8c0054012b6395
+2025_NON_Conforme_Cam_T_5_257.jpg,NON Conforme,PIETRA,0.6965526,2025,T,5,False,False,hist_04973310b91791abc15815e0
+2025_NON_Conforme_Cam_T_5_269.jpg,Vide,NON Conforme,0.5541129,2025,T,5,False,False,hist_0e68e6d22402801ca1b4e1b4
+2025_NON_Conforme_Cam_T_5_274.jpg,NON Conforme,PIETRA,0.4872512,2025,T,5,True,False,hist_23d6a847005b25aa4b046f77
+2025_NON_Conforme_Cam_T_5_313.jpg,NON Conforme,PIETRA,0.72039104,2025,T,5,False,False,hist_2ad0b5cecc02585110a56081
+2025_NON_Conforme_Cam_T_5_89.jpg,NON Conforme,Conforme,0.85377175,2025,T,5,False,False,hist_6b1abd45c9d19aaccbdddd06
+2025_NON_Conforme_Cam_T_6_100.jpg,NON Conforme,PIETRA,0.6668812,2025,T,6,False,True,hist_3fccad4e1579af6594268cbb
+2025_NON_Conforme_Cam_T_6_141.jpg,Vide,NON Conforme,0.5040982,2025,T,6,False,False,hist_ccc03feb8427f675b2e78acf
+2025_NON_Conforme_Cam_T_6_219.jpg,NON Conforme,PIETRA,0.85560656,2025,T,6,False,False,hist_d606307164bad88b12c6b21d
+2025_NON_Conforme_Cam_T_6_228.jpg,NON Conforme,Conforme,0.7637286,2025,T,6,False,False,hist_389153587268ee7a2b1432b9
+2025_NON_Conforme_Cam_T_6_316.jpg,NON Conforme,PIETRA,0.7761924,2025,T,6,True,False,hist_8e15b8f379f11ed023151966
+2025_NON_Conforme_Cam_T_6_408.jpg,NON Conforme,PIETRA,0.5525681,2025,T,6,False,False,hist_2f2cbb7fd498a8e2c1ea0115
+2025_NON_Conforme_Cam_T_6_436.jpg,NON Conforme,Conforme,0.39799532,2025,T,6,False,False,hist_15361104ce4aaef6ac537be9
+2025_PIETRA_Cam_B_1_157.jpg,PIETRA,Conforme,0.8900712,2025,B,1,False,False,hist_40a99a78ca7627981302ecf0
+2025_PIETRA_Cam_B_1_181.jpg,PIETRA,Conforme,0.6098563,2025,B,1,False,False,hist_70fa247eb4e2255ef8418725
+2025_PIETRA_Cam_B_1_252.jpg,PIETRA,Conforme,0.47866112,2025,B,1,False,False,hist_5ea11209c3c56806617984fd
+2025_PIETRA_Cam_B_1_268.jpg,PIETRA,Conforme,0.9837704,2025,B,1,False,False,hist_7cb8b84109e2433de00ce2f0
+2025_PIETRA_Cam_B_1_292.jpg,PIETRA,NON Conforme,0.53865737,2025,B,1,False,False,hist_517c01e17794d5694c11a996
+2025_PIETRA_Cam_B_1_371.jpg,PIETRA,Conforme,0.6088666,2025,B,1,False,False,hist_8d47cd3a58893db60814d3a7
+2025_PIETRA_Cam_B_1_387.jpg,PIETRA,Conforme,0.94642866,2025,B,1,False,False,
+2025_PIETRA_Cam_B_1_388.jpg,PIETRA,Conforme,0.4431747,2025,B,1,False,False,
+2025_PIETRA_Cam_B_1_396.jpg,PIETRA,Conforme,0.6329982,2025,B,1,True,False,
+2025_PIETRA_Cam_B_1_67.jpg,PIETRA,Conforme,0.5698445,2025,B,1,False,False,hist_e49255280995b765d20ee9c4
+2025_PIETRA_Cam_B_1_92.jpg,PIETRA,NON Conforme,0.4878769,2025,B,1,True,False,hist_10128128618c45cc3667ae36
+2025_PIETRA_Cam_B_2_115.jpg,PIETRA,NON Conforme,0.56671053,2025,B,2,True,False,hist_97450953108393f6aea69517
+2025_PIETRA_Cam_B_2_219.jpg,PIETRA,Conforme,0.6252098,2025,B,2,False,False,hist_4aae5256a858dd06e59f79f8
+2025_PIETRA_Cam_B_2_294.jpg,PIETRA,NON Conforme,0.9503083,2025,B,2,False,False,hist_d6497abc96b9fe25e0e4dbb4
+2025_PIETRA_Cam_B_2_303.jpg,PIETRA,NON Conforme,0.55496186,2025,B,2,False,False,hist_80dececbd6e05bd1e13bdba5
+2025_PIETRA_Cam_B_2_313.jpg,PIETRA,NON Conforme,0.97772,2025,B,2,True,False,hist_45501981f5eeb01a6feafd63
+2025_PIETRA_Cam_B_2_322.jpg,PIETRA,Conforme,0.46104583,2025,B,2,True,False,hist_797f3b1744b7ca0dc41a116a
+2025_PIETRA_Cam_B_2_333.jpg,PIETRA,Conforme,0.58529687,2025,B,2,False,False,hist_acb8e6752e88bdd3f19b1849
+2025_PIETRA_Cam_B_2_378.jpg,PIETRA,Conforme,0.68875414,2025,B,2,False,False,
+2025_PIETRA_Cam_B_2_383.jpg,PIETRA,NON Conforme,0.5255372,2025,B,2,False,False,
+2025_PIETRA_Cam_B_3_124.jpg,PIETRA,Conforme,0.49646193,2025,B,3,True,False,hist_9d9169f3eadce4b915b1bbfc
+2025_PIETRA_Cam_B_3_127.jpg,PIETRA,Conforme,0.6741609,2025,B,3,True,False,hist_c0b92d06b920a632b2ccf91e
+2025_PIETRA_Cam_B_3_135.jpg,PIETRA,Conforme,0.9940626,2025,B,3,False,False,hist_dbfdc900c86191471b5396c7
+2025_PIETRA_Cam_B_3_226.jpg,PIETRA,NON Conforme,0.98044854,2025,B,3,False,False,hist_5d7ee1ca93ec85c517a692c1
+2025_PIETRA_Cam_B_3_267.jpg,PIETRA,NON Conforme,0.7152104,2025,B,3,False,False,hist_53657d9a922c495a867763f6
+2025_PIETRA_Cam_B_3_303.jpg,PIETRA,Conforme,0.6787447,2025,B,3,True,False,hist_4b606a560d3d1b2ef344ef91
+2025_PIETRA_Cam_B_3_306.jpg,PIETRA,Conforme,0.85919195,2025,B,3,False,False,hist_a5daf816735bc5afb4ea64e9
+2025_PIETRA_Cam_B_3_312.jpg,PIETRA,Conforme,0.6610203,2025,B,3,True,False,hist_79f78ba88f67f12991b3807d
+2025_PIETRA_Cam_B_3_323.jpg,PIETRA,Conforme,0.9490877,2025,B,3,True,False,hist_42e5953d4c509689adfb266e
+2025_PIETRA_Cam_B_3_324.jpg,PIETRA,NON Conforme,0.5336213,2025,B,3,True,False,hist_747b5fb7b4f12bbffac2c396
+2025_PIETRA_Cam_B_3_345.jpg,PIETRA,Conforme,0.5319482,2025,B,3,False,True,hist_ae4994a49eab9594c0d1dccb
+2025_PIETRA_Cam_B_3_368.jpg,PIETRA,NON Conforme,0.83401805,2025,B,3,True,False,hist_8fad6f8470d04410a1113b50
+2025_PIETRA_Cam_B_3_378.jpg,PIETRA,Conforme,0.60184586,2025,B,3,True,False,hist_b306a0fb257febd3fb4223fd
+2025_PIETRA_Cam_B_3_72.jpg,PIETRA,Conforme,0.6360818,2025,B,3,False,False,hist_8fbabd73ce99c501b1cff2b3
+2025_PIETRA_Cam_B_4_112.jpg,PIETRA,Conforme,0.7809875,2025,B,4,True,False,hist_35217607ea4f02ef2ed5cfde
+2025_PIETRA_Cam_B_4_173.jpg,PIETRA,Conforme,0.69526595,2025,B,4,False,False,hist_06df4e40c113fd203b8c245c
+2025_PIETRA_Cam_B_4_277.jpg,PIETRA,Conforme,0.7188755,2025,B,4,True,False,hist_dbcbfbb20d34aaf404b8de4c
+2025_PIETRA_Cam_B_4_295.jpg,PIETRA,Conforme,0.7362903,2025,B,4,False,True,hist_c96680951104f6fe1b24377f
+2025_PIETRA_Cam_B_4_300.jpg,Vide,NON Conforme,0.78295434,2025,B,4,False,False,hist_9dbc1bc74024b9c34754b89d
+2025_PIETRA_Cam_B_4_321.jpg,PIETRA,Conforme,0.8940837,2025,B,4,False,False,hist_ce754e236f548840a869e34b
+2025_PIETRA_Cam_B_4_80.jpg,PIETRA,Conforme,0.69809467,2025,B,4,True,False,hist_568e097aba1acecec3825928
+2025_PIETRA_Cam_B_5_150.jpg,PIETRA,Conforme,0.53562355,2025,B,5,True,False,hist_b6c53352d91234e9e624431f
+2025_PIETRA_Cam_B_5_155.jpg,PIETRA,Conforme,0.86088073,2025,B,5,False,False,hist_a9158af76a3286bbd79380cc
+2025_PIETRA_Cam_B_5_167.jpg,PIETRA,NON Conforme,0.4593045,2025,B,5,False,False,hist_4fa5c321df1f2b02d5d4d81f
+2025_PIETRA_Cam_B_5_197.jpg,PIETRA,NON Conforme,0.5684697,2025,B,5,False,False,hist_4db0f79d62f7b6180922f2c0
+2025_PIETRA_Cam_B_5_211.jpg,PIETRA,NON Conforme,0.8006282,2025,B,5,False,False,hist_843ac51586c67a710b3ba056
+2025_PIETRA_Cam_B_5_227.jpg,PIETRA,Conforme,0.87364495,2025,B,5,False,False,hist_c81eed97cfc0850635b2139d
+2025_PIETRA_Cam_B_5_253.jpg,PIETRA,Conforme,0.48433408,2025,B,5,True,False,hist_565dae39e168932c63f280be
+2025_PIETRA_Cam_B_5_295.jpg,PIETRA,Conforme,0.829386,2025,B,5,False,False,hist_7520a9afd6fd73bef08d982a
+2025_PIETRA_Cam_B_5_332.jpg,PIETRA,Conforme,0.68568677,2025,B,5,False,False,
+2025_PIETRA_Cam_B_5_69.jpg,PIETRA,NON Conforme,0.71640813,2025,B,5,False,False,hist_ba98d9a1f4c43716932d12b0
+2025_PIETRA_Cam_B_6_103.jpg,PIETRA,Conforme,0.4726611,2025,B,6,True,False,hist_447e64b98508f51394391868
+2025_PIETRA_Cam_B_6_151.jpg,PIETRA,NON Conforme,0.97660214,2025,B,6,False,False,hist_5ee089db0a235407c818b175
+2025_PIETRA_Cam_B_6_173.jpg,PIETRA,Conforme,0.7772943,2025,B,6,True,False,hist_d540c9845ce77c216cce164a
+2025_PIETRA_Cam_B_6_279.jpg,PIETRA,Vide,0.35070142,2025,B,6,True,False,hist_94e0f6f5627eb929c3cf9dd1
+2025_PIETRA_Cam_B_6_364.jpg,PIETRA,Conforme,0.7216565,2025,B,6,True,False,hist_a559e927d90336f3e7c0680f
+2025_PIETRA_Cam_B_6_42.jpg,PIETRA,Conforme,0.7285477,2025,B,6,True,False,hist_baf96c66dcd24ab32f700178
+2025_PIETRA_Cam_T_1_111.jpg,PIETRA,NON Conforme,0.94104385,2025,T,1,True,False,hist_405ecc92da150ce084f82478
+2025_PIETRA_Cam_T_1_119.jpg,PIETRA,NON Conforme,0.80906725,2025,T,1,True,False,hist_86db1b332905a7434d312b20
+2025_PIETRA_Cam_T_1_133.jpg,PIETRA,NON Conforme,0.5174464,2025,T,1,False,False,hist_f6fa0e6a3b3d89d2f28d49dc
+2025_PIETRA_Cam_T_1_149.jpg,PIETRA,Conforme,0.90661144,2025,T,1,True,False,hist_f8469a3448d3950c2a3ff150
+2025_PIETRA_Cam_T_1_224.jpg,PIETRA,NON Conforme,0.94777,2025,T,1,True,False,hist_445a2f5b34506b99e0a204fe
+2025_PIETRA_Cam_T_1_274.jpg,PIETRA,NON Conforme,0.9867339,2025,T,1,True,False,hist_6eaff52960b8c6fdbf796393
+2025_PIETRA_Cam_T_1_292.jpg,PIETRA,NON Conforme,0.5268806,2025,T,1,True,False,hist_517c01e17794d5694c11a996
+2025_PIETRA_Cam_T_1_314.jpg,PIETRA,NON Conforme,0.6779366,2025,T,1,True,False,
+2025_PIETRA_Cam_T_1_371.jpg,PIETRA,NON Conforme,0.5711439,2025,T,1,True,False,hist_8d47cd3a58893db60814d3a7
+2025_PIETRA_Cam_T_1_78.jpg,PIETRA,NON Conforme,0.66901904,2025,T,1,False,False,hist_598dc645c6689eb258692373
+2025_PIETRA_Cam_T_2_1.jpg,Vide,PIETRA,0.4721044,2025,T,2,False,False,hist_6ccac90bb22eb8b888e3646d
+2025_PIETRA_Cam_T_2_120.jpg,PIETRA,NON Conforme,0.7685455,2025,T,2,False,False,hist_aabb3888e2614a8437e9406e
+2025_PIETRA_Cam_T_2_126.jpg,PIETRA,NON Conforme,0.6031132,2025,T,2,True,False,hist_dd541a8d44732e9d61da257b
+2025_PIETRA_Cam_T_2_171.jpg,PIETRA,NON Conforme,0.38765696,2025,T,2,True,False,hist_fba9178ed62a4256e2cb67eb
+2025_PIETRA_Cam_T_2_187.jpg,PIETRA,NON Conforme,0.5174934,2025,T,2,True,False,hist_5937dab1f87009094d91ac56
+2025_PIETRA_Cam_T_2_191.jpg,PIETRA,NON Conforme,0.9400368,2025,T,2,False,False,hist_f3f194eb028e4b580a627aa7
+2025_PIETRA_Cam_T_2_295.jpg,PIETRA,NON Conforme,0.99089324,2025,T,2,False,False,hist_3562d65b7c2dc887410996a6
+2025_PIETRA_Cam_T_2_333.jpg,PIETRA,NON Conforme,0.3960771,2025,T,2,True,False,hist_acb8e6752e88bdd3f19b1849
+2025_PIETRA_Cam_T_2_81.jpg,PIETRA,Vide,0.47068143,2025,T,2,True,False,hist_6ef7b833760932639f734420
+2025_PIETRA_Cam_T_3_121.jpg,PIETRA,NON Conforme,0.4341953,2025,T,3,False,False,hist_afa5c270c2645817598c2b06
+2025_PIETRA_Cam_T_3_174.jpg,PIETRA,NON Conforme,0.63612676,2025,T,3,True,False,hist_94972ed17c216548a385fbb4
+2025_PIETRA_Cam_T_3_176.jpg,PIETRA,Conforme,0.62293744,2025,T,3,False,False,hist_ea0388bcdba9bb7a15acb902
+2025_PIETRA_Cam_T_3_222.jpg,PIETRA,NON Conforme,0.97664523,2025,T,3,True,False,hist_4ab3c99000f187ffa6439543
+2025_PIETRA_Cam_T_3_231.jpg,PIETRA,Conforme,0.73642737,2025,T,3,True,False,hist_156e5f41a988e6838fa8f188
+2025_PIETRA_Cam_T_3_260.jpg,PIETRA,Conforme,0.7669382,2025,T,3,True,False,hist_d66b0ebabe19a2d4f3e3b3e4
+2025_PIETRA_Cam_T_3_267.jpg,PIETRA,NON Conforme,0.8354374,2025,T,3,True,False,hist_53657d9a922c495a867763f6
+2025_PIETRA_Cam_T_3_306.jpg,PIETRA,Conforme,0.6522269,2025,T,3,True,False,hist_a5daf816735bc5afb4ea64e9
+2025_PIETRA_Cam_T_3_312.jpg,PIETRA,NON Conforme,0.7951552,2025,T,3,True,False,hist_79f78ba88f67f12991b3807d
+2025_PIETRA_Cam_T_3_379.jpg,PIETRA,NON Conforme,0.6164354,2025,T,3,False,False,hist_b1f032575d7102706dabe9bf
+2025_PIETRA_Cam_T_3_39.jpg,PIETRA,Conforme,0.64890504,2025,T,3,True,False,hist_d301b65b5fff05130a78a9d7
+2025_PIETRA_Cam_T_3_47.jpg,PIETRA,NON Conforme,0.55215484,2025,T,3,True,False,hist_abdd9b878862151777d38bda
+2025_PIETRA_Cam_T_3_72.jpg,PIETRA,NON Conforme,0.6427135,2025,T,3,False,False,hist_8fbabd73ce99c501b1cff2b3
+2025_PIETRA_Cam_T_3_94.jpg,PIETRA,Conforme,0.655686,2025,T,3,True,False,hist_49de71ad3cda7e6e2f181a2b
+2025_PIETRA_Cam_T_4_119.jpg,PIETRA,Conforme,0.5802997,2025,T,4,False,False,hist_061525a5756b3491672bf867
+2025_PIETRA_Cam_T_4_155.jpg,PIETRA,NON Conforme,0.97142595,2025,T,4,True,False,hist_a7a1661c61af524746190c6f
+2025_PIETRA_Cam_T_4_180.jpg,PIETRA,NON Conforme,0.7591799,2025,T,4,False,False,hist_435329ce6aa947c8c0e85a51
+2025_PIETRA_Cam_T_4_193.jpg,PIETRA,Conforme,0.6938524,2025,T,4,True,False,hist_86b77d877459a78ddd779649
+2025_PIETRA_Cam_T_4_212.jpg,PIETRA,NON Conforme,0.97636104,2025,T,4,True,False,hist_1aa5f48c5bef76b0a275b98c
+2025_PIETRA_Cam_T_4_220.jpg,PIETRA,NON Conforme,0.73075795,2025,T,4,False,False,hist_9f34f2f62754f95a5efd9d29
+2025_PIETRA_Cam_T_4_230.jpg,PIETRA,NON Conforme,0.8274625,2025,T,4,True,False,hist_6ccd4e812cc8100619e3b98d
+2025_PIETRA_Cam_T_4_277.jpg,PIETRA,NON Conforme,0.7416868,2025,T,4,True,False,hist_dbcbfbb20d34aaf404b8de4c
+2025_PIETRA_Cam_T_4_282.jpg,PIETRA,NON Conforme,0.767192,2025,T,4,False,False,
+2025_PIETRA_Cam_T_4_286.jpg,PIETRA,Conforme,0.8629768,2025,T,4,False,False,hist_62e82088e15813f075380c22
+2025_PIETRA_Cam_T_4_298.jpg,PIETRA,Conforme,0.57440025,2025,T,4,True,False,hist_b5d5e365d613d9cd9850a1e7
+2025_PIETRA_Cam_T_4_302.jpg,PIETRA,NON Conforme,0.4976263,2025,T,4,True,False,hist_2f0f0da3f9691a23c19cb571
+2025_PIETRA_Cam_T_4_336.jpg,PIETRA,Conforme,0.6672977,2025,T,4,True,False,
+2025_PIETRA_Cam_T_4_346.jpg,PIETRA,NON Conforme,0.90604603,2025,T,4,True,False,
+2025_PIETRA_Cam_T_4_350.jpg,PIETRA,NON Conforme,0.97972727,2025,T,4,False,False,
+2025_PIETRA_Cam_T_4_352.jpg,PIETRA,NON Conforme,0.62579024,2025,T,4,True,False,
+2025_PIETRA_Cam_T_4_375.jpg,PIETRA,Conforme,0.6699961,2025,T,4,True,False,
+2025_PIETRA_Cam_T_4_383.jpg,PIETRA,NON Conforme,0.87237734,2025,T,4,True,False,
+2025_PIETRA_Cam_T_4_49.jpg,PIETRA,NON Conforme,0.9946853,2025,T,4,False,False,hist_2c9b1a41aeeb30a04adf01b8
+2025_PIETRA_Cam_T_4_67.jpg,PIETRA,Conforme,0.94388306,2025,T,4,True,False,hist_252aeb0bfe5bd62a499bedc8
+2025_PIETRA_Cam_T_4_80.jpg,PIETRA,Conforme,0.90897495,2025,T,4,True,False,hist_568e097aba1acecec3825928
+2025_PIETRA_Cam_T_4_85.jpg,PIETRA,NON Conforme,0.74623317,2025,T,4,False,False,hist_0df1743a246b40ecfb16766a
+2025_PIETRA_Cam_T_5_146.jpg,PIETRA,NON Conforme,0.79141164,2025,T,5,True,False,hist_d05eba8ff9cdc726cc3e7b17
+2025_PIETRA_Cam_T_5_181.jpg,PIETRA,NON Conforme,0.73161215,2025,T,5,True,False,hist_cd3481dd03dd2720b547117f
+2025_PIETRA_Cam_T_5_193.jpg,PIETRA,NON Conforme,0.59529155,2025,T,5,False,True,hist_d46e525b0addc1904579d0c2
+2025_PIETRA_Cam_T_5_206.jpg,PIETRA,Conforme,0.8154583,2025,T,5,True,False,hist_457bb7e130392ff62e3f636c
+2025_PIETRA_Cam_T_5_215.jpg,PIETRA,NON Conforme,0.7409945,2025,T,5,True,False,hist_7344f51f34636e590f379a53
+2025_PIETRA_Cam_T_5_227.jpg,PIETRA,Conforme,0.65490353,2025,T,5,True,False,hist_c81eed97cfc0850635b2139d
+2025_PIETRA_Cam_T_5_24.jpg,PIETRA,Conforme,0.5803647,2025,T,5,True,False,hist_aae715e5b6db8a778532fedf
+2025_PIETRA_Cam_T_5_29.jpg,PIETRA,NON Conforme,0.49603674,2025,T,5,False,False,hist_ba7ad51802695c4d2e5865d6
+2025_PIETRA_Cam_T_5_295.jpg,PIETRA,Conforme,0.8584721,2025,T,5,True,False,hist_7520a9afd6fd73bef08d982a
+2025_PIETRA_Cam_T_5_306.jpg,PIETRA,Conforme,0.7448113,2025,T,5,True,False,hist_d23a6a8324e0625dc81abace
+2025_PIETRA_Cam_T_5_308.jpg,PIETRA,Conforme,0.6895057,2025,T,5,True,False,hist_8345e17f0d4975cc7966a52c
+2025_PIETRA_Cam_T_5_50.jpg,PIETRA,NON Conforme,0.5883164,2025,T,5,True,False,hist_3aa59cba08b70c83b68858d1
+2025_PIETRA_Cam_T_5_60.jpg,PIETRA,NON Conforme,0.61151075,2025,T,5,False,True,hist_d62fecbfea06e577998e2f41
+2025_PIETRA_Cam_T_6_100.jpg,PIETRA,Conforme,0.80113816,2025,T,6,True,False,hist_93bde9bb1e4bed746525c98b
+2025_PIETRA_Cam_T_6_103.jpg,PIETRA,Conforme,0.6531806,2025,T,6,True,False,hist_447e64b98508f51394391868
+2025_PIETRA_Cam_T_6_104.jpg,PIETRA,NON Conforme,0.7313735,2025,T,6,False,False,hist_210914ae8fdc7ff502f0d1c9
+2025_PIETRA_Cam_T_6_120.jpg,PIETRA,NON Conforme,0.86941695,2025,T,6,True,False,hist_abfbc36c1d8699c44cf538ab
+2025_PIETRA_Cam_T_6_172.jpg,PIETRA,NON Conforme,0.98598236,2025,T,6,True,False,hist_c2ac929ea8fe464fa5fe5735
+2025_PIETRA_Cam_T_6_173.jpg,PIETRA,Conforme,0.8967683,2025,T,6,False,False,hist_d540c9845ce77c216cce164a
+2025_PIETRA_Cam_T_6_219.jpg,Vide,Conforme,0.46344998,2025,T,6,False,False,hist_5ba00f3d348796a1295dbf0f
+2025_PIETRA_Cam_T_6_364.jpg,PIETRA,NON Conforme,0.56471413,2025,T,6,False,False,hist_a559e927d90336f3e7c0680f
+2025_PIETRA_Cam_T_6_380.jpg,PIETRA,Conforme,0.63091695,2025,T,6,True,False,hist_a50b745ead4b0df5211fd466
+2025_PIETRA_Cam_T_6_381.jpg,PIETRA,Conforme,0.9663281,2025,T,6,True,False,hist_2691e517ff945682959c5995
+2025_PIETRA_Cam_T_6_42.jpg,PIETRA,Conforme,0.5479581,2025,T,6,False,False,hist_baf96c66dcd24ab32f700178
+2025_PIETRA_Cam_T_6_71.jpg,PIETRA,Conforme,0.70775634,2025,T,6,True,False,hist_415c5121d79172edc3f0ebdd
+2026_Conforme_Cam_B_1_100.jpg,Conforme,PIETRA,0.92005754,2026,B,1,False,False,hist_1a6e8ca4810524015942e4b7
+2026_Conforme_Cam_B_1_119.jpg,Conforme,PIETRA,0.86308324,2026,B,1,False,False,hist_d1380ea2fbfbb5ea1c1991a7
+2026_Conforme_Cam_B_1_140.jpg,Conforme,PIETRA,0.6197341,2026,B,1,False,False,hist_a43f45ebf1abc5866192c339
+2026_Conforme_Cam_B_1_144.jpg,Conforme,PIETRA,0.6750047,2026,B,1,False,True,hist_90807ddc9dec8b71e8ac375f
+2026_Conforme_Cam_B_1_146.jpg,Conforme,PIETRA,0.8143496,2026,B,1,False,False,hist_8d34b8a718d70deca822d381
+2026_Conforme_Cam_B_1_157.jpg,Conforme,PIETRA,0.61429703,2026,B,1,False,False,hist_391a0b49503a3df7791c850d
+2026_Conforme_Cam_B_1_257.jpg,Conforme,PIETRA,0.80688006,2026,B,1,False,False,hist_a4e384daac0244eba4ce1b96
+2026_Conforme_Cam_B_1_281.jpg,Conforme,PIETRA,0.63093215,2026,B,1,False,False,hist_e5802bec72247e690fff8f48
+2026_Conforme_Cam_B_1_293.jpg,Conforme,PIETRA,0.47424495,2026,B,1,False,False,hist_79ad7e2d85a438429365852e
+2026_Conforme_Cam_B_1_325.jpg,Conforme,PIETRA,0.67918146,2026,B,1,False,False,hist_73a8c1c96c0a564ecb16c47c
+2026_Conforme_Cam_B_1_337.jpg,Conforme,PIETRA,0.7139103,2026,B,1,False,False,hist_81bc879332a2d51bb155dd51
+2026_Conforme_Cam_B_1_339.jpg,Conforme,NON Conforme,0.5466605,2026,B,1,False,True,hist_dc057217321189f2d0cb5a91
+2026_Conforme_Cam_B_1_370.jpg,Conforme,PIETRA,0.83938944,2026,B,1,False,False,hist_759d79d9fea7f286be1ab41b
+2026_Conforme_Cam_B_1_40.jpg,Conforme,PIETRA,0.9609025,2026,B,1,False,False,hist_421a6a1d053f8f455eaabc3d
+2026_Conforme_Cam_B_1_406.jpg,Conforme,PIETRA,0.9648223,2026,B,1,False,False,hist_0fb6b656be614ecec817a4fa
+2026_Conforme_Cam_B_2_111.jpg,Conforme,PIETRA,0.9663372,2026,B,2,True,False,hist_e4997f561dea26f348d84f4a
+2026_Conforme_Cam_B_2_134.jpg,Conforme,PIETRA,0.6328691,2026,B,2,False,False,hist_baa367916e1af3c2e5a89119
+2026_Conforme_Cam_B_2_313.jpg,Conforme,PIETRA,0.51028043,2026,B,2,False,False,hist_3c041fd3d50c12b2c54a3a58
+2026_Conforme_Cam_B_2_405.jpg,Conforme,PIETRA,0.451507,2026,B,2,True,False,hist_0811e85f387524a962f4dd7e
+2026_Conforme_Cam_B_2_44.jpg,Conforme,PIETRA,0.6295443,2026,B,2,False,False,hist_c7d1bc2c4d64e13e46a0c0c9
+2026_Conforme_Cam_B_2_45.jpg,Conforme,PIETRA,0.5833352,2026,B,2,True,False,hist_1ae2d7ad147fde7c4c35473c
+2026_Conforme_Cam_B_3_104.jpg,Conforme,PIETRA,0.5328413,2026,B,3,True,False,hist_8e95002a3c655a4585212211
+2026_Conforme_Cam_B_3_107.jpg,Conforme,PIETRA,0.5694185,2026,B,3,False,False,hist_2c64315722f156fa319afba6
+2026_Conforme_Cam_B_3_110.jpg,Conforme,PIETRA,0.5250864,2026,B,3,False,True,hist_9e57048db00250abdc91f877
+2026_Conforme_Cam_B_3_121.jpg,Conforme,PIETRA,0.54959697,2026,B,3,True,False,hist_6beaaa5e5b58852aba661246
+2026_Conforme_Cam_B_3_141.jpg,Conforme,PIETRA,0.56171966,2026,B,3,True,False,hist_33012ae048332a6b8ed5c0f2
+2026_Conforme_Cam_B_3_20.jpg,Conforme,PIETRA,0.64430225,2026,B,3,False,False,hist_99de774f7de230d0db1b83db
+2026_Conforme_Cam_B_3_287.jpg,Conforme,NON Conforme,0.69513816,2026,B,3,False,False,hist_45650b16233f0973b27b88a9
+2026_Conforme_Cam_B_3_297.jpg,Conforme,NON Conforme,0.6042807,2026,B,3,False,False,hist_3aee5bcd0bef0825de3be758
+2026_Conforme_Cam_B_3_313.jpg,Conforme,PIETRA,0.52249354,2026,B,3,False,False,hist_900ed3756bdca1b892387228
+2026_Conforme_Cam_B_3_320.jpg,Conforme,PIETRA,0.9513165,2026,B,3,False,False,hist_863b0b26745c28c4ec476196
+2026_Conforme_Cam_B_3_333.jpg,Conforme,PIETRA,0.910643,2026,B,3,False,False,hist_2883287c0758154d32e25cac
+2026_Conforme_Cam_B_3_348.jpg,Conforme,PIETRA,0.57519245,2026,B,3,False,False,hist_e996f142aca69448fbe679ea
+2026_Conforme_Cam_B_3_51.jpg,Conforme,PIETRA,0.5412838,2026,B,3,False,False,hist_bcef2d45613f8b42ba48cc89
+2026_Conforme_Cam_B_3_95.jpg,Conforme,PIETRA,0.8880842,2026,B,3,True,False,hist_bbf816b81ab3e33b2ee09ec1
+2026_Conforme_Cam_B_4_121.jpg,Conforme,PIETRA,0.8068967,2026,B,4,True,False,hist_9f46105f4e617605c7aa3861
+2026_Conforme_Cam_B_4_131.jpg,Conforme,PIETRA,0.93995386,2026,B,4,False,False,hist_00fb90f97dbd4b7afe0e112c
+2026_Conforme_Cam_B_4_139.jpg,Conforme,PIETRA,0.86065096,2026,B,4,False,False,hist_b9ff8c51031b88fddbde05e8
+2026_Conforme_Cam_B_4_156.jpg,Conforme,PIETRA,0.6978863,2026,B,4,False,False,hist_54fb5806d58a74c521e57342
+2026_Conforme_Cam_B_4_177.jpg,Conforme,PIETRA,0.72622365,2026,B,4,True,False,hist_0508828f10b397970bcac7f6
+2026_Conforme_Cam_B_4_200.jpg,Conforme,PIETRA,0.6643205,2026,B,4,True,False,hist_7f4686af12e81dc47b4f6a23
+2026_Conforme_Cam_B_4_205.jpg,Conforme,PIETRA,0.6976153,2026,B,4,False,False,hist_3e6dca7fa9896078875551da
+2026_Conforme_Cam_B_4_210.jpg,Conforme,PIETRA,0.51096034,2026,B,4,False,False,hist_b4d018d49055e001c22f4953
+2026_Conforme_Cam_B_4_231.jpg,Conforme,PIETRA,0.6999347,2026,B,4,False,False,hist_e45b676a1fa2e8ddb8d5f6d1
+2026_Conforme_Cam_B_4_240.jpg,Conforme,PIETRA,0.90658313,2026,B,4,True,False,hist_51c48182735e70cbe02a2455
+2026_Conforme_Cam_B_4_320.jpg,Conforme,PIETRA,0.50414085,2026,B,4,True,False,hist_6ba983b43cafd7faf5d8e089
+2026_Conforme_Cam_B_4_63.jpg,Conforme,PIETRA,0.5907088,2026,B,4,False,False,hist_df3c7f16ce93485eae18e892
+2026_Conforme_Cam_B_5_101.jpg,Conforme,PIETRA,0.5062935,2026,B,5,True,False,hist_32eff1e5f0394d442ecddeac
+2026_Conforme_Cam_B_5_102.jpg,Conforme,PIETRA,0.9841098,2026,B,5,False,False,hist_a1a6efb781e012b3a7bdf4fe
+2026_Conforme_Cam_B_5_107.jpg,Conforme,PIETRA,0.8428825,2026,B,5,False,False,hist_4dff0356230169007ff36ee9
+2026_Conforme_Cam_B_5_111.jpg,Conforme,PIETRA,0.8627122,2026,B,5,False,False,hist_af0fef28ca184b0e3a76fe39
+2026_Conforme_Cam_B_5_170.jpg,Conforme,PIETRA,0.8896123,2026,B,5,False,True,hist_cbd85fefec7fe849e03b911d
+2026_Conforme_Cam_B_5_187.jpg,Conforme,PIETRA,0.62704915,2026,B,5,False,False,hist_7f1c56c38fd3e59bdffd6293
+2026_Conforme_Cam_B_5_22.jpg,Conforme,PIETRA,0.9188994,2026,B,5,False,False,hist_e3efca1c13d2aac7fb822bdd
+2026_Conforme_Cam_B_5_235.jpg,Conforme,PIETRA,0.54685825,2026,B,5,False,False,hist_72a9ec6e3f2db53e77ab098c
+2026_Conforme_Cam_B_5_248.jpg,Conforme,PIETRA,0.7109209,2026,B,5,False,False,hist_d1daa0f1d50916e90832b04a
+2026_Conforme_Cam_B_5_250.jpg,Conforme,PIETRA,0.883617,2026,B,5,False,False,hist_bf6a0015177503d08ec402bc
+2026_Conforme_Cam_B_5_297.jpg,Conforme,PIETRA,0.9436843,2026,B,5,False,False,hist_75935b4365fcc3b2d6fd9ee7
+2026_Conforme_Cam_B_5_321.jpg,Conforme,PIETRA,0.9067742,2026,B,5,True,False,hist_f8f8d9e1263dc8c8cdf08d38
+2026_Conforme_Cam_B_5_389.jpg,Conforme,PIETRA,0.524045,2026,B,5,True,False,hist_249204ebdf803d660a6f08c4
+2026_Conforme_Cam_B_5_76.jpg,Conforme,PIETRA,0.86054254,2026,B,5,False,False,hist_bfd1c210d98fb72adca5b8a1
+2026_Conforme_Cam_B_5_81.jpg,Conforme,PIETRA,0.9543789,2026,B,5,True,False,hist_7a6f7669bcd8c5348021daa1
+2026_Conforme_Cam_B_5_98.jpg,Conforme,PIETRA,0.94304,2026,B,5,True,False,hist_e5015885ca54156791a4c864
+2026_Conforme_Cam_B_6_13.jpg,Conforme,PIETRA,0.777794,2026,B,6,False,False,hist_cd97d4283f948e8fdd2332a8
+2026_Conforme_Cam_B_6_134.jpg,Conforme,PIETRA,0.7760526,2026,B,6,False,False,hist_2aaadf317029d846ad859119
+2026_Conforme_Cam_B_6_161.jpg,Conforme,PIETRA,0.6107483,2026,B,6,False,False,hist_4287dfb44f1438d2530f03ae
+2026_Conforme_Cam_B_6_20.jpg,Conforme,PIETRA,0.92234063,2026,B,6,True,False,hist_e8a8aa7d7acfa909bb1be5eb
+2026_Conforme_Cam_B_6_229.jpg,Vide,PIETRA,0.80639416,2026,B,6,False,False,hist_32fcb3b329c990ebf6aa82ff
+2026_Conforme_Cam_B_6_232.jpg,Conforme,PIETRA,0.7561646,2026,B,6,False,False,hist_d954af9485943af8da22d197
+2026_Conforme_Cam_B_6_249.jpg,Conforme,PIETRA,0.6450463,2026,B,6,False,False,hist_6111337d58ea295c579be03f
+2026_Conforme_Cam_B_6_257.jpg,Conforme,PIETRA,0.45664957,2026,B,6,False,True,hist_12b33f68841585be60ea5279
+2026_Conforme_Cam_B_6_271.jpg,Conforme,PIETRA,0.64591146,2026,B,6,True,False,hist_f4f7bd73210f07d1aa8659bd
+2026_Conforme_Cam_B_6_275.jpg,Conforme,PIETRA,0.5717554,2026,B,6,True,False,hist_5840cf78f7699ce0b78c274e
+2026_Conforme_Cam_B_6_276.jpg,Conforme,PIETRA,0.52470446,2026,B,6,True,False,hist_a429da5b267d99f056bb51d9
+2026_Conforme_Cam_B_6_279.jpg,Conforme,PIETRA,0.6719594,2026,B,6,False,False,hist_df50b0a99960600a33a71b98
+2026_Conforme_Cam_B_6_283.jpg,Conforme,PIETRA,0.66203713,2026,B,6,True,False,hist_c8a317844a093376384de983
+2026_Conforme_Cam_B_6_288.jpg,Conforme,PIETRA,0.88739836,2026,B,6,False,False,hist_ceef1125f86be9d23b9c44cb
+2026_Conforme_Cam_B_6_347.jpg,Conforme,PIETRA,0.7782907,2026,B,6,True,False,hist_cec1120df6f24c090103d82b
+2026_Conforme_Cam_B_6_373.jpg,Conforme,PIETRA,0.85479575,2026,B,6,False,False,hist_7e694d2fa6d7b67487bb0d41
+2026_Conforme_Cam_B_6_40.jpg,Conforme,PIETRA,0.8367061,2026,B,6,True,False,hist_4aa8a9c82262cc870e724871
+2026_Conforme_Cam_B_6_5.jpg,Conforme,PIETRA,0.5585209,2026,B,6,True,False,hist_fabbf7109e572059e5aa41c2
+2026_Conforme_Cam_B_6_56.jpg,Conforme,PIETRA,0.8262434,2026,B,6,False,False,hist_20b842687c6ca68f3613b361
+2026_Conforme_Cam_B_6_63.jpg,Conforme,PIETRA,0.81900924,2026,B,6,True,False,hist_60709ef24a316e4050b03c3b
+2026_Conforme_Cam_B_6_77.jpg,Conforme,PIETRA,0.5899351,2026,B,6,True,False,hist_cb684ab9ac1deb9aac758ca1
+2026_Conforme_Cam_B_6_99.jpg,Conforme,PIETRA,0.7351949,2026,B,6,False,False,hist_c8662a845a42cc96f959dc2c
+2026_Conforme_Cam_T_1_197.jpg,Conforme,Vide,0.85565054,2026,T,1,True,False,hist_d26c682060fef1056a25a91e
+2026_Conforme_Cam_T_1_218.jpg,Conforme,PIETRA,0.850389,2026,T,1,False,False,hist_04bf5ddc266a105811cdb145
+2026_Conforme_Cam_T_1_240.jpg,Conforme,NON Conforme,0.58361804,2026,T,1,False,False,hist_448740688ba81b3f0d184bd5
+2026_Conforme_Cam_T_1_324.jpg,Conforme,PIETRA,0.95139754,2026,T,1,False,False,
+2026_Conforme_Cam_T_1_325.jpg,Conforme,PIETRA,0.5869127,2026,T,1,False,False,hist_73a8c1c96c0a564ecb16c47c
+2026_Conforme_Cam_T_1_87.jpg,Conforme,PIETRA,0.6848132,2026,T,1,False,False,hist_df48e7b84a54fb6d3a09d54c
+2026_Conforme_Cam_T_1_91.jpg,Conforme,PIETRA,0.38000286,2026,T,1,False,False,hist_3dbf788cc3aecac142f36d31
+2026_Conforme_Cam_T_2_107.jpg,Conforme,PIETRA,0.4971462,2026,T,2,True,False,hist_bb4b62c9339d8b184792b336
+2026_Conforme_Cam_T_2_111.jpg,Conforme,PIETRA,0.5605929,2026,T,2,False,False,hist_e4997f561dea26f348d84f4a
+2026_Conforme_Cam_T_2_113.jpg,Conforme,PIETRA,0.86303383,2026,T,2,False,True,hist_e4e908131281bf262f6f48a8
+2026_Conforme_Cam_T_2_116.jpg,Conforme,PIETRA,0.6895245,2026,T,2,False,False,hist_952e6579ccb94cd86413dec9
+2026_Conforme_Cam_T_2_139.jpg,Conforme,PIETRA,0.76133955,2026,T,2,False,False,hist_1104fe4a0188831232bfc9d3
+2026_Conforme_Cam_T_2_161.jpg,Conforme,PIETRA,0.7185281,2026,T,2,False,False,hist_0750a07c5461e88f73d037e5
+2026_Conforme_Cam_T_2_169.jpg,Conforme,PIETRA,0.66033006,2026,T,2,False,False,hist_f45e493dd16f68ff69e29775
+2026_Conforme_Cam_T_2_194.jpg,Conforme,PIETRA,0.4877328,2026,T,2,False,False,hist_c96d340824ca1e0b26c8e7fb
+2026_Conforme_Cam_T_2_206.jpg,Conforme,PIETRA,0.5659135,2026,T,2,False,False,hist_908f6660124d9f08e67c1145
+2026_Conforme_Cam_T_2_220.jpg,Conforme,PIETRA,0.5890961,2026,T,2,False,False,hist_fb971e7299570cdd8890d02c
+2026_Conforme_Cam_T_2_227.jpg,Conforme,PIETRA,0.8280705,2026,T,2,False,False,hist_4cf71b49aba42f05b9fdb47e
+2026_Conforme_Cam_T_2_293.jpg,Conforme,PIETRA,0.4069227,2026,T,2,False,False,hist_633eb56fcdb7e8aca8f036b6
+2026_Conforme_Cam_T_2_30.jpg,Conforme,PIETRA,0.5202149,2026,T,2,False,False,hist_90d7b115b8be8d9331a5fcf0
+2026_Conforme_Cam_T_2_320.jpg,Conforme,PIETRA,0.62042266,2026,T,2,False,False,hist_3e162400b0e60deb4eeb4874
+2026_Conforme_Cam_T_2_329.jpg,Conforme,Vide,0.973764,2026,T,2,True,False,hist_45bf0905b8c96f9a43aed468
+2026_Conforme_Cam_T_2_405.jpg,Conforme,PIETRA,0.68309003,2026,T,2,False,False,hist_0811e85f387524a962f4dd7e
+2026_Conforme_Cam_T_2_45.jpg,Conforme,Vide,0.87625825,2026,T,2,True,False,hist_1ae2d7ad147fde7c4c35473c
+2026_Conforme_Cam_T_2_49.jpg,Conforme,PIETRA,0.7623463,2026,T,2,False,False,hist_ddca4a85e0bd6898de70b248
+2026_Conforme_Cam_T_2_72.jpg,Conforme,PIETRA,0.92197347,2026,T,2,False,False,hist_240817bc28f4ee87c1a53b19
+2026_Conforme_Cam_T_2_88.jpg,Conforme,PIETRA,0.9569695,2026,T,2,False,False,hist_2cba9f63bcb32c078f4aa806
+2026_Conforme_Cam_T_3_104.jpg,Conforme,PIETRA,0.504015,2026,T,3,True,False,hist_8e95002a3c655a4585212211
+2026_Conforme_Cam_T_3_325.jpg,Conforme,PIETRA,0.52369905,2026,T,3,True,False,hist_0ec934b7ebb86f07400651f6
+2026_Conforme_Cam_T_3_333.jpg,Conforme,PIETRA,0.9479408,2026,T,3,True,False,hist_2883287c0758154d32e25cac
+2026_Conforme_Cam_T_4_203.jpg,Conforme,PIETRA,0.77139634,2026,T,4,True,False,hist_2e4578e68abb2e1afecbcdea
+2026_Conforme_Cam_T_4_266.jpg,Conforme,PIETRA,0.66147524,2026,T,4,True,False,hist_31f24b8fe578e3a6cef5b360
+2026_Conforme_Cam_T_4_320.jpg,Conforme,NON Conforme,0.3998396,2026,T,4,False,False,hist_6ba983b43cafd7faf5d8e089
+2026_Conforme_Cam_T_4_376.jpg,Conforme,PIETRA,0.7453928,2026,T,4,False,False,hist_da0618674ccb1784e44fe076
+2026_Conforme_Cam_T_4_48.jpg,Conforme,NON Conforme,0.35226092,2026,T,4,False,False,hist_d34903384d437899a916e00a
+2026_Conforme_Cam_T_4_90.jpg,Conforme,PIETRA,0.7179018,2026,T,4,False,False,hist_dc841fd097bdf88481560c9f
+2026_Conforme_Cam_T_5_101.jpg,Conforme,PIETRA,0.81532115,2026,T,5,True,False,hist_32eff1e5f0394d442ecddeac
+2026_Conforme_Cam_T_5_285.jpg,Conforme,PIETRA,0.5400435,2026,T,5,True,False,hist_b8bddffded70f1500a2dac09
+2026_Conforme_Cam_T_5_297.jpg,Conforme,PIETRA,0.76660866,2026,T,5,False,False,hist_75935b4365fcc3b2d6fd9ee7
+2026_Conforme_Cam_T_5_64.jpg,Conforme,PIETRA,0.54655224,2026,T,5,False,True,hist_4353941092db1c235a52862f
+2026_Conforme_Cam_T_6_243.jpg,Conforme,PIETRA,0.5754621,2026,T,6,False,False,hist_0bda1ad1574ac9ecd64fed0c
+2026_Conforme_Cam_T_6_244.jpg,Conforme,PIETRA,0.89449126,2026,T,6,False,False,hist_dc6d9984265cfb89fc4f094d
+2026_Conforme_Cam_T_6_288.jpg,Conforme,PIETRA,0.84487265,2026,T,6,True,False,hist_ceef1125f86be9d23b9c44cb
+2026_Conforme_Cam_T_6_323.jpg,Conforme,PIETRA,0.6441197,2026,T,6,False,True,
+2026_NON_Conforme_Cam_B_1_137.jpg,NON Conforme,PIETRA,0.5967195,2026,B,1,True,False,hist_828a7177326dd68673c9af38
+2026_NON_Conforme_Cam_B_1_144.jpg,NON Conforme,PIETRA,0.5761355,2026,B,1,True,False,hist_c23d568d408f25160308d642
+2026_NON_Conforme_Cam_B_1_191.jpg,NON Conforme,PIETRA,0.69965607,2026,B,1,False,True,hist_b152be3a6ac9df69784bbe41
+2026_NON_Conforme_Cam_B_1_216.jpg,NON Conforme,PIETRA,0.9013193,2026,B,1,False,False,hist_405612ecdaee54e76ed76107
+2026_NON_Conforme_Cam_B_1_221.jpg,NON Conforme,PIETRA,0.6997122,2026,B,1,False,False,hist_1f2b248f341eaa7292553916
+2026_NON_Conforme_Cam_B_1_230.jpg,NON Conforme,PIETRA,0.5386153,2026,B,1,False,False,hist_377e30573804103e9d263163
+2026_NON_Conforme_Cam_B_1_231.jpg,NON Conforme,Conforme,0.75695735,2026,B,1,False,False,hist_967a013e42fc7796f1cfc93c
+2026_NON_Conforme_Cam_B_1_240.jpg,NON Conforme,Conforme,0.502299,2026,B,1,False,False,hist_74e443bdc7ed4280c6ab7e7c
+2026_NON_Conforme_Cam_B_1_39.jpg,NON Conforme,Conforme,0.42019144,2026,B,1,False,False,hist_1fc4425d44a0ae42d4f7e87d
+2026_NON_Conforme_Cam_B_1_62.jpg,NON Conforme,PIETRA,0.80844384,2026,B,1,False,False,hist_0f4ebb6857473f8a8b83ed37
+2026_NON_Conforme_Cam_B_1_68.jpg,NON Conforme,PIETRA,0.6352716,2026,B,1,False,False,hist_14ea4bb268d5c79b1f8f8a85
+2026_NON_Conforme_Cam_B_1_84.jpg,NON Conforme,PIETRA,0.7834328,2026,B,1,False,False,hist_d3782aff764be42d93415ea3
+2026_NON_Conforme_Cam_B_1_90.jpg,NON Conforme,PIETRA,0.72411394,2026,B,1,False,False,hist_bbd4471c281229fbe3c49509
+2026_NON_Conforme_Cam_B_2_148.jpg,NON Conforme,PIETRA,0.9271068,2026,B,2,False,True,hist_a9aceceeb74a2b0d47ec2764
+2026_NON_Conforme_Cam_B_2_233.jpg,NON Conforme,PIETRA,0.7073481,2026,B,2,False,False,hist_b113a94a23975321ecf3a1a7
+2026_NON_Conforme_Cam_B_2_237.jpg,NON Conforme,Conforme,0.42257494,2026,B,2,False,False,hist_316f0c3bf1f59579ad9ebb1c
+2026_NON_Conforme_Cam_B_2_29.jpg,NON Conforme,Conforme,0.5020548,2026,B,2,False,False,hist_55e0f70e2e6f89bd3e9c59ed
+2026_NON_Conforme_Cam_B_3_100.jpg,NON Conforme,Conforme,0.5631543,2026,B,3,False,False,hist_810415c24389febd0723d20f
+2026_NON_Conforme_Cam_B_3_155.jpg,NON Conforme,PIETRA,0.9011838,2026,B,3,False,False,hist_bbeeec629f31e4fea031796a
+2026_NON_Conforme_Cam_B_3_167.jpg,NON Conforme,Conforme,0.95855236,2026,B,3,False,False,hist_8a768020373300216e7e3b2c
+2026_NON_Conforme_Cam_B_3_185.jpg,NON Conforme,PIETRA,0.63902056,2026,B,3,False,True,hist_64fdf61b5c9c840573686044
+2026_NON_Conforme_Cam_B_3_202.jpg,NON Conforme,Conforme,0.5780844,2026,B,3,False,False,hist_b3d1f8e27210fafe63f167d3
+2026_NON_Conforme_Cam_B_3_84.jpg,NON Conforme,Conforme,0.79589164,2026,B,3,False,False,hist_cc5fec8e7b267db17a5da9bc
+2026_NON_Conforme_Cam_B_4_147.jpg,NON Conforme,PIETRA,0.7437257,2026,B,4,False,False,hist_de74e9e72ad06ac912159739
+2026_NON_Conforme_Cam_B_4_180.jpg,NON Conforme,PIETRA,0.82909006,2026,B,4,False,False,hist_bcb0f4f426e491fafbdacc61
+2026_NON_Conforme_Cam_B_4_244.jpg,NON Conforme,PIETRA,0.88306856,2026,B,4,False,False,hist_1a12cb77588a731a7ccd6009
+2026_NON_Conforme_Cam_B_4_41.jpg,NON Conforme,PIETRA,0.81661433,2026,B,4,False,False,hist_df088c352ca8a66d0bcfb945
+2026_NON_Conforme_Cam_B_4_81.jpg,NON Conforme,Conforme,0.7936538,2026,B,4,False,False,hist_6eeaedd6f13aeb7fe1817521
+2026_NON_Conforme_Cam_B_4_84.jpg,NON Conforme,Conforme,0.6267783,2026,B,4,False,False,hist_ed5925b002d8010e88fc30c1
+2026_NON_Conforme_Cam_B_5_129.jpg,NON Conforme,PIETRA,0.49823788,2026,B,5,False,False,hist_3f989034e4646e9d74f3cca2
+2026_NON_Conforme_Cam_B_5_151.jpg,NON Conforme,PIETRA,0.67565984,2026,B,5,False,False,hist_dae81736fe83be4288add77c
+2026_NON_Conforme_Cam_B_5_190.jpg,NON Conforme,PIETRA,0.8994176,2026,B,5,False,False,hist_ef50f5d38847bca056fb3ed5
+2026_NON_Conforme_Cam_B_5_195.jpg,NON Conforme,PIETRA,0.89704645,2026,B,5,False,False,hist_5cb6725c51a0344fa441555f
+2026_NON_Conforme_Cam_B_5_210.jpg,NON Conforme,PIETRA,0.84341085,2026,B,5,False,False,hist_e00956ed849dfd0d65b0cb89
+2026_NON_Conforme_Cam_B_5_24.jpg,NON Conforme,PIETRA,0.76428825,2026,B,5,False,False,hist_7619621f2b0d4ed656b6b7b2
+2026_NON_Conforme_Cam_B_5_251.jpg,NON Conforme,PIETRA,0.5026396,2026,B,5,False,False,hist_3bad70c6064e3fa8d04d08a1
+2026_NON_Conforme_Cam_B_5_264.jpg,NON Conforme,PIETRA,0.5854702,2026,B,5,False,False,hist_7e31d213661c804fa0549890
+2026_NON_Conforme_Cam_B_5_265.jpg,NON Conforme,PIETRA,0.68283015,2026,B,5,False,False,hist_f47e9f393be272e87c1228d6
+2026_NON_Conforme_Cam_B_5_32.jpg,NON Conforme,PIETRA,0.63870573,2026,B,5,False,False,hist_0bc5509c894c975797a7621d
+2026_NON_Conforme_Cam_B_5_95.jpg,NON Conforme,PIETRA,0.62895,2026,B,5,False,False,hist_e73a7d1599072d89aa87c4d2
+2026_NON_Conforme_Cam_B_6_13.jpg,NON Conforme,PIETRA,0.7890895,2026,B,6,False,False,hist_99d36592eeccf0f5ec50c51d
+2026_NON_Conforme_Cam_B_6_136.jpg,NON Conforme,PIETRA,0.60699034,2026,B,6,False,False,hist_a41dc96c68c5296b174e3509
+2026_NON_Conforme_Cam_B_6_141.jpg,NON Conforme,PIETRA,0.80607414,2026,B,6,False,False,hist_a5c6ef734a70009ceeace298
+2026_NON_Conforme_Cam_B_6_159.jpg,NON Conforme,PIETRA,0.6245427,2026,B,6,False,False,hist_0c0467735c121443f4f635ff
+2026_NON_Conforme_Cam_B_6_226.jpg,NON Conforme,PIETRA,0.99502254,2026,B,6,False,True,hist_3f1484ad03c3c863f6390dbb
+2026_NON_Conforme_Cam_B_6_249.jpg,NON Conforme,Conforme,0.8048509,2026,B,6,False,False,hist_17d7e9c7ce051b95e9b351c0
+2026_NON_Conforme_Cam_B_6_33.jpg,NON Conforme,PIETRA,0.8119992,2026,B,6,False,False,hist_08a9ff153bbba7fe259270d4
+2026_NON_Conforme_Cam_B_6_35.jpg,NON Conforme,PIETRA,0.8901628,2026,B,6,False,False,hist_d2038a6d2333fcff8a0b1c2a
+2026_NON_Conforme_Cam_B_6_36.jpg,NON Conforme,PIETRA,0.6579631,2026,B,6,False,False,hist_eabc0c20d1242621efc8d42f
+2026_NON_Conforme_Cam_B_6_48.jpg,NON Conforme,PIETRA,0.5581326,2026,B,6,True,False,hist_103cf68d8cc37071a6a20359
+2026_NON_Conforme_Cam_T_1_114.jpg,NON Conforme,PIETRA,0.50067055,2026,T,1,False,False,hist_8290369b7926f0fd12d3685b
+2026_NON_Conforme_Cam_T_1_145.jpg,NON Conforme,PIETRA,0.65100074,2026,T,1,False,False,hist_fc8fff9cbaeb3eb951aa2d76
+2026_NON_Conforme_Cam_T_1_230.jpg,NON Conforme,PIETRA,0.5734105,2026,T,1,False,False,hist_377e30573804103e9d263163
+2026_NON_Conforme_Cam_T_1_53.jpg,NON Conforme,PIETRA,0.5816206,2026,T,1,False,False,hist_1a92af84d75e69559877709a
+2026_NON_Conforme_Cam_T_1_63.jpg,NON Conforme,PIETRA,0.77155197,2026,T,1,False,False,hist_fa9516400db9bc2f70fe4a8c
+2026_NON_Conforme_Cam_T_2_238.jpg,NON Conforme,Conforme,0.45091504,2026,T,2,False,False,hist_e779ffbb01c78102d26f3f29
+2026_NON_Conforme_Cam_T_3_102.jpg,NON Conforme,Conforme,0.7347734,2026,T,3,False,True,hist_e2549021883d8c1fca6d7cfe
+2026_NON_Conforme_Cam_T_3_124.jpg,NON Conforme,Conforme,0.7038015,2026,T,3,False,False,hist_5fdb63951e9527f7721a9b7a
+2026_NON_Conforme_Cam_T_3_183.jpg,NON Conforme,PIETRA,0.3787701,2026,T,3,False,False,hist_e5454c8ec8a5adeb51104ee1
+2026_NON_Conforme_Cam_T_3_250.jpg,NON Conforme,PIETRA,0.8389182,2026,T,3,False,False,hist_a4ef325915ab3436160022fc
+2026_NON_Conforme_Cam_T_3_268.jpg,NON Conforme,PIETRA,0.71495706,2026,T,3,False,False,hist_e46b7822db284f97ac7668c3
+2026_NON_Conforme_Cam_T_4_244.jpg,NON Conforme,PIETRA,0.51696545,2026,T,4,False,False,hist_1a12cb77588a731a7ccd6009
+2026_NON_Conforme_Cam_T_4_74.jpg,NON Conforme,PIETRA,0.69057196,2026,T,4,False,False,hist_d37920f17da45f85ac5bf017
+2026_NON_Conforme_Cam_T_5_188.jpg,NON Conforme,PIETRA,0.5725949,2026,T,5,False,False,hist_dc1a20b017011cc86a59194e
+2026_NON_Conforme_Cam_T_6_141.jpg,NON Conforme,Conforme,0.5623271,2026,T,6,False,False,hist_a5c6ef734a70009ceeace298
+2026_NON_Conforme_Cam_T_6_149.jpg,NON Conforme,PIETRA,0.48108104,2026,T,6,False,False,hist_7c9f6e1e7c1bcba1c05c1720
+2026_NON_Conforme_Cam_T_6_180.jpg,NON Conforme,Conforme,0.6035181,2026,T,6,False,False,hist_3f707611cb5ac63a48995b0c
+2026_NON_Conforme_Cam_T_6_187.jpg,NON Conforme,PIETRA,0.9537748,2026,T,6,True,False,hist_bc2692f8892784de70f6566d
+2026_NON_Conforme_Cam_T_6_215.jpg,NON Conforme,PIETRA,0.51853216,2026,T,6,False,False,hist_86a659068a625db6032222bc
+2026_NON_Conforme_Cam_T_6_28.jpg,NON Conforme,Conforme,0.8751737,2026,T,6,False,False,hist_e991451de529f76fa6a1a400
+2026_NON_Conforme_Cam_T_6_30.jpg,NON Conforme,PIETRA,0.7213436,2026,T,6,False,False,hist_3b063e26565a9c4277b66fcd
+2026_NON_Conforme_Cam_T_6_46.jpg,NON Conforme,Conforme,0.76684415,2026,T,6,True,False,hist_2c9d7f54da28d79cb08ad180
+2026_NON_Conforme_Cam_T_6_51.jpg,NON Conforme,Conforme,0.5768069,2026,T,6,False,False,hist_117ac076f8b1aad9f2b207d9
+2026_NON_Conforme_Cam_T_6_62.jpg,NON Conforme,Conforme,0.46417788,2026,T,6,False,False,hist_14a98669e5d1039c988e5ffb
+2026_NON_Conforme_Cam_T_6_82.jpg,NON Conforme,PIETRA,0.6697885,2026,T,6,False,False,hist_0990baa958462587064fab13
+2026_PIETRA_Cam_B_1_156.jpg,PIETRA,Conforme,0.63311183,2026,B,1,False,False,hist_4c8a63af44942be44a4ebddd
+2026_PIETRA_Cam_B_1_162.jpg,PIETRA,NON Conforme,0.7542051,2026,B,1,False,False,hist_dee454b0e71025155453e1a0
+2026_PIETRA_Cam_B_1_285.jpg,PIETRA,Conforme,0.5691871,2026,B,1,False,False,hist_181b6ded861582022b6abc6d
+2026_PIETRA_Cam_B_1_46.jpg,PIETRA,Conforme,0.82793444,2026,B,1,False,False,hist_9cd832a10d33bb850cdcb98a
+2026_PIETRA_Cam_B_1_503.jpg,PIETRA,NON Conforme,0.4769147,2026,B,1,False,False,hist_03a0217c8c552e1683289a2d
+2026_PIETRA_Cam_B_1_513.jpg,PIETRA,Conforme,0.43694234,2026,B,1,True,False,hist_7e5745a913a608c655a7e64d
+2026_PIETRA_Cam_B_1_519.jpg,PIETRA,Conforme,0.8155095,2026,B,1,False,False,hist_b70b280ee96a746095303422
+2026_PIETRA_Cam_B_1_549.jpg,PIETRA,NON Conforme,0.54877186,2026,B,1,False,False,hist_89939253a0762c6d28a50b37
+2026_PIETRA_Cam_B_1_73.jpg,PIETRA,Conforme,0.80936587,2026,B,1,False,False,hist_cad3da221dfe6d1108d5d5fa
+2026_PIETRA_Cam_B_1_90.jpg,PIETRA,NON Conforme,0.6847104,2026,B,1,False,False,hist_7348ac9bb214b377d303134d
+2026_PIETRA_Cam_B_2_207.jpg,PIETRA,Conforme,0.61336714,2026,B,2,True,False,hist_fa2912bf41b114d517cc72f1
+2026_PIETRA_Cam_B_2_327.jpg,PIETRA,NON Conforme,0.6027897,2026,B,2,True,False,hist_4ff82339297b21a38b6786ee
+2026_PIETRA_Cam_B_2_362.jpg,PIETRA,Conforme,0.8746065,2026,B,2,True,False,hist_81beea8219ec3536dbb1aea4
+2026_PIETRA_Cam_B_2_369.jpg,PIETRA,Conforme,0.5879187,2026,B,2,False,False,hist_3fbcb486afa8f819f8bd5552
+2026_PIETRA_Cam_B_2_375.jpg,PIETRA,Conforme,0.40823013,2026,B,2,False,False,hist_bf9ff311c6884f07facfaa4f
+2026_PIETRA_Cam_B_2_417.jpg,PIETRA,Conforme,0.61200243,2026,B,2,False,False,hist_cdf4800d03d42b790338d264
+2026_PIETRA_Cam_B_2_480.jpg,PIETRA,Conforme,0.66258514,2026,B,2,False,False,hist_1299ff4a5c609e755b8f18b0
+2026_PIETRA_Cam_B_2_573.jpg,PIETRA,Conforme,0.93062395,2026,B,2,False,False,hist_9a9234f93ec09b63cb07d887
+2026_PIETRA_Cam_B_2_580.jpg,PIETRA,Conforme,0.6307617,2026,B,2,False,False,hist_92832e549eece253d55a7ebf
+2026_PIETRA_Cam_B_2_60.jpg,PIETRA,Conforme,0.8932968,2026,B,2,False,False,hist_1561327fadc336f8c943dc94
+2026_PIETRA_Cam_B_2_79.jpg,PIETRA,Conforme,0.5519545,2026,B,2,False,False,hist_0560e24e19caa045f8b6e8a9
+2026_PIETRA_Cam_B_2_86.jpg,PIETRA,Conforme,0.66505927,2026,B,2,False,False,hist_1bc8ae61cce402ce822f814a
+2026_PIETRA_Cam_B_2_92.jpg,PIETRA,Conforme,0.60473454,2026,B,2,False,False,hist_ebd248a7a2cfd4adad9be44c
+2026_PIETRA_Cam_B_3_257.jpg,PIETRA,Conforme,0.56529605,2026,B,3,False,False,hist_b8e2242ef1a8089679d6be42
+2026_PIETRA_Cam_B_4_226.jpg,PIETRA,Conforme,0.8886284,2026,B,4,False,False,hist_86f0851efb1848010c0d1759
+2026_PIETRA_Cam_B_4_311.jpg,PIETRA,Conforme,0.50994647,2026,B,4,True,False,hist_dda07ce223a1ef6ef714454f
+2026_PIETRA_Cam_B_4_399.jpg,PIETRA,Conforme,0.57830024,2026,B,4,False,False,hist_28ee552a798fd6a0be9ef651
+2026_PIETRA_Cam_B_4_402.jpg,PIETRA,Conforme,0.63950914,2026,B,4,False,True,hist_eff61becf865d7bbfec76864
+2026_PIETRA_Cam_B_4_42.jpg,PIETRA,NON Conforme,0.5514524,2026,B,4,False,False,hist_91e5f214e0a567a037194356
+2026_PIETRA_Cam_B_4_482.jpg,PIETRA,Conforme,0.73629135,2026,B,4,False,False,hist_bf229f65a218d54ecebde40c
+2026_PIETRA_Cam_B_4_525.jpg,PIETRA,Conforme,0.85422826,2026,B,4,True,False,hist_fce2dc6776fef31fd6fbf058
+2026_PIETRA_Cam_B_5_246.jpg,PIETRA,Conforme,0.6203906,2026,B,5,False,False,hist_eb5e8f8a690e1e5a228594d8
+2026_PIETRA_Cam_B_5_556.jpg,PIETRA,Conforme,0.62451476,2026,B,5,False,False,hist_bdd0650a44a6835eed8b2f23
+2026_PIETRA_Cam_B_6_193.jpg,PIETRA,Conforme,0.54877776,2026,B,6,True,False,hist_a9b92e0520dc8dff2ec91aae
+2026_PIETRA_Cam_B_6_330.jpg,PIETRA,Conforme,0.91854525,2026,B,6,False,False,hist_a7d43189c495b39d961c2b50
+2026_PIETRA_Cam_B_6_334.jpg,PIETRA,Vide,0.93377095,2026,B,6,True,False,hist_ce718d6c4cccf8f59d084ac1
+2026_PIETRA_Cam_B_6_48.jpg,PIETRA,Conforme,0.8244882,2026,B,6,False,False,hist_10975a52e9cbefed42c19d5a
+2026_PIETRA_Cam_B_6_498.jpg,PIETRA,NON Conforme,0.8589077,2026,B,6,False,False,hist_ef9e1214abc0812050f097ad
+2026_PIETRA_Cam_B_6_560.jpg,PIETRA,Conforme,0.3972647,2026,B,6,True,False,hist_809837993f7899d754f2715d
+2026_PIETRA_Cam_B_6_57.jpg,PIETRA,Conforme,0.5538199,2026,B,6,True,False,
+2026_PIETRA_Cam_T_1_102.jpg,PIETRA,Conforme,0.6827836,2026,T,1,False,False,hist_3daf78c591b2a7f6930c1b7f
+2026_PIETRA_Cam_T_1_116.jpg,PIETRA,Conforme,0.629002,2026,T,1,False,False,
+2026_PIETRA_Cam_T_1_328.jpg,PIETRA,Conforme,0.7994614,2026,T,1,False,False,hist_c1bdb6ed86bf00b4de774b0c
+2026_PIETRA_Cam_T_1_342.jpg,PIETRA,Conforme,0.5754614,2026,T,1,False,False,hist_c225ffa51d01dc95f5afb1e7
+2026_PIETRA_Cam_T_1_394.jpg,PIETRA,Conforme,0.82223684,2026,T,1,False,False,hist_dcd904c0f3fb86103478f07e
+2026_PIETRA_Cam_T_1_442.jpg,PIETRA,Conforme,0.55282027,2026,T,1,True,False,hist_4c4af0b37f7c2fb4e9b35042
+2026_PIETRA_Cam_T_1_455.jpg,PIETRA,NON Conforme,0.84363407,2026,T,1,False,False,hist_61d2f17cd068fa6d487b41c8
+2026_PIETRA_Cam_T_1_472.jpg,PIETRA,Conforme,0.5925198,2026,T,1,True,False,hist_b1f0fd5c72007f4d0773737c
+2026_PIETRA_Cam_T_1_519.jpg,PIETRA,Conforme,0.72036797,2026,T,1,False,False,hist_b70b280ee96a746095303422
+2026_PIETRA_Cam_T_2_281.jpg,PIETRA,NON Conforme,0.5400368,2026,T,2,False,False,hist_c93e674965775d6e23f18223
+2026_PIETRA_Cam_T_2_293.jpg,Vide,PIETRA,0.53880304,2026,T,2,False,False,hist_770f877394a67638b8b8d695
+2026_PIETRA_Cam_T_2_296.jpg,Vide,PIETRA,0.7178499,2026,T,2,False,False,hist_93506cd3329c9f329d41e45a
+2026_PIETRA_Cam_T_2_312.jpg,Vide,PIETRA,0.8584958,2026,T,2,False,False,hist_ccba0f1be486e5fc8b246719
+2026_PIETRA_Cam_T_2_340.jpg,Vide,PIETRA,0.70516896,2026,T,2,False,False,hist_7badd0941d2aaf16841d1584
+2026_PIETRA_Cam_T_2_353.jpg,Vide,PIETRA,0.7565559,2026,T,2,False,False,hist_618e5a35f1f5fd1fca8aae33
+2026_PIETRA_Cam_T_2_365.jpg,Vide,PIETRA,0.9048325,2026,T,2,False,False,hist_411f1cc1b017df787ef2bb87
+2026_PIETRA_Cam_T_2_369.jpg,Vide,PIETRA,0.88253963,2026,T,2,False,False,hist_3fbcb486afa8f819f8bd5552
+2026_PIETRA_Cam_T_2_375.jpg,Vide,PIETRA,0.7213532,2026,T,2,False,False,hist_bf9ff311c6884f07facfaa4f
+2026_PIETRA_Cam_T_2_411.jpg,PIETRA,NON Conforme,0.56972045,2026,T,2,False,False,hist_c54e145466c39771b6e77ca2
+2026_PIETRA_Cam_T_2_423.jpg,PIETRA,Conforme,0.7295475,2026,T,2,False,False,hist_98dedf2c516ef67b6b116ce6
+2026_PIETRA_Cam_T_2_428.jpg,PIETRA,NON Conforme,0.72645164,2026,T,2,True,False,hist_87bad54a0c77c38b0c6bce18
+2026_PIETRA_Cam_T_2_434.jpg,PIETRA,Conforme,0.54029065,2026,T,2,False,False,hist_3e232230ad087d8e6b7ce98a
+2026_PIETRA_Cam_T_2_459.jpg,PIETRA,Conforme,0.7292435,2026,T,2,True,False,hist_d90cf82cb0bc7c1057ed5113
+2026_PIETRA_Cam_T_2_74.jpg,PIETRA,NON Conforme,0.93023574,2026,T,2,False,True,hist_6fe461701c6a38bff85d6b13
+2026_PIETRA_Cam_T_2_81.jpg,PIETRA,Vide,0.4822896,2026,T,2,False,False,hist_c75f8a35f6742a4ff506a2fa
+2026_PIETRA_Cam_T_2_91.jpg,PIETRA,Conforme,0.8286773,2026,T,2,False,False,hist_73dca0aef9ece21b40984c11
+2026_PIETRA_Cam_T_3_281.jpg,PIETRA,Conforme,0.84656686,2026,T,3,False,False,hist_3465d692b415b3a90f2a4c15
+2026_PIETRA_Cam_T_3_289.jpg,PIETRA,Conforme,0.90047973,2026,T,3,True,False,hist_c05f6abb7cf441267b366291
+2026_PIETRA_Cam_T_3_374.jpg,PIETRA,Vide,0.60276055,2026,T,3,True,False,hist_085b277c2884d58b8bb52721
+2026_PIETRA_Cam_T_3_487.jpg,PIETRA,NON Conforme,0.6843547,2026,T,3,False,False,hist_5b417004a8d8a1727f7b97c0
+2026_PIETRA_Cam_T_3_511.jpg,PIETRA,Conforme,0.7526536,2026,T,3,True,False,hist_d4515edd79454e02b8c45a3a
+2026_PIETRA_Cam_T_3_591.jpg,PIETRA,Conforme,0.8878241,2026,T,3,False,False,
+2026_PIETRA_Cam_T_4_156.jpg,PIETRA,Conforme,0.53149104,2026,T,4,False,False,
+2026_PIETRA_Cam_T_4_220.jpg,PIETRA,Conforme,0.57860667,2026,T,4,True,False,hist_e02ce84e34a82363a23a8890
+2026_PIETRA_Cam_T_4_245.jpg,PIETRA,Conforme,0.5669003,2026,T,4,False,False,hist_1a7e180a19afcd866b2d7feb
+2026_PIETRA_Cam_T_4_274.jpg,PIETRA,Conforme,0.6800228,2026,T,4,True,False,hist_8d1451598250c089058cb537
+2026_PIETRA_Cam_T_4_311.jpg,PIETRA,Conforme,0.58820534,2026,T,4,False,False,hist_dda07ce223a1ef6ef714454f
+2026_PIETRA_Cam_T_4_334.jpg,PIETRA,Conforme,0.88825405,2026,T,4,False,False,hist_e2987b6f8acd7e63d84eac59
+2026_PIETRA_Cam_T_4_346.jpg,PIETRA,Vide,0.8713713,2026,T,4,True,False,hist_3806254467a48b0c01c60732
+2026_PIETRA_Cam_T_4_453.jpg,PIETRA,NON Conforme,0.73239017,2026,T,4,True,False,hist_c4bffed3bb41f2f3c5477ccc
+2026_PIETRA_Cam_T_4_487.jpg,PIETRA,Conforme,0.771413,2026,T,4,True,False,hist_e357b61423336e0bb2656afc
+2026_PIETRA_Cam_T_4_524.jpg,PIETRA,Conforme,0.910926,2026,T,4,True,False,
+2026_PIETRA_Cam_T_4_535.jpg,PIETRA,Conforme,0.6169395,2026,T,4,False,False,hist_692bef1ed7c5edcfb6d9cea3
+2026_PIETRA_Cam_T_5_246.jpg,PIETRA,Conforme,0.9241775,2026,T,5,False,False,hist_eb5e8f8a690e1e5a228594d8
+2026_PIETRA_Cam_T_5_280.jpg,PIETRA,NON Conforme,0.4629022,2026,T,5,False,False,hist_a9c4e581a8fae9f12ff54958
+2026_PIETRA_Cam_T_5_300.jpg,PIETRA,NON Conforme,0.58596754,2026,T,5,True,False,hist_c271101e6e2160a3b309f933
+2026_PIETRA_Cam_T_5_343.jpg,PIETRA,Conforme,0.9374283,2026,T,5,False,False,hist_5f817fae7809c9a4fdb81bba
+2026_PIETRA_Cam_T_5_361.jpg,PIETRA,Conforme,0.7694247,2026,T,5,False,False,hist_d12d58fe351d94efa0356ab4
+2026_PIETRA_Cam_T_5_465.jpg,PIETRA,Conforme,0.83744335,2026,T,5,False,False,hist_8f4f3b594fc0ab393c8da467
+2026_PIETRA_Cam_T_5_535.jpg,PIETRA,Conforme,0.5460553,2026,T,5,False,False,hist_01c5c2b21b87ad6ef51e16a0
+2026_PIETRA_Cam_T_5_556.jpg,PIETRA,Conforme,0.611597,2026,T,5,False,False,hist_bdd0650a44a6835eed8b2f23
+2026_PIETRA_Cam_T_5_65.jpg,PIETRA,Conforme,0.5525948,2026,T,5,False,False,hist_587c2289a642d2d71d877e78
+2026_PIETRA_Cam_T_5_89.jpg,PIETRA,NON Conforme,0.40386394,2026,T,5,True,False,hist_4163d460d75464921a6a2c2a
+2026_PIETRA_Cam_T_6_122.jpg,PIETRA,Conforme,0.6764463,2026,T,6,True,False,hist_fd525a98c160b71e46da4739
+2026_PIETRA_Cam_T_6_178.jpg,PIETRA,Conforme,0.7177913,2026,T,6,False,False,hist_6eb20fc5fc5013cbc58b7094
+2026_PIETRA_Cam_T_6_406.jpg,PIETRA,Conforme,0.9129716,2026,T,6,False,False,hist_394a2da388197e862585dccb
+2026_PIETRA_Cam_T_6_408.jpg,PIETRA,Conforme,0.8775735,2026,T,6,False,False,hist_d6a44568e4d630a08344ab25
+2026_PIETRA_Cam_T_6_462.jpg,PIETRA,Conforme,0.790575,2026,T,6,False,False,hist_48830228a7b9e321bb8d8f0c
+2026_PIETRA_Cam_T_6_546.jpg,Vide,Conforme,0.50914425,2026,T,6,False,False,hist_973ec783c37ff51d038597eb
+2026_PIETRA_Cam_T_6_560.jpg,PIETRA,NON Conforme,0.7124225,2026,T,6,False,False,hist_809837993f7899d754f2715d

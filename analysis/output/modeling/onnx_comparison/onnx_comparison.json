@@ -1,0 +1,1282 @@
+{
+  "status": "completed",
+  "created_at": "2026-09-04T11:30:01.120189+02:00",
+  "validation_metrics_reused_without_recalculation": true,
+  "test_manifest_loaded": false,
+  "training_performed": false,
+  "benchmark_protocol": {
+    "batch_size": 1,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "iterations": 500,
+    "warmup": 50
+  },
+  "machine_measured": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "logical_cpu_count": 16,
+    "gpu": {
+      "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+      "memory_total_mib": 8192.0,
+      "driver_version": "591.74"
+    },
+    "target_hardware_is_current_machine": false,
+    "target_hardware": "NVIDIA GTX 1060 3 Go, ancien Intel i7, 12 flux",
+    "no_numeric_extrapolation_to_target": true
+  },
+  "models": {
+    "resnet18": {
+      "quality_validation_frozen": {
+        "accuracy": 0.8815,
+        "macro_f1": 0.8521,
+        "precision_conforme": 0.8836,
+        "recall_conforme": 0.8782,
+        "parameters": 11178564
+      },
+      "export": {
+        "status": "valid",
+        "created_at": "2026-09-04T11:01:03.244573+02:00",
+        "model": "resnet18",
+        "checkpoint": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\resnet18\\best_model.pt",
+        "checkpoint_sha256": "2aff26da95785868bbead488531874265f242e3d178ee9937cb16ff47b67348d",
+        "checkpoint_epoch": 13,
+        "training_run_id": "db0ee7873903411e899e2f85384ae58a",
+        "training_best_val_loss": 0.325563205193313,
+        "onnx_path": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\resnet18\\onnx\\resnet18_castagnet.onnx",
+        "onnx_sha256": "e663bf4b6f3746072ea978f53ba6d958f3ea49c591c5a97311bebea219bcfd23",
+        "opset": 17,
+        "opset_justification": "Opset 17 couvre les opérateurs de ResNet18 et offre une compatibilité stable avec ONNX Runtime sans dépendre d'opérateurs plus récents inutiles.",
+        "input_name": "input",
+        "input_shape": [
+          1,
+          3,
+          224,
+          224
+        ],
+        "output_name": "logits",
+        "output_shape": [
+          1,
+          4
+        ],
+        "output_is_logits": true,
+        "softmax_nodes_in_graph": 0,
+        "business_threshold_in_graph": false,
+        "business_threshold": 0.55,
+        "onnx_size_bytes": 44704751,
+        "onnx_size_mib": 42.63377285003662,
+        "pytorch_parameters": 11178564,
+        "onnx_initializer_values": 11173764,
+        "onnx_version": "1.22.0",
+        "onnxruntime_version": "1.21.0",
+        "onnxruntime_available_providers": [
+          "TensorrtExecutionProvider",
+          "CUDAExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "validation_provider": [
+          "CPUExecutionProvider"
+        ],
+        "numerical_validation": {
+          "manifest": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\validation_manifest.csv",
+          "test_manifest_loaded": false,
+          "sample_selection": "indices evenly spaced with numpy.linspace",
+          "sample_count": 16,
+          "sample_indices": [
+            0,
+            352,
+            705,
+            1057,
+            1410,
+            1762,
+            2115,
+            2467,
+            2820,
+            3172,
+            3525,
+            3877,
+            4230,
+            4582,
+            4935,
+            5288
+          ],
+          "max_absolute_difference_logits": 1.621246337890625e-05,
+          "mean_absolute_difference_logits": 4.308763891458511e-06,
+          "max_absolute_difference_probabilities": 2.086162567138672e-06,
+          "mean_absolute_difference_probabilities": 1.950327686017772e-07,
+          "argmax_prediction_differences": 0,
+          "threshold_055_decision_differences": 0,
+          "max_logit_tolerance": 0.0001,
+          "max_probability_tolerance": 1e-05,
+          "valid": true
+        }
+      },
+      "benchmark": {
+        "status": "completed",
+        "created_at": "2026-09-04T11:11:21.725576+02:00",
+        "model": "resnet18",
+        "onnx_path": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\resnet18\\onnx\\resnet18_castagnet.onnx",
+        "onnx_sha256": "e663bf4b6f3746072ea978f53ba6d958f3ea49c591c5a97311bebea219bcfd23",
+        "validation_only": true,
+        "test_manifest_loaded": false,
+        "batch_size": 1,
+        "input_shape": [
+          1,
+          3,
+          224,
+          224
+        ],
+        "iterations": 500,
+        "warmup": 50,
+        "available_providers": [
+          "TensorrtExecutionProvider",
+          "CUDAExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "provider_failures": {},
+        "machine_measured": {
+          "platform": "Windows-11-10.0.26200-SP0",
+          "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+          "logical_cpu_count": 16,
+          "gpu": {
+            "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+            "memory_total_mib": 8192.0,
+            "driver_version": "591.74"
+          },
+          "target_hardware_is_current_machine": false,
+          "target_hardware": "NVIDIA GTX 1060 3 Go, ancien Intel i7, 12 flux",
+          "no_numeric_extrapolation_to_target": true
+        },
+        "results": {
+          "cpu": {
+            "provider_requested": "CPUExecutionProvider",
+            "providers_active": [
+              "CPUExecutionProvider"
+            ],
+            "session_load_seconds_excluded_from_latencies": 0.29912640003021806,
+            "warmup_iterations": 50,
+            "batch_size": 1,
+            "preprocessing_includes_image_decode": true,
+            "preprocessing": {
+              "iterations": 500,
+              "mean_ms": 11.739962602267042,
+              "median_ms": 11.735149950254709,
+              "p90_ms": 13.445599935948849,
+              "p95_ms": 13.98459005868062,
+              "p99_ms": 15.102192085469142,
+              "min_ms": 8.398599922657013,
+              "max_ms": 17.092299996875226,
+              "images_per_second": 85.1791469767455,
+              "total_measured_seconds": 5.869981301133521
+            },
+            "inference_only": {
+              "iterations": 500,
+              "mean_ms": 17.756040600826964,
+              "median_ms": 17.538850021082908,
+              "p90_ms": 18.983550043776635,
+              "p95_ms": 20.212835003621876,
+              "p99_ms": 22.201728986110535,
+              "min_ms": 14.492499991320074,
+              "max_ms": 24.32810002937913,
+              "images_per_second": 56.318861985110935,
+              "total_measured_seconds": 8.878020300413482
+            },
+            "preprocessing_plus_inference": {
+              "iterations": 500,
+              "mean_ms": 36.17613900103606,
+              "median_ms": 32.08239999366924,
+              "p90_ms": 48.34897997789085,
+              "p95_ms": 53.93434492289089,
+              "p99_ms": 76.22253802604968,
+              "min_ms": 28.483300004154444,
+              "max_ms": 137.00400001835078,
+              "images_per_second": 27.642529789355372,
+              "total_measured_seconds": 18.08806950051803
+            },
+            "memory": {
+              "process_ram_before_session_bytes": 568885248,
+              "process_ram_after_bytes": 685588480,
+              "process_ram_peak_observed_bytes": 685588480,
+              "process_ram_peak_observed_mib": 653.828125,
+              "gpu_process_memory_observed_mib": null,
+              "gpu_memory_measurement_note": "Non applicable au provider CPU."
+            }
+          },
+          "cuda": {
+            "provider_requested": "CUDAExecutionProvider",
+            "providers_active": [
+              "CUDAExecutionProvider",
+              "CPUExecutionProvider"
+            ],
+            "session_load_seconds_excluded_from_latencies": 1.8705634999787435,
+            "warmup_iterations": 50,
+            "batch_size": 1,
+            "preprocessing_includes_image_decode": true,
+            "preprocessing": {
+              "iterations": 500,
+              "mean_ms": 10.657470402307808,
+              "median_ms": 10.883500042837113,
+              "p90_ms": 12.241679953876885,
+              "p95_ms": 12.700800033053378,
+              "p99_ms": 14.243947957875205,
+              "min_ms": 8.29849997535348,
+              "max_ms": 18.392199999652803,
+              "images_per_second": 93.8308962869328,
+              "total_measured_seconds": 5.328735201153904
+            },
+            "inference_only": {
+              "iterations": 500,
+              "mean_ms": 3.8653436026070267,
+              "median_ms": 3.660849994048476,
+              "p90_ms": 4.546310042496771,
+              "p95_ms": 4.970254999352617,
+              "p99_ms": 5.891732034506275,
+              "min_ms": 3.2888000132516026,
+              "max_ms": 9.974700049497187,
+              "images_per_second": 258.709212636501,
+              "total_measured_seconds": 1.9326718013035133
+            },
+            "preprocessing_plus_inference": {
+              "iterations": 500,
+              "mean_ms": 19.05677439738065,
+              "median_ms": 18.809249973855913,
+              "p90_ms": 22.613050078507513,
+              "p95_ms": 24.125674978131425,
+              "p99_ms": 28.73679006821476,
+              "min_ms": 12.712600058875978,
+              "max_ms": 70.64449996687472,
+              "images_per_second": 52.474777690470525,
+              "total_measured_seconds": 9.528387198690325
+            },
+            "memory": {
+              "process_ram_before_session_bytes": 635826176,
+              "process_ram_after_bytes": 1163620352,
+              "process_ram_peak_observed_bytes": 1163661312,
+              "process_ram_peak_observed_mib": 1109.75390625,
+              "gpu_process_memory_observed_mib": null,
+              "gpu_memory_measurement_note": "Valeur nvidia-smi du processus si accessible ; ce n'est pas la mémoire d'une GTX 1060."
+            }
+          }
+        }
+      },
+      "theoretical_12_stream_capacity": [
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 56.318861985110935,
+          "utilization_percent": 21.307248720992355,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 27.642529789355372,
+          "utilization_percent": 43.411366801243275,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 258.709212636501,
+          "utilization_percent": 4.638412323128431,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 52.474777690470525,
+          "utilization_percent": 22.86812927685678,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 56.318861985110935,
+          "utilization_percent": 42.61449744198471,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 27.642529789355372,
+          "utilization_percent": 86.82273360248655,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 258.709212636501,
+          "utilization_percent": 9.276824646256863,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 52.474777690470525,
+          "utilization_percent": 45.73625855371356,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 56.318861985110935,
+          "utilization_percent": 106.53624360496178,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 27.642529789355372,
+          "utilization_percent": 217.05683400621635,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 258.709212636501,
+          "utilization_percent": 23.19206161564216,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 52.474777690470525,
+          "utilization_percent": 114.3406463842839,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 56.318861985110935,
+          "utilization_percent": 213.07248720992357,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 27.642529789355372,
+          "utilization_percent": 434.1136680124327,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 258.709212636501,
+          "utilization_percent": 46.38412323128432,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 52.474777690470525,
+          "utilization_percent": 228.6812927685678,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 56.318861985110935,
+          "utilization_percent": 532.6812180248089,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 27.642529789355372,
+          "utilization_percent": 1085.2841700310819,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 258.709212636501,
+          "utilization_percent": 115.9603080782108,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 52.474777690470525,
+          "utilization_percent": 571.7032319214195,
+          "theoretical_capacity_met": false
+        }
+      ]
+    },
+    "efficientnet_b0": {
+      "quality_validation_frozen": {
+        "accuracy": 0.8661,
+        "macro_f1": 0.836,
+        "precision_conforme": 0.8778,
+        "recall_conforme": 0.8357,
+        "parameters": 4012672
+      },
+      "export": {
+        "status": "valid",
+        "created_at": "2026-09-04T11:25:26.825212+02:00",
+        "model": "efficientnet_b0",
+        "checkpoint": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\efficientnet_b0\\best_model.pt",
+        "checkpoint_sha256": "ece11b08bcd9bfc3407e18bea4a5a1c5161a37ba5f5f5b0aee419b0459eb00be",
+        "checkpoint_epoch": 10,
+        "training_run_id": "a434cccec8624ad2bcdae5fe952726e9",
+        "training_best_val_loss": 0.3307526683965569,
+        "onnx_path": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\efficientnet_b0\\onnx\\efficientnet_b0_castagnet.onnx",
+        "onnx_sha256": "0bfb8aca6717a3ed03a50cf399f55fb59f119b5d3e7fae326c2ab58d444c5101",
+        "opset": 17,
+        "input_name": "input",
+        "input_shape": [
+          1,
+          3,
+          224,
+          224
+        ],
+        "output_name": "logits",
+        "output_shape": [
+          1,
+          4
+        ],
+        "output_is_logits": true,
+        "softmax_nodes_in_graph": 0,
+        "business_threshold_in_graph": false,
+        "onnx_size_bytes": 16040682,
+        "onnx_size_mib": 15.297586441040039,
+        "pytorch_parameters": 4012672,
+        "onnx_initializer_values": 3991664,
+        "onnx_version": "1.22.0",
+        "onnxruntime_version": "1.21.0",
+        "onnxruntime_available_providers": [
+          "TensorrtExecutionProvider",
+          "CUDAExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "validation_provider": [
+          "CPUExecutionProvider"
+        ],
+        "numerical_validation": {
+          "manifest": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\validation_manifest.csv",
+          "test_manifest_loaded": false,
+          "sample_selection": "indices evenly spaced with numpy.linspace",
+          "sample_count": 16,
+          "sample_indices": [
+            0,
+            352,
+            705,
+            1057,
+            1410,
+            1762,
+            2115,
+            2467,
+            2820,
+            3172,
+            3525,
+            3877,
+            4230,
+            4582,
+            4935,
+            5288
+          ],
+          "max_absolute_difference_logits": 0.0009317398071289062,
+          "mean_absolute_difference_logits": 0.0001499259378761053,
+          "max_absolute_difference_probabilities": 7.382035255432129e-05,
+          "mean_absolute_difference_probabilities": 5.939219136052998e-06,
+          "argmax_prediction_differences": 0,
+          "threshold_055_decision_differences": 0,
+          "max_logit_tolerance": 0.001,
+          "max_probability_tolerance": 0.0001,
+          "valid": true
+        }
+      },
+      "benchmark": {
+        "status": "completed",
+        "created_at": "2026-09-04T11:27:03.975188+02:00",
+        "model": "efficientnet_b0",
+        "onnx_path": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\efficientnet_b0\\onnx\\efficientnet_b0_castagnet.onnx",
+        "onnx_sha256": "0bfb8aca6717a3ed03a50cf399f55fb59f119b5d3e7fae326c2ab58d444c5101",
+        "validation_only": true,
+        "test_manifest_loaded": false,
+        "batch_size": 1,
+        "input_shape": [
+          1,
+          3,
+          224,
+          224
+        ],
+        "iterations": 500,
+        "warmup": 50,
+        "available_providers": [
+          "TensorrtExecutionProvider",
+          "CUDAExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "provider_failures": {},
+        "machine_measured": {
+          "platform": "Windows-11-10.0.26200-SP0",
+          "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+          "logical_cpu_count": 16,
+          "gpu": {
+            "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+            "memory_total_mib": 8192.0,
+            "driver_version": "591.74"
+          },
+          "target_hardware_is_current_machine": false,
+          "target_hardware": "NVIDIA GTX 1060 3 Go, ancien Intel i7, 12 flux",
+          "no_numeric_extrapolation_to_target": true
+        },
+        "results": {
+          "cpu": {
+            "provider_requested": "CPUExecutionProvider",
+            "providers_active": [
+              "CPUExecutionProvider"
+            ],
+            "session_load_seconds_excluded_from_latencies": 0.13735250011086464,
+            "warmup_iterations": 50,
+            "batch_size": 1,
+            "preprocessing_includes_image_decode": true,
+            "preprocessing": {
+              "iterations": 500,
+              "mean_ms": 10.933236000593752,
+              "median_ms": 10.85934997536242,
+              "p90_ms": 12.384469993412495,
+              "p95_ms": 13.227020006161181,
+              "p99_ms": 19.146857025334594,
+              "min_ms": 8.185800048522651,
+              "max_ms": 35.98680009599775,
+              "images_per_second": 91.46422888389979,
+              "total_measured_seconds": 5.466618000296876
+            },
+            "inference_only": {
+              "iterations": 500,
+              "mean_ms": 14.955744398292154,
+              "median_ms": 14.837150054518133,
+              "p90_ms": 16.02041997248307,
+              "p95_ms": 16.46305496105924,
+              "p99_ms": 17.478003003634512,
+              "min_ms": 13.074400019831955,
+              "max_ms": 18.646700074896216,
+              "images_per_second": 66.86394026058598,
+              "total_measured_seconds": 7.477872199146077
+            },
+            "preprocessing_plus_inference": {
+              "iterations": 500,
+              "mean_ms": 32.278469398617744,
+              "median_ms": 29.024799936451018,
+              "p90_ms": 42.82781995134428,
+              "p95_ms": 48.82761500775813,
+              "p99_ms": 67.8924460208509,
+              "min_ms": 25.491900043562055,
+              "max_ms": 74.50380001682788,
+              "images_per_second": 30.980403303845097,
+              "total_measured_seconds": 16.139234699308872
+            },
+            "memory": {
+              "process_ram_before_session_bytes": 568299520,
+              "process_ram_after_bytes": 663928832,
+              "process_ram_peak_observed_bytes": 663928832,
+              "process_ram_peak_observed_mib": 633.171875,
+              "gpu_process_memory_observed_mib": null,
+              "gpu_memory_measurement_note": "Non applicable au provider CPU."
+            }
+          },
+          "cuda": {
+            "provider_requested": "CUDAExecutionProvider",
+            "providers_active": [
+              "CUDAExecutionProvider",
+              "CPUExecutionProvider"
+            ],
+            "session_load_seconds_excluded_from_latencies": 1.8895513999741524,
+            "warmup_iterations": 50,
+            "batch_size": 1,
+            "preprocessing_includes_image_decode": true,
+            "preprocessing": {
+              "iterations": 500,
+              "mean_ms": 10.763808800373226,
+              "median_ms": 10.80754998838529,
+              "p90_ms": 12.344090081751348,
+              "p95_ms": 13.087189983343702,
+              "p99_ms": 15.151896997122092,
+              "min_ms": 8.21250001899898,
+              "max_ms": 23.162600002251565,
+              "images_per_second": 92.90391705632358,
+              "total_measured_seconds": 5.381904400186613
+            },
+            "inference_only": {
+              "iterations": 500,
+              "mean_ms": 11.407734798500314,
+              "median_ms": 11.012299975845963,
+              "p90_ms": 13.048060040455312,
+              "p95_ms": 13.862634933320802,
+              "p99_ms": 15.597474982496346,
+              "min_ms": 9.87909990362823,
+              "max_ms": 29.442899976857007,
+              "images_per_second": 87.65982183697523,
+              "total_measured_seconds": 5.703867399250157
+            },
+            "preprocessing_plus_inference": {
+              "iterations": 500,
+              "mean_ms": 24.415671199792996,
+              "median_ms": 24.34409997658804,
+              "p90_ms": 26.507019973360002,
+              "p95_ms": 27.1036350633949,
+              "p99_ms": 30.20660195383243,
+              "min_ms": 19.924400025047362,
+              "max_ms": 33.280299976468086,
+              "images_per_second": 40.957301227437824,
+              "total_measured_seconds": 12.207835599896498
+            },
+            "memory": {
+              "process_ram_before_session_bytes": 634593280,
+              "process_ram_after_bytes": 1208315904,
+              "process_ram_peak_observed_bytes": 1208315904,
+              "process_ram_peak_observed_mib": 1152.33984375,
+              "gpu_process_memory_observed_mib": null,
+              "gpu_memory_measurement_note": "Valeur nvidia-smi du processus si accessible ; ce n'est pas la mémoire d'une GTX 1060."
+            }
+          }
+        }
+      },
+      "theoretical_12_stream_capacity": [
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 66.86394026058598,
+          "utilization_percent": 17.946893277950586,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 30.980403303845097,
+          "utilization_percent": 38.73416327834129,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 87.65982183697523,
+          "utilization_percent": 13.689281758200378,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 40.957301227437824,
+          "utilization_percent": 29.298805439751597,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 66.86394026058598,
+          "utilization_percent": 35.89378655590117,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 30.980403303845097,
+          "utilization_percent": 77.46832655668258,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 87.65982183697523,
+          "utilization_percent": 27.378563516400757,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 40.957301227437824,
+          "utilization_percent": 58.59761087950319,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 66.86394026058598,
+          "utilization_percent": 89.73446638975292,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 30.980403303845097,
+          "utilization_percent": 193.67081639170647,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 87.65982183697523,
+          "utilization_percent": 68.44640879100187,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 40.957301227437824,
+          "utilization_percent": 146.49402719875798,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 66.86394026058598,
+          "utilization_percent": 179.46893277950585,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 30.980403303845097,
+          "utilization_percent": 387.34163278341293,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 87.65982183697523,
+          "utilization_percent": 136.89281758200374,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 40.957301227437824,
+          "utilization_percent": 292.98805439751595,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 66.86394026058598,
+          "utilization_percent": 448.6723319487647,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 30.980403303845097,
+          "utilization_percent": 968.3540819585323,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 87.65982183697523,
+          "utilization_percent": 342.23204395500943,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 40.957301227437824,
+          "utilization_percent": 732.4701359937899,
+          "theoretical_capacity_met": false
+        }
+      ]
+    },
+    "mobilenet_v3_small": {
+      "quality_validation_frozen": {
+        "accuracy": 0.8421,
+        "macro_f1": 0.8049,
+        "precision_conforme": 0.8731,
+        "recall_conforme": 0.8043,
+        "parameters": 1521956
+      },
+      "export": {
+        "status": "valid",
+        "created_at": "2026-09-04T11:25:44.752060+02:00",
+        "model": "mobilenet_v3_small",
+        "checkpoint": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\mobilenet_v3_small\\best_model.pt",
+        "checkpoint_sha256": "f225e8e1e1d3839c79f82c9fbd86be88115a9d5b9702beba498d1a71f83ee42b",
+        "checkpoint_epoch": 11,
+        "training_run_id": "8b9b161b9dd24e208af9be3baa532f2e",
+        "training_best_val_loss": 0.3752599839715572,
+        "onnx_path": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\mobilenet_v3_small\\onnx\\mobilenet_v3_small_castagnet.onnx",
+        "onnx_sha256": "2c5a7bcf15ba68ba348e073ab32cf9d564aaa8ed1dc80c9727f057fd4c4afd82",
+        "opset": 17,
+        "input_name": "input",
+        "input_shape": [
+          1,
+          3,
+          224,
+          224
+        ],
+        "output_name": "logits",
+        "output_shape": [
+          1,
+          4
+        ],
+        "output_is_logits": true,
+        "softmax_nodes_in_graph": 0,
+        "business_threshold_in_graph": false,
+        "onnx_size_bytes": 6097436,
+        "onnx_size_mib": 5.814968109130859,
+        "pytorch_parameters": 1521956,
+        "onnx_initializer_values": 1515900,
+        "onnx_version": "1.22.0",
+        "onnxruntime_version": "1.21.0",
+        "onnxruntime_available_providers": [
+          "TensorrtExecutionProvider",
+          "CUDAExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "validation_provider": [
+          "CPUExecutionProvider"
+        ],
+        "numerical_validation": {
+          "manifest": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\validation_manifest.csv",
+          "test_manifest_loaded": false,
+          "sample_selection": "indices evenly spaced with numpy.linspace",
+          "sample_count": 16,
+          "sample_indices": [
+            0,
+            352,
+            705,
+            1057,
+            1410,
+            1762,
+            2115,
+            2467,
+            2820,
+            3172,
+            3525,
+            3877,
+            4230,
+            4582,
+            4935,
+            5288
+          ],
+          "max_absolute_difference_logits": 0.00021076202392578125,
+          "mean_absolute_difference_logits": 3.905154881067574e-05,
+          "max_absolute_difference_probabilities": 2.4497509002685547e-05,
+          "mean_absolute_difference_probabilities": 1.5617789586030995e-06,
+          "argmax_prediction_differences": 0,
+          "threshold_055_decision_differences": 0,
+          "max_logit_tolerance": 0.001,
+          "max_probability_tolerance": 0.0001,
+          "valid": true
+        }
+      },
+      "benchmark": {
+        "status": "completed",
+        "created_at": "2026-09-04T11:28:05.223054+02:00",
+        "model": "mobilenet_v3_small",
+        "onnx_path": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\mobilenet_v3_small\\onnx\\mobilenet_v3_small_castagnet.onnx",
+        "onnx_sha256": "2c5a7bcf15ba68ba348e073ab32cf9d564aaa8ed1dc80c9727f057fd4c4afd82",
+        "validation_only": true,
+        "test_manifest_loaded": false,
+        "batch_size": 1,
+        "input_shape": [
+          1,
+          3,
+          224,
+          224
+        ],
+        "iterations": 500,
+        "warmup": 50,
+        "available_providers": [
+          "TensorrtExecutionProvider",
+          "CUDAExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "provider_failures": {},
+        "machine_measured": {
+          "platform": "Windows-11-10.0.26200-SP0",
+          "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+          "logical_cpu_count": 16,
+          "gpu": {
+            "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+            "memory_total_mib": 8192.0,
+            "driver_version": "591.74"
+          },
+          "target_hardware_is_current_machine": false,
+          "target_hardware": "NVIDIA GTX 1060 3 Go, ancien Intel i7, 12 flux",
+          "no_numeric_extrapolation_to_target": true
+        },
+        "results": {
+          "cpu": {
+            "provider_requested": "CPUExecutionProvider",
+            "providers_active": [
+              "CPUExecutionProvider"
+            ],
+            "session_load_seconds_excluded_from_latencies": 0.0739486999809742,
+            "warmup_iterations": 50,
+            "batch_size": 1,
+            "preprocessing_includes_image_decode": true,
+            "preprocessing": {
+              "iterations": 500,
+              "mean_ms": 10.58683219878003,
+              "median_ms": 10.674849967472255,
+              "p90_ms": 12.079009995795786,
+              "p95_ms": 12.618935032514855,
+              "p99_ms": 13.669899008236825,
+              "min_ms": 8.211400010623038,
+              "max_ms": 15.93889994546771,
+              "images_per_second": 94.45696136708719,
+              "total_measured_seconds": 5.293416099390015
+            },
+            "inference_only": {
+              "iterations": 500,
+              "mean_ms": 4.833952797809616,
+              "median_ms": 4.797949979547411,
+              "p90_ms": 5.240429972764105,
+              "p95_ms": 5.437585065374151,
+              "p99_ms": 5.975459975888952,
+              "min_ms": 4.0354999946430326,
+              "max_ms": 6.502500036731362,
+              "images_per_second": 206.87003821243866,
+              "total_measured_seconds": 2.416976398904808
+            },
+            "preprocessing_plus_inference": {
+              "iterations": 500,
+              "mean_ms": 21.532825600123033,
+              "median_ms": 18.095050007104874,
+              "p90_ms": 31.20427002431825,
+              "p95_ms": 38.36856497218831,
+              "p99_ms": 60.344181997934356,
+              "min_ms": 15.42370009701699,
+              "max_ms": 105.32319999765605,
+              "images_per_second": 46.440723506082094,
+              "total_measured_seconds": 10.766412800061516
+            },
+            "memory": {
+              "process_ram_before_session_bytes": 568868864,
+              "process_ram_after_bytes": 646373376,
+              "process_ram_peak_observed_bytes": 646373376,
+              "process_ram_peak_observed_mib": 616.4296875,
+              "gpu_process_memory_observed_mib": null,
+              "gpu_memory_measurement_note": "Non applicable au provider CPU."
+            }
+          },
+          "cuda": {
+            "provider_requested": "CUDAExecutionProvider",
+            "providers_active": [
+              "CUDAExecutionProvider",
+              "CPUExecutionProvider"
+            ],
+            "session_load_seconds_excluded_from_latencies": 1.778733600047417,
+            "warmup_iterations": 50,
+            "batch_size": 1,
+            "preprocessing_includes_image_decode": true,
+            "preprocessing": {
+              "iterations": 500,
+              "mean_ms": 10.900969396578148,
+              "median_ms": 10.776150040328503,
+              "p90_ms": 12.507069995626807,
+              "p95_ms": 13.010689977090802,
+              "p99_ms": 16.94085796596482,
+              "min_ms": 8.060200023464859,
+              "max_ms": 32.561699976213276,
+              "images_per_second": 91.7349607745806,
+              "total_measured_seconds": 5.450484698289074
+            },
+            "inference_only": {
+              "iterations": 500,
+              "mean_ms": 8.060707397991791,
+              "median_ms": 7.651149993762374,
+              "p90_ms": 9.554439969360828,
+              "p95_ms": 10.310780035797507,
+              "p99_ms": 11.714276992715892,
+              "min_ms": 6.838599918410182,
+              "max_ms": 13.343099970370531,
+              "images_per_second": 124.0585907198586,
+              "total_measured_seconds": 4.030353698995896
+            },
+            "preprocessing_plus_inference": {
+              "iterations": 500,
+              "mean_ms": 19.31523359962739,
+              "median_ms": 19.22550000017509,
+              "p90_ms": 21.304009936284274,
+              "p95_ms": 22.02343492535874,
+              "p99_ms": 24.58752698730677,
+              "min_ms": 16.08299999497831,
+              "max_ms": 26.139199966564775,
+              "images_per_second": 51.77260708973724,
+              "total_measured_seconds": 9.657616799813695
+            },
+            "memory": {
+              "process_ram_before_session_bytes": 637837312,
+              "process_ram_after_bytes": 1127124992,
+              "process_ram_peak_observed_bytes": 1127124992,
+              "process_ram_peak_observed_mib": 1074.91015625,
+              "gpu_process_memory_observed_mib": null,
+              "gpu_memory_measurement_note": "Valeur nvidia-smi du processus si accessible ; ce n'est pas la mémoire d'une GTX 1060."
+            }
+          }
+        }
+      },
+      "theoretical_12_stream_capacity": [
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 206.87003821243866,
+          "utilization_percent": 5.800743357371539,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 46.440723506082094,
+          "utilization_percent": 25.839390720147637,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 124.0585907198586,
+          "utilization_percent": 9.67284887759015,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 1,
+          "required_images_per_second": 12,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 51.77260708973724,
+          "utilization_percent": 23.17828031955287,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 206.87003821243866,
+          "utilization_percent": 11.601486714743078,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 46.440723506082094,
+          "utilization_percent": 51.678781440295275,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 124.0585907198586,
+          "utilization_percent": 19.3456977551803,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 2,
+          "required_images_per_second": 24,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 51.77260708973724,
+          "utilization_percent": 46.35656063910574,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 206.87003821243866,
+          "utilization_percent": 29.003716786857698,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 46.440723506082094,
+          "utilization_percent": 129.1969536007382,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 124.0585907198586,
+          "utilization_percent": 48.36424438795075,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 5,
+          "required_images_per_second": 60,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 51.77260708973724,
+          "utilization_percent": 115.89140159776434,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 206.87003821243866,
+          "utilization_percent": 58.007433573715396,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 46.440723506082094,
+          "utilization_percent": 258.3939072014764,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 124.0585907198586,
+          "utilization_percent": 96.7284887759015,
+          "theoretical_capacity_met": true
+        },
+        {
+          "fps_per_camera": 10,
+          "required_images_per_second": 120,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 51.77260708973724,
+          "utilization_percent": 231.7828031955287,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cpu",
+          "scope": "inference_only",
+          "measured_images_per_second": 206.87003821243866,
+          "utilization_percent": 145.01858393428847,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cpu",
+          "scope": "end_to_end",
+          "measured_images_per_second": 46.440723506082094,
+          "utilization_percent": 645.984768003691,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cuda",
+          "scope": "inference_only",
+          "measured_images_per_second": 124.0585907198586,
+          "utilization_percent": 241.82122193975374,
+          "theoretical_capacity_met": false
+        },
+        {
+          "fps_per_camera": 25,
+          "required_images_per_second": 300,
+          "provider": "cuda",
+          "scope": "end_to_end",
+          "measured_images_per_second": 51.77260708973724,
+          "utilization_percent": 579.4570079888217,
+          "theoretical_capacity_met": false
+        }
+      ]
+    }
+  },
+  "interpretation": {
+    "gpu_current_machine": "ResNet18 is both the best validation model and the fastest measured CUDA model.",
+    "cpu_current_machine": "MobileNetV3 Small has the lowest CPU latency and smallest ONNX file, with lower validation quality.",
+    "target_limit": "No numerical extrapolation to the GTX 1060 3 GB / older i7 target is valid."
+  }
+}

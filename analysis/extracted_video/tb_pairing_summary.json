@@ -1,0 +1,93 @@
+{
+  "method": {
+    "type": "monotone_sequence_alignment",
+    "objective": "maximize_matches_then_minimize_total_temporal_cost",
+    "cost": "abs((frame_B - frame_T) - 7)",
+    "admissible_deltas": [
+      6,
+      7,
+      8
+    ],
+    "identity_claim": "temporal_inference_not_visual_ground_truth"
+  },
+  "total_crops_top": 26,
+  "total_crops_bottom": 26,
+  "status_counts": {
+    "matched_temporal": 22,
+    "unmatched_top": 2,
+    "unmatched_bottom": 3,
+    "ambiguous": 1
+  },
+  "ambiguous_crop_counts": {
+    "top": 2,
+    "bottom": 1
+  },
+  "coverage": {
+    "top_matched_percentage": 84.62,
+    "bottom_matched_percentage": 84.62,
+    "definition": "Seules les paires matched_temporal sont comptées."
+  },
+  "matched_delta_frames": {
+    "mean": 6.773,
+    "median": 7.0,
+    "population_std": 0.419,
+    "min": 6,
+    "max": 7
+  },
+  "matched_delta_ms": {
+    "mean": 270.909,
+    "median": 280.0,
+    "population_std": 16.763,
+    "min": 240.0,
+    "max": 280.0
+  },
+  "delta_frames_distribution": {
+    "6": 5,
+    "7": 17
+  },
+  "delta_categories": {
+    "plus_6": 5,
+    "plus_7": 17,
+    "plus_8": 0,
+    "other": 0
+  },
+  "temporal_cost": {
+    "mean": 0.227,
+    "median": 0.0,
+    "distribution": {
+      "0": 17,
+      "1": 5
+    }
+  },
+  "ambiguous_cases": [
+    {
+      "pair_id": "pair_0022",
+      "top_filenames": [
+        "T_frame_000572_crop_01.jpg",
+        "T_frame_000572_crop_02.jpg"
+      ],
+      "bottom_filenames": [
+        "B_frame_000579_crop_01.jpg"
+      ],
+      "notes": "Associations optimales concurrentes : T_frame_000572_crop_01.jpg->B_frame_000579_crop_01.jpg (delta=7, cost=0); T_frame_000572_crop_02.jpg->B_frame_000579_crop_01.jpg (delta=7, cost=0)"
+    }
+  ],
+  "unmatched_top_filenames": [
+    "T_frame_000386_crop_01.jpg",
+    "T_frame_000546_crop_01.jpg"
+  ],
+  "unmatched_bottom_filenames": [
+    "B_frame_000100_crop_01.jpg",
+    "B_frame_000260_crop_02.jpg",
+    "B_frame_000739_crop_01.jpg"
+  ],
+  "alignment_diagnostics": {
+    "optimal_match_count": 23,
+    "optimal_total_temporal_cost": 5,
+    "admissible_edge_count": 24,
+    "possible_optimal_edge_count": 24,
+    "forced_edge_count": 22,
+    "ambiguous_edge_count": 2,
+    "ambiguous_group_count": 1
+  }
+}

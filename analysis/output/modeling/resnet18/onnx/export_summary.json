@@ -1,0 +1,77 @@
+{
+  "status": "valid",
+  "created_at": "2026-09-04T11:01:03.244573+02:00",
+  "model": "resnet18",
+  "checkpoint": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\resnet18\\best_model.pt",
+  "checkpoint_sha256": "2aff26da95785868bbead488531874265f242e3d178ee9937cb16ff47b67348d",
+  "checkpoint_epoch": 13,
+  "training_run_id": "db0ee7873903411e899e2f85384ae58a",
+  "training_best_val_loss": 0.325563205193313,
+  "onnx_path": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\modeling\\resnet18\\onnx\\resnet18_castagnet.onnx",
+  "onnx_sha256": "e663bf4b6f3746072ea978f53ba6d958f3ea49c591c5a97311bebea219bcfd23",
+  "opset": 17,
+  "opset_justification": "Opset 17 couvre les opérateurs de ResNet18 et offre une compatibilité stable avec ONNX Runtime sans dépendre d'opérateurs plus récents inutiles.",
+  "input_name": "input",
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "output_name": "logits",
+  "output_shape": [
+    1,
+    4
+  ],
+  "output_is_logits": true,
+  "softmax_nodes_in_graph": 0,
+  "business_threshold_in_graph": false,
+  "business_threshold": 0.55,
+  "onnx_size_bytes": 44704751,
+  "onnx_size_mib": 42.63377285003662,
+  "pytorch_parameters": 11178564,
+  "onnx_initializer_values": 11173764,
+  "onnx_version": "1.22.0",
+  "onnxruntime_version": "1.21.0",
+  "onnxruntime_available_providers": [
+    "TensorrtExecutionProvider",
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "validation_provider": [
+    "CPUExecutionProvider"
+  ],
+  "numerical_validation": {
+    "manifest": "C:\\Users\\doria\\OneDrive\\Bureau\\Aflokkat3\\EXAMML\\castagnia_data-main\\analysis\\output\\validation_manifest.csv",
+    "test_manifest_loaded": false,
+    "sample_selection": "indices evenly spaced with numpy.linspace",
+    "sample_count": 16,
+    "sample_indices": [
+      0,
+      352,
+      705,
+      1057,
+      1410,
+      1762,
+      2115,
+      2467,
+      2820,
+      3172,
+      3525,
+      3877,
+      4230,
+      4582,
+      4935,
+      5288
+    ],
+    "max_absolute_difference_logits": 1.621246337890625e-05,
+    "mean_absolute_difference_logits": 4.308763891458511e-06,
+    "max_absolute_difference_probabilities": 2.086162567138672e-06,
+    "mean_absolute_difference_probabilities": 1.950327686017772e-07,
+    "argmax_prediction_differences": 0,
+    "threshold_055_decision_differences": 0,
+    "max_logit_tolerance": 0.0001,
+    "max_probability_tolerance": 1e-05,
+    "valid": true
+  }
+}
